@@ -5,7 +5,6 @@ html, body {
     font-family: "Inter", Arial, sans-serif;
     background: #f5f7fb;
     color: #1e1e1e;
-    line-height: 1.6; /* Улучшает читабельность */
 }
 
 /* Контейнер */
@@ -19,11 +18,6 @@ html, body {
 header {
     text-align: center;
     padding: 40px 0 20px 0;
-}
-
-header h1 {
-    font-size: 38px;
-    margin-bottom: 10px;
 }
 
 header img.logo {
@@ -45,9 +39,6 @@ nav a {
     color: #4b4bff;
     text-decoration: none;
     font-weight: 600;
-    /* Добавлено для адаптивности */
-    display: inline-block; 
-    padding: 5px 0;
 }
 
 nav a:hover {
@@ -55,8 +46,6 @@ nav a:hover {
 }
 
 /* Блок контента */
-/* В вашем HTML .content отсутствует, но если вы добавите его, 
-   стили будут применены. Для lang-section это не нужно. */
 .content {
     background: #ffffff;
     padding: 30px;
@@ -81,67 +70,4 @@ footer {
     font-size: 14px;
     color: #777;
     padding: 25px 0;
-}
-
-/* -------------------------------------- */
-/* АДАПТИВНОСТЬ (Media Queries)   */
-/* -------------------------------------- */
-
-/* Для экранов шириной до 768px (планшеты и меньшие устройства) */
-@media (max-width: 768px) {
-    .container {
-        padding: 15px; /* Уменьшаем внутренние отступы */
-    }
-
-    header {
-        padding: 30px 0 15px 0; /* Уменьшаем отступы шапки */
-    }
-
-    header h1 {
-        font-size: 30px; /* Уменьшаем основной заголовок */
-    }
-
-    header p {
-        font-size: 14px; /* Уменьшаем шрифт параграфов в шапке */
-    }
-
-    /* Навигация: ссылки могут располагаться ближе друг к другу */
-    nav a {
-        margin: 0 8px;
-        font-size: 16px;
-    }
-    
-    /* Секции с контентом */
-    .lang-section h2 {
-        font-size: 24px;
-    }
-}
-
-/* Для экранов шириной до 480px (мобильные телефоны) */
-@media (max-width: 480px) {
-    .container {
-        padding: 10px; /* Еще уменьшаем отступы */
-    }
-
-    header h1 {
-        font-size: 24px; /* Уменьшаем заголовок для мобильных */
-    }
-
-    /* Ссылки навигации в одну колонку или с большим отступом для удобства нажатия */
-    nav a {
-        display: block; /* Ссылки в отдельную строку */
-        margin: 5px 0;
-        font-size: 16px;
-    }
-    
-    /* Переключатель языка: выравниваем по центру и делаем кнопки крупнее */
-    .lang-switch {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    .lang-switch button {
-        padding: 8px 15px;
-        font-size: 14px;
-    }
 }
