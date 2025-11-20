@@ -5,21 +5,6 @@
     <title>Dmitry Vasilevich Klimov — Psi-Continuum Theory</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
-    <style>
-        .lang-switch {
-            text-align: right;
-            margin-bottom: 10px;
-        }
-        .lang-switch button {
-            padding: 5px 12px;
-            border: 1px solid #888;
-            background: #f0f0f0;
-            cursor: pointer;
-            margin-left: 5px;
-        }
-        .lang-section { display: none; }
-        .lang-section.active { display: block; }
-    </style>
 </head>
 
 <body>
@@ -27,11 +12,6 @@
 <div class="container">
 
 <header>
-    <div class="lang-switch">
-        <button onclick="setLang('en')">EN</button>
-        <button onclick="setLang('ru')">RU</button>
-    </div>
-
     <img src="logo.svg" class="logo" alt="Psi logo">
     <h1>Dmitry Vasilevich Klimov</h1>
     <p>Independent Researcher • Psi-Continuum Theory</p>
@@ -43,9 +23,7 @@
     <a href="theory.html">Ψ-Theory</a>
 </nav>
 
-<!-- ====================== ENGLISH VERSION ====================== -->
-
-<section id="lang-en" class="lang-section active">
+<section class="lang-section active">
     <h2>About Me</h2>
     <p>
         I am an independent theoretical researcher from Kaliningrad / Königsberg, focusing on
@@ -73,52 +51,11 @@
     </ul>
 </section>
 
-<!-- ====================== RUSSIAN VERSION ====================== -->
-
-<section id="lang-ru" class="lang-section">
-    <h2>Обо мне</h2>
-    <p>
-        Я независимый теоретический исследователь из Калининграда / Кёнигсберга,
-        занимающийся фундаментальной физикой, энергетическими полями и структурой
-        пространства-времени.
-    </p>
-
-    <p>
-        Моя основная работа — разработка <strong>Теории Пси-Континуума</strong> —
-        полевой модели, описывающей гравитацию, энергетические потоки и фазовую
-        структуру реальности.
-    </p>
-
-    <h2>Темы исследований</h2>
-    <ul>
-        <li>Пси-Континуум — базовая структура</li>
-        <li>Гравитация фазового происхождения</li>
-        <li>Потоки энергии типа Онсагера</li>
-        <li>Ψ-регуляризация сингулярностей</li>
-        <li>Кривизна энергофазового поля</li>
-    </ul>
-
-    <h2>Ссылки</h2>
-    <ul>
-        <li>GitHub: <a href="https://github.com/Dmitrylife">github.com/Dmitrylife</a></li>
-        <li>Email: <a href="mailto:d.klimov.psi@gmail.com">d.klimov.psi@gmail.com</a></li>
-    </ul>
-</section>
-
 <footer>
     © 2025 Psi-Continuum Project
 </footer>
 
 </div>
-
-<script>
-function setLang(lang) {
-    document.getElementById('lang-en').classList.remove('active');
-    document.getElementById('lang-ru').classList.remove('active');
-
-    document.getElementById('lang-' + lang).classList.add('active');
-}
-</script>
 
 </body>
 </html>
