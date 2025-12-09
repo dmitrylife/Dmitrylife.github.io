@@ -12,6 +12,8 @@ Files:
 
 - `HZ_compilation.csv`
 
+  ![Alt text](//Hz_Compilation.png/200x100 "Здесь title")
+
 ### SDSS DR12 BAO
 
 - `sdss_DR12Consensus_bao.dat`
