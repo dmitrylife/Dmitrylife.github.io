@@ -12,7 +12,7 @@ Files:
 
 - `HZ_compilation.csv`
 
-![H(z) Compilation](/assets/img/Hz_Compilation.png)
+![H(z) Compilation](Hz_Compilation.png)
 
 ### SDSS DR12 BAO
 
