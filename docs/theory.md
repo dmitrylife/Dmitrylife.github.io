@@ -4,7 +4,7 @@ Psi-Continuum (ΨCDM) is a one-parameter phenomenological extension of ΛCDM.
 
 Background expansion:
 
-E²(z) = Ω_m (1 + z)³ + (1 − Ω_m) · [1 + ε₀ · g(z)]
+> E²(z) = Ω_m (1 + z)³ + (1 − Ω_m) · [1 + ε₀ · g(z)]
 
 Where:
 
