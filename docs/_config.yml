@@ -1,0 +1,8 @@
+theme: jekyll-theme-cayman
+
+title: Psi-Continuum v2 Documentation
+description: Minimal phenomenological extension of ΛCDM with one parameter ε₀
+
+markdown: kramdown
+
+# GitHub Pages will automatically process Markdown into HTML
