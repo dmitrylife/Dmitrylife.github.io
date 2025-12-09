@@ -21,3 +21,5 @@ include:
 # Чтобы Jekyll не ругался на директорий docs/v2
 exclude:
   - README.md
+
+baseurl: "/docs/v2"
