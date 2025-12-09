@@ -15,7 +15,7 @@ pip install psi-continuum-v2
 psi-download-data
 ```
 
-3. Run the full analysis pipeline
+## 3. Run the full analysis pipeline
 
 ```bash
 psi-run-all
