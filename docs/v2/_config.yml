@@ -1,22 +1,38 @@
-theme: jekyll-theme-cayman
+# _config.yml
 title: Psi-Continuum v2 Documentation
 description: Minimal phenomenological extension of ΛCDM with one parameter ε₀
+url: "https://Dmitrylife.github.io.github.io"
+baseurl: "/docs/v2"
+
+# остальное то же самое
 
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
 
+highlighter: rouge
+
+# Современная тема
+remote_theme: pmarsceill/just-the-docs   # очень красиво для документации
+
+# Если всё-таки Cayman:
+# remote_theme: pages-themes/cayman@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+
 relative_links:
   enabled: true
   collections: true
 
-highlighter: rouge
-
 include:
   - assets/custom.css
+#  - CONTRIBUTING.md
+#  - LICENSE.md
 
-exclude:
-  - README.md
-
-baseurl: "/docs/v2"
+# Just-the-Docs настройки (если выбрал эту тему)
+color_scheme: light   # или dark
+search_enabled: true
+heading_anchors: true
