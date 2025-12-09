@@ -7,3 +7,18 @@ download required datasets, and run the full analysis pipeline.
 
 ```bash
 pip install psi-continuum-v2
+```
+
+## 2. Download datasets
+
+```bash
+psi-download-data
+```
+
+3. Run the full analysis pipeline
+
+```bash
+psi-run-all
+```
+
+All results will appear in `results/`.
