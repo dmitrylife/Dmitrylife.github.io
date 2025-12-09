@@ -12,7 +12,7 @@ Files:
 
 - `HZ_compilation.csv`
 
-<p align="center">
+<p align="left">
   <img src="../data/Hz_Compilation.png" width="300">
 </p>
 
