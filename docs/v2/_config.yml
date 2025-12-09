@@ -1,14 +1,11 @@
-theme: jekyll-theme-cayman
-
 title: Psi-Continuum v2 Documentation
 description: Minimal phenomenological extension of ΛCDM with one parameter ε₀
 
 markdown: kramdown
 kramdown:
-  input: GFM   # поддержка GitHub Markdown, таблиц, списков, подчёркивания
+  input: GFM
   hard_wrap: false
 
-# Позволяет использовать относительные пути в Markdown без ошибок
 relative_links:
   enabled: true
   collections: true
@@ -18,7 +15,6 @@ highlighter: rouge
 include:
   - assets/custom.css
 
-# Чтобы Jekyll не ругался на директорий docs/v2
 exclude:
   - README.md
 
