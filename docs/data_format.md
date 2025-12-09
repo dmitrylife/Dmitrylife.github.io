@@ -16,6 +16,8 @@ Files:
   <img src="../data/Hz_Compilation.png" width="300">
 </p>
 
+Source: <https://arxiv.org/pdf/2301.09591>
+
 ### SDSS DR12 BAO
 
 - `sdss_DR12Consensus_bao.dat`
