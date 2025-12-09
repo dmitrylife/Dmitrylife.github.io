@@ -10,11 +10,11 @@ psi-cli
 
 Functions:
 
-- 1. Download datasets
-- 2. Check datasets
-- 3. Run full analysis pipeline
-- 4. Open documentation
-- 5. Show project paths
+> 1. Download datasets
+> 2. Check datasets
+> 3. Run full analysis pipeline
+> 4. Open documentation
+> 5. Show project paths
 
 ```bash
 psi-download-data
