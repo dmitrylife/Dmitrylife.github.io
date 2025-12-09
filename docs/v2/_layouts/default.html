@@ -5,6 +5,7 @@
     <title>{{ page.title }} — Psi-Continuum v2 Docs</title>
 
     <link rel="stylesheet" href="{{ '/docs/v2/assets/custom.css' | relative_url }}">
+
     <style>
         .layout {
             display: grid;
@@ -12,8 +13,8 @@
             gap: 24px;
             margin-top: 20px;
         }
-        .sidebar-block {
-            background: #f7f7f7;
+        .sidebar-wrapper {
+            background: #f4f4f4;
             padding: 15px;
             border-radius: 8px;
             border: 1px solid #ddd;
@@ -29,7 +30,7 @@
     {% include header.html %}
 
     <div class="layout">
-        <div class="sidebar-block">
+        <div class="sidebar-wrapper">
             {% include sidebar.html %}
         </div>
 
@@ -42,4 +43,3 @@
 
 </body>
 </html>
-
