@@ -17,7 +17,7 @@ Files:
 
 - `HZ_compilation.csv`
 
-![H(z) Dataset](assets/Hz_Compilation.png){: style="width:70%; max-width:300px;" }
+![H(z) Dataset](assets/hz_compilation.png){: style="width:70%; max-width:300px;" }
 
 Source: <https://arxiv.org/pdf/2301.09591>
 
