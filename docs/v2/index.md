@@ -3,8 +3,6 @@ layout: default
 title: Overview
 ---
 
-{% include header.html %}
-
 # Psi-Continuum v2 — Documentation
 
 Welcome to the official documentation of **Psi-Continuum v2** —

@@ -3,16 +3,15 @@ layout: default
 title: Overview
 ---
 
-{% include header.html %}
-{% include sidebar.html %}
-
 # Psi-Continuum Theory Overview
 
 Psi-Continuum (ΨCDM) is a one-parameter phenomenological extension of ΛCDM.
 
 Background expansion:
 
-> E²(z) = Ω_m (1 + z)³ + (1 − Ω_m) · [1 + ε₀ · g(z)]
+```text
+E²(z) = Ω_m (1 + z)³ + (1 − Ω_m) · [1 + ε₀ · g(z)]
+```
 
 Where:
 

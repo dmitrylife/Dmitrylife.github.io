@@ -3,9 +3,6 @@ layout: default
 title: Overview
 ---
 
-{% include header.html %}
-{% include sidebar.html %}
-
 # Installation
 
 Psi-Continuum v2 requires:

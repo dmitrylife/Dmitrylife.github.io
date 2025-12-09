@@ -3,9 +3,6 @@ layout: default
 title: Overview
 ---
 
-{% include header.html %}
-{% include sidebar.html %}
-
 # Changelog
 
 ## v0.2.2 – Full Pipeline Release

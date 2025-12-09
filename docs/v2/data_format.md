@@ -3,9 +3,6 @@ layout: default
 title: Overview
 ---
 
-{% include header.html %}
-{% include sidebar.html %}
-
 # Data Format & Files
 
 The pipeline uses four datasets:
