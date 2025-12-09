@@ -20,19 +20,9 @@ Functions:
 psi-download-data
 ```
 
----
-
 ```bash
 psi-check-data
 ```
-
-Validate that all datasets are present and usable.
-
-```bash
-psi-check-data
-```
-
----
 
 `psi-run-all`
 
@@ -45,3 +35,5 @@ Run the complete pipeline:
 - joint likelihood
 - ε₀ scan
 - publication figures
+
+Items 4 and 5 are simple additional options.
