@@ -3,6 +3,9 @@ layout: default
 title: Overview
 ---
 
+{% include header.html %}
+{% include sidebar.html %}
+
 # Quick Start Guide
 
 This guide walks you through the minimal steps to install Psi-Continuum v2,

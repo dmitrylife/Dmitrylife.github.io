@@ -3,6 +3,9 @@ layout: default
 title: Overview
 ---
 
+{% include header.html %}
+{% include sidebar.html %}
+
 # Command Line Interface (CLI)
 
 Psi-Continuum v2 installs several useful CLI tools.

@@ -3,6 +3,9 @@ layout: default
 title: Overview
 ---
 
+{% include header.html %}
+{% include sidebar.html %}
+
 # Psi-Continuum Theory Overview
 
 Psi-Continuum (ΨCDM) is a one-parameter phenomenological extension of ΛCDM.

@@ -3,6 +3,9 @@ layout: default
 title: Overview
 ---
 
+{% include header.html %}
+{% include sidebar.html %}
+
 # Python API Reference
 
 ## Background models

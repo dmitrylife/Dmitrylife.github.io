@@ -13,6 +13,11 @@ relative_links:
   enabled: true
   collections: true
 
+highlighter: rouge
+
+include:
+  - assets/custom.css
+
 # Чтобы Jekyll не ругался на директорий docs/v2
 exclude:
   - README.md
