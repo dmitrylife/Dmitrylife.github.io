@@ -1,3 +1,8 @@
+---
+layout: default
+title: Overview
+---
+
 # Command Line Interface (CLI)
 
 Psi-Continuum v2 installs several useful CLI tools.

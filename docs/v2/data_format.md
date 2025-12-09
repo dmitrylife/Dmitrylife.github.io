@@ -1,3 +1,8 @@
+---
+layout: default
+title: Overview
+---
+
 # Data Format & Files
 
 The pipeline uses four datasets:
@@ -12,9 +17,7 @@ Files:
 
 - `HZ_compilation.csv`
 
-<p align="left">
-  <img src="../data/Hz_Compilation.png" width="250">
-</p>
+![H(z) Dataset](assets/Hz_Compilation.png){: style="width:70%; max-width:300px;" }
 
 Source: <https://arxiv.org/pdf/2301.09591>
 

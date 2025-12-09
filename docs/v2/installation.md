@@ -1,3 +1,8 @@
+---
+layout: default
+title: Overview
+---
+
 # Installation
 
 Psi-Continuum v2 requires:

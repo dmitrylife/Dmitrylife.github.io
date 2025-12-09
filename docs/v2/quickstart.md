@@ -1,3 +1,8 @@
+---
+layout: default
+title: Overview
+---
+
 # Quick Start Guide
 
 This guide walks you through the minimal steps to install Psi-Continuum v2,
