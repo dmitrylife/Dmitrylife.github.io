@@ -33,7 +33,6 @@ psi-cli
 
 ## 📄 **docs/installation.md**
 
-```markdown
 # Installation
 
 Psi-Continuum v2 requires:
@@ -61,9 +60,7 @@ pip install .
 
 ## 📄 **docs/cli.md**
 
-```text
 # Command Line Interface (CLI)
-```
 
 Psi-Continuum v2 installs several useful CLI tools.
 
@@ -115,9 +112,7 @@ Run the complete pipeline:
 
 ## 📄 **docs/api.md**
 
-```text
 # Python API Reference
-```
 
 ## Background models
 
@@ -147,9 +142,7 @@ More sections may be added as the API grows.
 
 ## 📄 **docs/data_format.md**
 
-```text
 # Data Format & Files
-```
 
 The pipeline uses four datasets:
 
