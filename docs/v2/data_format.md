@@ -17,9 +17,7 @@ Files:
 
 - `HZ_compilation.csv`
 
-![H(z) Dataset](assets/hz_compilation.png){: style="width:70%; max-width:300px;" }
-
-Source: <https://arxiv.org/pdf/2301.09591>
+<https://arxiv.org/pdf/2301.09591>
 
 ### SDSS DR12 BAO
 
