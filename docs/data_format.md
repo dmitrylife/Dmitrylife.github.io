@@ -13,7 +13,7 @@ Files:
 - `HZ_compilation.csv`
 
 <p align="left">
-  <img src="../data/Hz_Compilation.png" width="400">
+  <img src="../data/Hz_Compilation.png" width="250">
 </p>
 
 Source: <https://arxiv.org/pdf/2301.09591>
