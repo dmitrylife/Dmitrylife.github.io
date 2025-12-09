@@ -24,7 +24,9 @@ psi-download-data
 psi-check-data
 ```
 
-`psi-run-all`
+```bash
+psi-run-all
+```
 
 Run the complete pipeline:
 
