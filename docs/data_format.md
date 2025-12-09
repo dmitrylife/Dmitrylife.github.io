@@ -24,4 +24,20 @@ Files:
 
 All datasets are downloaded to:
 
-- `data/`
+```text
+data/
+├── bao
+│   ├── BAO_consensus_covtot_dM_Hz.txt
+│   └── sdss_DR12Consensus_bao.dat
+├── desi
+│   └── dr2
+│       ├── desi_gaussian_bao_ALL_GCcomb_cov.txt
+│       └── desi_gaussian_bao_ALL_GCcomb_mean.txt
+├── hz
+│   └── HZ_compilation.csv
+├── out
+├── pantheon_plus
+│   ├── Pantheon+SH0ES.dat
+│   └── Pantheon+SH0ES_STAT+SYS.cov
+└──
+```
