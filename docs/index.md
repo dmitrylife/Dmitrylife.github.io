@@ -15,5 +15,5 @@ a minimal phenomenological extension of ΛCDM with one additional parameter ε�
 
 ---
 
-Project homepage: [Project homepage](https://psi-continuum.org)
-Source code: [Source code](https://github.com/dmitrylife/psi-continuum-v2)
+Project homepage: [https://psi-continuum.org]  
+Source code: [https://github.com/dmitrylife/psi-continuum-v2]
