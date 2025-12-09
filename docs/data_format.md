@@ -13,7 +13,7 @@ Files:
 - `HZ_compilation.csv`
 
 <p align="center">
-  <img src="../data/Hz_Compilation.png" width="600">
+  <img src="../data/Hz_Compilation.png" width="300">
 </p>
 
 ### SDSS DR12 BAO
