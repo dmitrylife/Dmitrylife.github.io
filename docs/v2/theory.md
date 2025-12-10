@@ -3,22 +3,27 @@ layout: default
 title: Overview
 ---
 
-# Psi-Continuum Theory Overview
+Psi-Continuum v2 is a minimal one-parameter phenomenological extension of the ΛCDM cosmological model.  
+It introduces a single smooth late-time deformation of the background expansion, governed by the dimensionless parameter **ε₀**, while preserving all early-Universe physics.
 
-Psi-Continuum (ΨCDM) is a one-parameter phenomenological extension of ΛCDM.
+The modified Hubble expansion is:
 
-Background expansion:
+$$
+H_{\Psi}(z) = H_{\Lambda}(z)\left(1 + \frac{\varepsilon_{0}}{1+z}\right),
+$$
 
-```
-E²(z) = Ω_m (1 + z)³ + (1 − Ω_m) · [1 + ε₀ · g(z)]
-```
+which reduces exactly to ΛCDM at **ε₀ = 0** and produces percent-level deviations only at low redshift.
 
-Where:
+This package includes:
 
-- ε₀ controls smooth late-time deviation  
-- g(z) is chosen such that g(0) = 1 and deviations vanish at high z  
-- ΨCDM → ΛCDM at ε₀ = 0
+- ΛCDM and ΨCDM background cosmology  
+- Distance measures: *H(z), E(z), d_L(z), D_M/r_d, D_H/r_d, D_V/r_d*  
+- Pantheon+ HF SNe Ia likelihood (full covariance)  
+- 32 cosmic-chronometer H(z) measurements  
+- SDSS DR12 and DESI DR2 BAO Gaussian likelihoods  
+- Full joint χ² framework (SN + CC + BAO)  
+- ε₀ scans, Δχ² profiling, and ΛCDM comparison  
+- Publication-grade figure generator  
+- Command-line interface (**psi-cli**) for running the entire analysis pipeline  
 
-The model preserves early-time physics while modifying the low-z expansion history.
-
-Figures and detailed derivations will be added later.
+All results in the accompanying paper are fully reproducible using this package.
