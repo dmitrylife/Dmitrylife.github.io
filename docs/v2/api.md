@@ -8,8 +8,8 @@ title: Overview
 ## Background models
 
 ```python
-from psi_continuum_v2.cosmology.background.lcdm import E_LCDM, H_LCDM
-from psi_continuum_v2.cosmology.background.psicdm import E_PsiCDM, H_PsiCDM
+from psi_continuum_v2.cosmology.background.lcdm import E_lcdm, H_lcdm
+from psi_continuum_v2.cosmology.background.psicdm import E_psicdm, H_psicdm
 ```
 
 ### Likelihoods
