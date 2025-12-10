@@ -93,3 +93,51 @@ footer {
     /* Удаляем верхний отступ списка, чтобы он был ближе к вводному тексту */
     margin-top: 5px;
 }
+
+.link-block {
+    margin-top: 12px;
+    line-height: 1.6;
+}
+
+.link-block div {
+    margin-bottom: 4px;
+}
+
+.link-label {
+    font-weight: 600;
+    color: #333;
+    margin-right: 6px;
+}
+
+.link-block a {
+    color: #4b4bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link-block a:hover {
+    text-decoration: underline;
+}
+
+.placeholder-box {
+    position: relative;
+    padding-left: 55px; /* место под номер */
+}
+
+/* Стиль нумерации слева */
+.placeholder-number {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background: #4b4bff;
+    color: white;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.placeholder-box.future {
+    background: #fff8c6; /* мягкий жёлтый */
+    border-color: #e6d878;
+}
