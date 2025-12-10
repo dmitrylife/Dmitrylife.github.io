@@ -11,7 +11,9 @@ It introduces a single smooth late-time deformation of the background expansion,
 
 The modified Hubble expansion is:
 
-$H_{\Psi}(z) = H_{\Lambda}(z)\left(1 + \frac{\varepsilon_{0}}{1+z}\right)$
+<p align="center">
+  <img src="docs/v2/pip/hubble_function.png" alt="Psi-Continuum Hubble function" width="360">
+</p>
 
 which reduces exactly to ΛCDM at **ε₀ = 0** and produces percent-level deviations only at low redshift.
 
