@@ -3,14 +3,15 @@ layout: default
 title: Overview
 ---
 
-Psi-Continuum v2 is a minimal one-parameter phenomenological extension of the ΛCDM cosmological model.  
+# Theory Overview
+
+## Psi-Continuum v2 is a minimal one-parameter phenomenological extension of the ΛCDM cosmological model.
+
 It introduces a single smooth late-time deformation of the background expansion, governed by the dimensionless parameter **ε₀**, while preserving all early-Universe physics.
 
 The modified Hubble expansion is:
 
-$$
-H_{\Psi}(z) = H_{\Lambda}(z)\left(1 + \frac{\varepsilon_{0}}{1+z}\right),
-$$
+$H_{\Psi}(z) = H_{\Lambda}(z)\left(1 + \frac{\varepsilon_{0}}{1+z}\right)$
 
 which reduces exactly to ΛCDM at **ε₀ = 0** and produces percent-level deviations only at low redshift.
 
