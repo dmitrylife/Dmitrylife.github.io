@@ -12,7 +12,7 @@ It introduces a single smooth late-time deformation of the background expansion,
 The modified Hubble expansion is:
 
 <p align="center">
-  <img src="docs/v2/pip/hubble_function.png" alt="Psi-Continuum Hubble function" width="360">
+  <img src="docs/v2/pic/hubble_function.png" alt="Psi-Continuum Hubble function" width="360">
 </p>
 
 which reduces exactly to ΛCDM at **ε₀ = 0** and produces percent-level deviations only at low redshift.
