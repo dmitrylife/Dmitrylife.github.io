@@ -7,7 +7,7 @@ title: Overview
 
 Psi-Continuum v2 installs several useful CLI tools.
 
-## `psi-cli` – interactive menu
+## interactive menu - `psi-cli`
 
 ```bash
 psi-cli
@@ -20,6 +20,8 @@ Functions:
 > 3. Run full analysis pipeline
 > 4. Open documentation
 > 5. Show project paths
+
+## Built-in commands
 
 ```bash
 psi-download-data
@@ -42,5 +44,3 @@ Run the complete pipeline:
 - joint likelihood
 - ε₀ scan
 - publication figures
-
-Items 4 and 5 are simple additional options.

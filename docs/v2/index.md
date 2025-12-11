@@ -3,7 +3,7 @@ layout: default
 title: Overview
 ---
 
-# Psi-Continuum v2 — Documentation
+# Psi-Continuum v2 — Documentation (PyPI Package)
 
 Welcome to the official documentation of **Psi-Continuum v2** —
 a minimal phenomenological extension of ΛCDM with one additional parameter ε₀.

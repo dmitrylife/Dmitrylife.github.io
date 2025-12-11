@@ -14,22 +14,22 @@ download required datasets, and run the full analysis pipeline.
 pip install psi-continuum-v2
 ```
 
-## 2. Use the interactive CLI menu
-
-```bash
-psi-cli
-```
-
-## 3. Download datasets
+## 2. Download datasets
 
 ```bash
 psi-download-data
 ```
 
-## 4. Run the full analysis pipeline
+## 3. Run the full analysis pipeline
 
 ```bash
 psi-run-all
+```
+
+## 4. Use the interactive CLI menu
+
+```bash
+psi-cli
 ```
 
 All results will appear in `results/`.

@@ -17,7 +17,7 @@ Files:
 
 - `HZ_compilation.csv`
 
-<https://arxiv.org/pdf/2301.09591>
+Source: <https://arxiv.org/pdf/2301.09591>
 
 ### SDSS DR12 BAO
 
@@ -43,8 +43,7 @@ data/
 ├── hz
 │   └── HZ_compilation.csv
 ├── out
-├── pantheon_plus
-│   ├── Pantheon+SH0ES.dat
-│   └── Pantheon+SH0ES_STAT+SYS.cov
-└──
+└── pantheon_plus
+    ├── Pantheon+SH0ES.dat
+    └── Pantheon+SH0ES_STAT+SYS.cov
 ```
