@@ -7,7 +7,7 @@ title: Overview
 
 Psi-Continuum v2 installs several useful CLI tools.
 
-## interactive menu - `psi-cli`
+## Interactive menu
 
 ```bash
 psi-cli

@@ -30,3 +30,5 @@ This package includes:
 - Command-line interface (**psi-cli**) for running the entire analysis pipeline  
 
 All results in the accompanying paper are fully reproducible using this package.
+
+Zenodo: <https://doi.org/10.5281/zenodo.17879744>
