@@ -1,5 +1,4 @@
-theme: jekyll-theme-cayman
-title: Psi-Continuum v2 (PyPI Package)
-description: Independent Research in Cosmology
+title: Psi-Continuum v2
+description: PyPI package · Minimal extension of ΛCDM
 
 markdown: kramdown
