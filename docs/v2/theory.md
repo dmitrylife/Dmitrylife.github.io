@@ -15,10 +15,6 @@ The modified Hubble expansion is:
   <img src="https://psi-continuum.org/docs/v2/pic/hubble_function.png" alt="Psi-Continuum Hubble function">
 </p>
 
-```mathematica
-H_{\Psi}(z) = H_{\Lambda}(z)\left(1 + \frac{\varepsilon_{0}}{1+z}\right)
-```
-
 which reduces exactly to ΛCDM at **ε₀ = 0** and produces percent-level deviations only at low redshift.
 
 This package includes:
@@ -35,4 +31,5 @@ This package includes:
 
 All results in the accompanying paper are fully reproducible using this package.
 
-Zenodo: <https://doi.org/10.5281/zenodo.17879744>
+Zenodo preprint: <https://doi.org/10.5281/zenodo.17879744>
+Zenodo software: <https://doi.org/10.5281/zenodo.17928837>
