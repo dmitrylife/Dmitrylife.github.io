@@ -20,13 +20,19 @@ pip install psi-continuum-v2
 psi-download-data
 ```
 
-## 3. Run the full analysis pipeline
+## 3. Quick data status check
+
+```bash
+psi-check-data
+```
+
+## 4. Run the full analysis pipeline
 
 ```bash
 psi-run-all
 ```
 
-## 4. Use the interactive CLI menu
+## 5. Use the interactive CLI menu
 
 ```bash
 psi-cli

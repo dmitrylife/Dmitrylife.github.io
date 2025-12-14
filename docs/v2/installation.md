@@ -23,5 +23,5 @@ Or install from source:
 ```bash
 git clone https://github.com/dmitrylife/psi-continuum-v2
 cd psi-continuum-v2
-pip install -e .
+pip install .
 ```
