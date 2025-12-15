@@ -1,6 +1,11 @@
 {
   "latest": "v2",
   "versions": [
-    "v2"
+    {
+      "id": "v2",
+      "label": "v2 (archived)",
+      "url": "/docs/v2/",
+      "status": "archived"
+    }
   ]
 }
