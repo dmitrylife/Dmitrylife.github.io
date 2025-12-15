@@ -11,8 +11,9 @@ Psi-Continuum v2 (ΨCDM) is a minimal one-parameter phenomenological extension o
 the standard ΛCDM cosmological model at the **background expansion level**.
 
 It introduces a single smooth late-time deformation of the Hubble expansion,
-governed by the dimensionless parameter **ε₀**, while preserving all
-early-Universe physics and standard perturbation dynamics.
+governed by the dimensionless parameter **ε₀**, while leaving early-Universe
+physics unchanged and not introducing any modifications to standard perturbation dynamics.
+
 
 ---
 
