@@ -82,4 +82,10 @@ psi-check-data
 psi-run-all
 ```
 
+Or launch the command line interface (CLI):
+
+```bash
+psi-cli
+```
+
 See the **Quick Start Guide** for a complete reproducible workflow.
