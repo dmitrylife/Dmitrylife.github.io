@@ -82,7 +82,7 @@ psi-check-data
 psi-run-all
 ```
 
-Or launch the command line interface (CLI):
+4. Or launch the command line interface (CLI):
 
 ```bash
 psi-cli
