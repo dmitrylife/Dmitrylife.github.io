@@ -33,8 +33,7 @@ Download all observational datasets used in the analysis:
 psi-download-data
 ```
 
-This command creates the local `data/` directory and fetches all required files
-from their official public sources.
+This command creates the local `data/` directory and downloads all the necessary files from the repository.
 
 ---
 
