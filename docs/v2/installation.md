@@ -62,21 +62,21 @@ This installs the same frozen version of the package as distributed via PyPI.
 
 ## Next Steps
 
-After installation:
+After installation
 
-1. Download the required datasets:
+10. Download the required datasets:
 
 ```bash
 psi-download-data
 ```
 
-2. Verify dataset integrity:
+20. Verify dataset integrity:
 
 ```bash
 psi-check-data
 ```
 
-3. Run the full analysis pipeline:
+30. Run the full analysis pipeline:
 
 ```bash
 psi-run-all
