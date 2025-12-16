@@ -115,7 +115,7 @@ psi-download-data
 ```
 
 This command automatically creates the directory structure shown above and
-downloads all required files from their official public sources.
+downloads all required files from their repository.
 
 ---
 

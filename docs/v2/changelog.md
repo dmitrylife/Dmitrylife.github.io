@@ -41,7 +41,7 @@ long-term reproducibility.
 
 ---
 
-## v0.2.1 — First Public Release
+## v0.2.1 — First Public Release (Not stable)
 
 - Initial public release of Psi-Continuum v2
 - Core ΛCDM and ΨCDM background solvers
