@@ -1,12 +1,6 @@
 {
-  "latest": "v5",
+  "latest": "v2",
   "versions": [
-    {
-      "id": "v5",
-      "label": "v5 (current)",
-      "url": "/docs/v5/",
-      "status": "current"
-    },
     {
       "id": "v2",
       "label": "v2 (archived)",
