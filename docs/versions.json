@@ -1,6 +1,12 @@
 {
-  "latest": "v2",
+  "latest": "v5",
   "versions": [
+    {
+      "id": "v5",
+      "label": "v5 (state-space diagnostics)",
+      "url": "/docs/v5/",
+      "status": "active"
+    },
     {
       "id": "v2",
       "label": "v2 (archived)",
