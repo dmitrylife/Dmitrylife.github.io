@@ -3,8 +3,7 @@ layout: default
 title: Overview
 ---
 
-# Psi-Continuum State-Space — Documentation (PyPI) 
-## A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion
+# Psi–Continuum State-Space Diagnostics — Documentation (PyPI) 
 
 **DOI:**  
 https://doi.org/10.5281/zenodo.18088720
