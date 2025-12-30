@@ -1,6 +1,6 @@
 ---
-title: # Overview
 layout: default
+title: Overview
 ---
 
 # Psi–Continuum Cosmology v5  
