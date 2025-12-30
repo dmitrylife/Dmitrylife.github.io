@@ -3,7 +3,7 @@ layout: default
 title: Overview
 ---
 
-# Psi–Continuum Cosmology v5  
+# Psi-Continuum State-Space — Documentation (PyPI) 
 ## A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion
 
 **DOI:**  
