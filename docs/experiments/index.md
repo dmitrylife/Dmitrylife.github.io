@@ -209,6 +209,17 @@ time_utc, mag_diff, mag_err, filter, comparison_stars, instrument
 
 ---
 
+## English summary
+
+This pilot program explores the reproducibility and stability of
+long-term differential photometric observations of variable stars,
+using independent amateur setups.
+
+The goal is not astrophysical discovery, but consistency testing
+of observational data under realistic conditions.
+
+---
+
 ## 📬 Контакты
 
 **Координатор проекта:**  
