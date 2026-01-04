@@ -215,7 +215,7 @@ time_utc, mag_diff, mag_err, filter, comparison_stars, instrument
 Климов Дмитрий Васильевич  
 Независимый исследователь  
 📧 d.klimov.psi@gmail.com  
-🌐 https://psi-continuum.org
+[🌐 https://psi-continuum.org](https://psi-continuum.org)
 
 ---
 
@@ -224,7 +224,8 @@ time_utc, mag_diff, mag_err, filter, comparison_stars, instrument
 Наблюдения поддерживают методологию, описанную в работе:
 
 **Psi–Continuum Cosmology v5**  
-DOI: 10.5281/zenodo.18088720
+[DOI: 10.5281/zenodo.18088720](https://doi.org/10.5281/zenodo.18088720)
 
 Программные инструменты:  
 https://github.com/dmitrylife/psi-continuum-statespace
+[https://github.com/dmitrylife/psi-continuum-statespace](https://github.com/dmitrylife/psi-continuum-statespace)

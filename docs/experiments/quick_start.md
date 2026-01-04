@@ -142,4 +142,4 @@ time_utc, mag_diff, mag_err, filter, instrument
 Независимый исследователь  
 
 📧 d.klimov.psi@gmail.com  
-🌐 https://psi-continuum.org
+[🌐 https://psi-continuum.org](https://psi-continuum.org)
