@@ -7,11 +7,10 @@ title: Quick start для любителей
 
 ### Эта страница — практическое дополнение к разделу «Экспериментальные наблюдения».
 
+[https://psi-continuum.org/docs/experiments/](https://psi-continuum.org/docs/experiments/)
 
 Минимум теории — максимум практики.  
-Если у вас есть телескоп и камера, вы уже можете участвовать в программе наблюдений.  
-
-[Основная страница описания: psi-continuum.org/docs/experiments/](https://psi-continuum.org/docs/experiments/)
+Если у вас есть телескоп и камера, вы уже можете участвовать в программе наблюдений.
 
 ---
 
