@@ -85,7 +85,7 @@ title: Quick start для любителей
 
 Для удобства используйте готовый шаблон:
 
-👉 **[Скачать шаблон observations_template.csv →](/experiments/observations_template.csv)**
+👉 **[Скачать шаблон observations_template.csv →](/docs/experiments/observations_template.csv)**
 
 Достаточно простого CSV-файла:
 
