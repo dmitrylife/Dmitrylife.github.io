@@ -227,5 +227,4 @@ time_utc, mag_diff, mag_err, filter, comparison_stars, instrument
 [DOI: 10.5281/zenodo.18088720](https://doi.org/10.5281/zenodo.18088720)
 
 Программные инструменты:  
-https://github.com/dmitrylife/psi-continuum-statespace
 [https://github.com/dmitrylife/psi-continuum-statespace](https://github.com/dmitrylife/psi-continuum-statespace)
