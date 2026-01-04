@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Quick start для любителей
-description: ""
+description: null
 ---
 
 # 🚀 Quick start для любителей астрономии
