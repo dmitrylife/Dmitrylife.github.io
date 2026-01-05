@@ -9,7 +9,7 @@ title: Quick start for observers
 
 ### This page is a practical companion to the *Experimental observations* section.
 
-https://psi-continuum.org/docs/experiments/
+[https://psi-continuum.org/docs/experiments/](https://psi-continuum.org/docs/experiments/)
 
 Minimal theory — maximum practice.  
 If you have a telescope and a camera, you can already participate.

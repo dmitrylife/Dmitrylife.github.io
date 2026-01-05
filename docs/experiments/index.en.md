@@ -3,7 +3,7 @@ layout: default
 title: Experimental observations (pilot program)
 ---
 
-# Experimental observations (Kaliningrad pilot program)
+# Experimental observations (Pilot program)
 
 > 🇷🇺 Full observational protocol (Russian): [here](index.html)
 
