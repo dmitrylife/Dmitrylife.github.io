@@ -28,7 +28,8 @@ Requirements:
 - well observable from your latitude
 - **2–3 stable comparison stars** in the same field
 
-> If you are unsure which object to choose, contact the project coordinator.
+> 👉 Recommended targets:  
+[Target list (EN)](targets_en.html)
 
 ---
 
