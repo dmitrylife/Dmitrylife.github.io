@@ -49,8 +49,7 @@ natural test functions for long-term photometric consistency.
 Typical magnitude range:  
 **V ≈ 7–12**
 
-> 👉 Recommended targets:  
-[Target list (EN)](targets_en.html)
+> 👉 Recommended targets: [Target list](targets_en.html)
 
 ---
 

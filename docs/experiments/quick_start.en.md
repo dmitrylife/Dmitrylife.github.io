@@ -28,8 +28,7 @@ Requirements:
 - well observable from your latitude
 - **2–3 stable comparison stars** in the same field
 
-> 👉 Recommended targets:  
-[Target list (EN)](targets_en.html)
+> 👉 Recommended targets: [Target list](targets_en.html)
 
 ---
 
