@@ -93,12 +93,12 @@ targets a local observational community.
 A concise practical guide is available here:
 
 👉 **Quick start (RU):**  
-https://psi-continuum.org/docs/experiments/quick_start.html
+[Quick start →](/docs/experiments/quick_start.html)
 
 A standard CSV template for data submission is provided:
 
 👉 **Observation data template:**  
-https://psi-continuum.org/docs/experiments/observations_template.csv
+[observations_template.csv →](/docs/experiments/observations_template.csv)
 
 ---
 
@@ -109,7 +109,7 @@ Dmitry Vasilevich Klimov
 Independent researcher  
 
 📧 d.klimov.psi@gmail.com  
-🌐 https://psi-continuum.org
+[🌐 https://psi-continuum.org](https://psi-continuum.org)
 
 ---
 
@@ -118,7 +118,7 @@ Independent researcher
 This observational pilot supports the methodological framework described in:
 
 **Psi–Continuum Cosmology v5**  
-DOI: 10.5281/zenodo.18088720
+[DOI: 10.5281/zenodo.18088720](https://doi.org/10.5281/zenodo.18088720)
 
 Related software tools:  
-https://github.com/dmitrylife/psi-continuum-statespace
+[https://github.com/dmitrylife/psi-continuum-statespace](https://github.com/dmitrylife/psi-continuum-statespace)
