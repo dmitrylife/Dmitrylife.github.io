@@ -5,6 +5,8 @@ title: Quick start для любителей
 
 # 🚀 Quick start для любителей астрономии
 
+> 🇬🇧 English version: [available here](quick_start.en.html)
+
 ### Эта страница — практическое дополнение к разделу «Экспериментальные наблюдения».
 
 [https://psi-continuum.org/docs/experiments/](https://psi-continuum.org/docs/experiments/)
