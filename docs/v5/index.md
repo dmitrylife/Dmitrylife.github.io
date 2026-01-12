@@ -24,6 +24,12 @@ The `psi–continuum–statespace` package provides a **purely diagnostic,
 background–level implementation** of the macroscopic state–space framework
 introduced in *Psi–Continuum Cosmology v5*.
 
+You can install Psi–Continuum State-Space Diagnostics directly from PyPI:
+
+```bash
+pip install psi-continuum-statespace
+```
+
 The software is designed to:
 
 - construct the macroscopic state–space coordinate **Ψ(z)**,
