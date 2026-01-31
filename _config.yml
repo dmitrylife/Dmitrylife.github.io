@@ -3,6 +3,9 @@ description: "Psi-Continuum framework: cosmology, experiments, documentation"
 url: "https://psi-continuum.org"
 baseurl: ""   # важно для домена в корне
 
+# Она применяется только к страницам, которые собирает Jekyll из Markdown (docs/**/*.md).
+theme: jekyll-theme-cayman
+
 markdown: kramdown
 
 # Чтобы ссылки были красивыми (опционально)
