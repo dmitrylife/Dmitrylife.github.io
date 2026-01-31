@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Cayman theme styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- GoatCounter -->
+  <script
+    data-goatcounter="https://psi-continuum.goatcounter.com/count"
+    async
+    src="https://gc.zgo.at/count.js">
+  </script>
+</head>
+
+<body>
+  <section class="page-header">
+    <h1 class="project-name">{{ site.title }}</h1>
+    <h2 class="project-tagline">{{ site.description }}</h2>
+  </section>
+
+  <main class="main-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <span class="site-footer-owner">
+      Psi–Continuum · documentation
+    </span>
+  </footer>
+</body>
+</html>
