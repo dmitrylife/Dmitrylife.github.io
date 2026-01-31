@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Overview
+title: Psi–Continuum Cosmology v2: A Minimal One–Parameter Extension of ΛCDM
 ---
 
 > ⚠️ **Archived documentation**  
