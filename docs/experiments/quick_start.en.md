@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Quick start for observers
-permalink: /docs/experiments/index.en.html
+permalink: /docs/experiments/quick_start.en.html
 ---
 
 # 🚀 Quick start for amateur astronomers
