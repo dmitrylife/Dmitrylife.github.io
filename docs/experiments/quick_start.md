@@ -10,7 +10,7 @@ permalink: /docs/experiments/quick_start.html
 
 ### Эта страница — практическое дополнение к разделу «Экспериментальные наблюдения».
 
-[https://psi-continuum.org/docs/experiments/](https://psi-continuum.org/docs/experiments/)
+[https://psi-continuum.org/docs/experiments/](https://psi-continuum.org/docs/experiments/index)
 
 Минимум теории — максимум практики.  
 Если у вас есть телескоп и камера, вы уже можете участвовать в программе наблюдений.
