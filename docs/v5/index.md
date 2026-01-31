@@ -6,8 +6,7 @@ title: Psi–Continuum State-Space Diagnostics (v5)
 # Psi–Continuum State-Space Diagnostics (v5)
 
 A lightweight, reproducible diagnostic package for macroscopic
-state–space analysis of late–time cosmic expansion, accompanying
-*Psi–Continuum Cosmology v5*.
+state–space analysis of late–time cosmic expansion.
 
 **PyPI package:** `psi-continuum-statespace`  
 https://pypi.org/project/psi-continuum-statespace/
@@ -116,15 +115,3 @@ please cite:
 > *Psi–Continuum Cosmology v5:  
 > A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion*.  
 > Zenodo. https://doi.org/10.5281/zenodo.18088720
-
-```bibtex
-@software{klimov_psi_continuum_v5_2025,
-  author       = {Klimov, Dmitry V.},
-  title        = {Psi--Continuum Cosmology v5:
-                  A Macroscopic State--Space Response Framework
-                  for Late--Time Cosmic Expansion},
-  year         = 2025,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18088720}
-}
-```
