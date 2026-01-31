@@ -1,3 +1,33 @@
+title: Psi-Continuum
+description: Psi-Continuum framework: cosmology, experiments, documentation
+url: "https://psi-continuum.org"
+baseurl: ""   # важно для домена в корне
+
+markdown: kramdown
+
+# Чтобы ссылки были красивыми (опционально)
+permalink: pretty
+
+# GitHub Pages безопасно: только поддерживаемые плагины
+plugins:
+  - jekyll-sitemap
+
+# Чтобы Jekyll НЕ выкидывал нужные файлы
+include:
+  - docs
+  - favicon.ico
+  - logo.svg
+  - theory.html
+  - index.html
+  - style.css
+
+# Если будешь добавлять служебные файлы
+exclude:
+  - README.md
+  - .gitignore
+
+
+
 theme: jekyll-theme-cayman
 title: Psi-Continuum v2
 description: Minimal extension of ΛCDM
