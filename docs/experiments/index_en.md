@@ -88,10 +88,6 @@ The results are relevant for:
 
 ## Participation and documentation
 
-The **full observational protocol and participation guidelines**
-are currently documented in **Russian**, as the pilot program
-targets a local observational community.
-
 A concise practical guide is available here:
 
 👉 **Quick start:**  
