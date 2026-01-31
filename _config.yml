@@ -25,13 +25,3 @@ include:
 exclude:
   - README.md
   - .gitignore
-
-
-
-theme: jekyll-theme-cayman
-title: Psi-Continuum v2
-description: Minimal extension of ΛCDM
-
-markdown: kramdown
-
-url: https://psi-continuum.org
