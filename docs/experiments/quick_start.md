@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Quick start для любителей
+permalink: /docs/experiments/quick_start.md.html
 ---
 
 # 🚀 Quick start для любителей астрономии
