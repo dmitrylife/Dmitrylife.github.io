@@ -14,7 +14,7 @@ Welcome to the official documentation of **Psi-Continuum v2** —
 a minimal, background-level phenomenological extension of the ΛCDM cosmological model
 with one additional deformation parameter ε₀.
 
-PyPI package name: psi-continuum-v2
+PyPI package name: **psi-continuum-v2**
 
 ## Contents
 
