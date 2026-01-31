@@ -28,7 +28,7 @@ PyPI package name: **psi-continuum-v2**
 
 ---
 
-Project homepage: <https://psi-continuum.org/docs/v2>  
+Documentation homepage: <https://psi-continuum.org/docs/v2>  
 Source code (GitHub): <https://github.com/dmitrylife/psi-continuum-v2>
 
 ## Associated DOIs
