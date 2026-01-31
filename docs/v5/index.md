@@ -5,6 +5,8 @@ title: Psi–Continuum v5 · State-Space Diagnostics
 
 # Psi–Continuum State-Space Diagnostics (v5)
 
+PyPI package name: **psi–continuum–statespace**
+
 This page documents the **diagnostic software companion** to the article:
 
 **Psi–Continuum Cosmology v5:  
