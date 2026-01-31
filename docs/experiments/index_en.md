@@ -94,8 +94,8 @@ targets a local observational community.
 
 A concise practical guide is available here:
 
-👉 **Quick start (RU):**  
-[Quick start →](/docs/experiments/quick_start)
+👉 **Quick start:**  
+[Quick start →](/docs/experiments/quick_start.en)
 
 A standard CSV template for data submission is provided:
 
