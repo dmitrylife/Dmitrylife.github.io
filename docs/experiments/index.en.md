@@ -5,7 +5,7 @@ title: Experimental observations (pilot program)
 
 # Experimental observations (Pilot program)
 
-> 🇷🇺 Full observational protocol (Russian): [here](index.en)
+> 🇷🇺 Full observational protocol (Russian): [here](index)
 
 This page describes a small observational pilot program within the
 **Psi-Continuum framework**.
