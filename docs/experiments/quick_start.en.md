@@ -89,8 +89,7 @@ Do not aim for extreme precision.
 
 Please use the provided data template:
 
-👉 **Download observations_template.csv →**  
-https://psi-continuum.org/docs/experiments/observations_template.csv
+👉 **[Download observations_template.csv →](/docs/experiments/observations_template.csv)**
 
 Required CSV columns:
 
