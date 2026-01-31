@@ -6,7 +6,7 @@ permalink: /docs/experiments/quick_start.en.html
 
 # 🚀 Quick start for amateur astronomers
 
-> 🇷🇺 Full practical guide (Russian): [available here](quick_start.html)
+> 🇷🇺 Full practical guide (Russian): [available here](quick_start)
 
 ### This page is a practical companion to the *Experimental observations* section.
 
@@ -29,7 +29,7 @@ Requirements:
 - well observable from your latitude
 - **2–3 stable comparison stars** in the same field
 
-> 👉 Recommended targets: [Target list](targets_en.html)
+> 👉 Recommended targets: [Target list](targets_en)
 
 ---
 

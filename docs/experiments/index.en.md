@@ -49,7 +49,7 @@ natural test functions for long-term photometric consistency.
 Typical magnitude range:  
 **V ≈ 7–12**
 
-> 👉 Recommended targets: [Target list](targets_en.html)
+> 👉 Recommended targets: [Target list](targets_en)
 
 ---
 
@@ -95,7 +95,7 @@ targets a local observational community.
 A concise practical guide is available here:
 
 👉 **Quick start (RU):**  
-[Quick start →](/docs/experiments/quick_start.html)
+[Quick start →](/docs/experiments/quick_start)
 
 A standard CSV template for data submission is provided:
 
