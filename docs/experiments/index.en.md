@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Experimental observations (pilot program)
-permalink: /docs/experiments/index.en.html
 ---
 
 # Experimental observations (Pilot program)
