@@ -14,6 +14,17 @@ In classical mechanics, momentum is defined as
 
 $$ \mathbf{p} = m \mathbf{v} $$
 
+
+test:
+Inline: $\mathbf{p} = m \mathbf{v}$
+
+Display:
+$$ \mathbf{p} = m \mathbf{v} $$
+
+Ещё одна:
+$$ \vec{F} = m \vec{a} \quad \text{(альтернатива с стрелкой)} $$
+
+
 The force is then
 
 $$ \mathbf{**F**} = \frac{d\mathbf{**p**}}{dt} = m \mathbf{**a**} $$
