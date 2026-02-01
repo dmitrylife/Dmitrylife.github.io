@@ -76,5 +76,4 @@ This is precisely how effective forces announce themselves.
 
 ---
 
-**Previous:** [Why effective forces are not new forces](./01_effective_forces)  
 **Next:** [When effective forces emerge from geometry](./02_geometry_and_momentum)
