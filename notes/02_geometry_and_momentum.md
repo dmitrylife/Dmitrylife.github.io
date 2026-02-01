@@ -13,7 +13,7 @@ A simple and familiar example is relativistic momentum.
 In classical mechanics, momentum is defined as
 
 ```text
-**p** = m **v**.
+𝐩 = m 𝐯
 ```
 
 The force is then
