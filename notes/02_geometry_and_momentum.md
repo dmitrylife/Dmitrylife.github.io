@@ -1,14 +1,14 @@
-# When effective forces emerge from geometry:
+# When effective forces emerge from geometry:  
 ## a comparison with relativistic momentum
 
-In many areas of physics, quantities that appear force-like or dynamical do not originate
-from new interactions, but from **the geometry of the state space in which the system is described**.
+In many areas of physics, quantities that appear force-like or dynamical do not originate 
+from new interactions, but from the geometry of the state space in which the system is described.
 
 A simple and familiar example is relativistic momentum.
 
 ---
 
-# 1. Classical vs relativistic momentum
+## 1. Classical vs relativistic momentum
 
 In classical mechanics, momentum is defined as
 
@@ -18,7 +18,9 @@ In classical mechanics, momentum is defined as
 
 The force is then
 
-$$ \mathbf{**F**} = \frac{d\mathbf{**p**}}{dt} = m \mathbf{**a**} $$
+```text
+𝐅 = d𝐩 / dt = m 𝐚
+```
 
 Here, momentum space is linear, and mass acts as a constant proportionality factor.
 
@@ -26,14 +28,19 @@ Here, momentum space is linear, and mass acts as a constant proportionality fact
 
 In special relativity, momentum takes the form
 
-$$ \mathbf{**p**} = \gamma m \mathbf{**v**}, \qquad \gamma = \frac{1}{\sqrt{1 - v^2/c^2}} $$
+```text
+𝐩 = γ m 𝐯
+γ = 1 / sqrt(1 − v² / c²)
+```
 
 No new force is introduced.  
 No new interaction is postulated.
 
 Yet the equation of motion becomes
 
-$$ \mathbf{**F**} = \frac{d}{dt} (\gamma m \mathbf{**v**}) $$,
+```text
+𝐅 = d/dt (γ m 𝐯)
+```
 
 which now includes velocity-dependent contributions that have no Newtonian analogue.
 
@@ -49,7 +56,7 @@ What changed is the **geometry of the state space**:
 * time and space are no longer independent,
 * kinematical constraints reshape the relation between force and acceleration.
 
-The additional terms in $$ \frac{d}{dt}(\gamma m \mathbf{**v**}) $$ are not new physics —  
+The additional terms in `d(γ m 𝐯) / dt` are not new physics —  
 they are **geometric consequences of the relativistic description**.  
 
 Nevertheless, they produce real, measurable effects.
@@ -102,11 +109,15 @@ In non-equilibrium descriptions, the arrow of time can be represented as a prefe
 
 If a system evolves along a trajectory
 
-$$ \frac{d\mathbf{**X**}}{dt} = \mathbf{**V**}(\mathbf{**X**}), $$
+```text
+dX / dt = V(X)
+```
 
-where $\mathbf{**X**}$ denotes macroscopic state variables, then irreversibility implies
+where `X` denotes macroscopic state variables, then irreversibility implies
 
-$$ \mathbf{**V**}(\mathbf{**X**}) \neq -\mathbf{**V**}(\mathbf{**X**}). $$
+```text
+V(X) ≠ −V(X)
+```
 
 This asymmetry introduces a **geometric bias** in the flow of states.
 
@@ -135,8 +146,8 @@ This perspective suggests a shift in interpretation.
 
 When small, coherent deviations are observed:
 
-- the first question need not be “what new force causes this?”,
-- but rather “what geometric or state-space structure does this reveal?”
+- the first question need not be *“what new force causes this?”*,
+- but rather *“what geometric or state-space structure does this reveal?”*
 
 Relativistic momentum teaches us that such shifts in language can be both conservative and profoundly explanatory.
 
@@ -146,5 +157,4 @@ Relativistic momentum teaches us that such shifts in language can be both conser
 
 ---
 
-**Previous:** [Why effective forces are not new forces](01_effective_forces)  
-**Next:** [When data prefers a direction in state space](03_attractors_in_data_space)
+**Previous:** [Why effective forces are not new forces](/notes/01_effective_forces)  

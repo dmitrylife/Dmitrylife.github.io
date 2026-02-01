@@ -2,7 +2,8 @@
 
 In physics, not every force-like effect corresponds to a fundamental interaction.
 
-Many of the forces we routinely use to describe motion are **effective**: they arise from how a system is described, constrained, or observed — not from new mediators or new dynamics at the microscopic level.
+Many of the forces we routinely use to describe motion are **effective**: 
+they arise from how a system is described, constrained, or observed — not from new mediators or new dynamics at the microscopic level.
 
 Understanding this distinction is essential when interpreting small, coherent deviations in complex systems.
 
@@ -18,7 +19,8 @@ It produces measurable effects.
 
 Yet no one searches for a “Coriolis boson”.
 
-The Coriolis force exists because we choose to describe motion in a **rotating reference frame**. Change the frame, and the force disappears — while the underlying physics remains unchanged.
+The Coriolis force exists because we choose to describe motion in a **rotating reference frame**.
+Change the frame, and the force disappears — while the underlying physics remains unchanged.
 
 The same is true for:
 
@@ -66,7 +68,7 @@ If measurements show:
 - consistent within each experimental setup,
 - yet not universal across all setups,
 
-then the correct first interpretation is not “new physics”.
+then the correct first interpretation is not *“new physics”*.
 
 It is:
 
@@ -76,4 +78,4 @@ This is precisely how effective forces announce themselves.
 
 ---
 
-**Next:** [When effective forces emerge from geometry](02_geometry_and_momentum)
+**Next:** [When effective forces emerge from geometry](/notes/02_geometry_and_momentum)
