@@ -12,17 +12,7 @@ A simple and familiar example is relativistic momentum.
 
 In classical mechanics, momentum is defined as
 
-$$ \mathbf{p} = m \mathbf{v} $$
-
-
-test:
-Inline: $\mathbf{p} = m \mathbf{v}$
-
-Display:
-$$ \mathbf{p} = m \mathbf{v} $$
-
-Ещё одна:
-$$ \vec{F} = m \vec{a} \quad \text{(альтернатива с стрелкой)} $$
+$$ p = m v $$
 
 
 The force is then
