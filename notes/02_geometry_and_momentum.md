@@ -12,7 +12,7 @@ A simple and familiar example is relativistic momentum.
 
 In classical mechanics, momentum is defined as
 
-$$ \mathbf{**p**} = m \mathbf{**v**} $$
+$$ \mathbf{p} = m \mathbf{v} $$
 
 The force is then
 
@@ -144,5 +144,5 @@ Relativistic momentum teaches us that such shifts in language can be both conser
 
 ---
 
-**Previous:** [Why effective forces are not new forces](./01_effective_forces)  
-**Next:** [When data prefers a direction in state space](./03_attractors_in_data_space)
+**Previous:** [Why effective forces are not new forces](01_effective_forces)  
+**Next:** [When data prefers a direction in state space](03_attractors_in_data_space)
