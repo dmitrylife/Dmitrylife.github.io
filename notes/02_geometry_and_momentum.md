@@ -16,6 +16,15 @@ In classical mechanics, momentum is defined as
 𝐩 = m 𝐯
 ```
 
+The relativistic momentum is defined as
+
+$$
+\mathbf{p} = \gamma m \mathbf{v}, \qquad
+\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}
+$$
+
+
+
 The force is then
 
 ```text
