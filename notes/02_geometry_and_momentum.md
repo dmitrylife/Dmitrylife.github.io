@@ -8,19 +8,15 @@ A simple and familiar example is relativistic momentum.
 
 ---
 
-## 1. Classical vs relativistic momentum
+# 1. Classical vs relativistic momentum
 
 In classical mechanics, momentum is defined as
 
-```text
-𝐩 = m 𝐯
-```
+$$ \mathbf{p} = m \mathbf{v} $$
 
 The force is then
 
-```text
-𝐅 = d𝐩 / dt = m 𝐚
-```
+$$ \mathbf{F} = \frac{d\mathbf{p}}{dt} = m \mathbf{a} $$
 
 Here, momentum space is linear, and mass acts as a constant proportionality factor.
 
@@ -28,19 +24,14 @@ Here, momentum space is linear, and mass acts as a constant proportionality fact
 
 In special relativity, momentum takes the form
 
-```text
-𝐩 = γ m 𝐯
-γ = 1 / sqrt(1 − v² / c²)
-```
+$$ \mathbf{p} = \gamma m \mathbf{v}, \qquad \gamma = \frac{1}{\sqrt{1 - v^2/c^2}} $$
 
 No new force is introduced.  
 No new interaction is postulated.
 
 Yet the equation of motion becomes
 
-```text
-𝐅 = d/dt (γ m 𝐯)
-```
+$$ \mathbf{F} = \frac{d}{dt}(\gamma m \mathbf{v}) $$,
 
 which now includes velocity-dependent contributions that have no Newtonian analogue.
 
@@ -109,20 +100,15 @@ In non-equilibrium descriptions, the arrow of time can be represented as a prefe
 
 If a system evolves along a trajectory
 
-```text
-dX / dt = V(X)
-```
+$$ \frac{d\mathbf{X}}{dt} = \mathbf{V}(\mathbf{X}), $$
 
-where `X` denotes macroscopic state variables, then irreversibility implies
+where $\mathbf{X}$ denotes macroscopic state variables, then irreversibility implies
 
-```text
-V(X) ≠ −V(X)
-```
+$$ \mathbf{V}(\mathbf{X}) \neq -\mathbf{V}(\mathbf{X}). $$
 
 This asymmetry introduces a **geometric bias** in the flow of states.
 
-When projected onto reduced observables, such bias manifests as an effective force-like contribution — without
-implying a microscopic violation of time-reversal symmetry.
+When projected onto reduced observables, such bias manifests as an effective force-like contribution — without implying a microscopic violation of time-reversal symmetry.
 
 ---
 
@@ -157,4 +143,5 @@ Relativistic momentum teaches us that such shifts in language can be both conser
 
 ---
 
+**Next:** [When data prefers a direction in state space (In progress)]()  
 **Previous:** [Why effective forces are not new forces](/notes/01_effective_forces)  

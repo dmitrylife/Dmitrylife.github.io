@@ -17,7 +17,7 @@ It deflects moving objects on a rotating planet.
 It has a precise mathematical form.
 It produces measurable effects.
 
-Yet no one searches for a “Coriolis boson”.
+Yet no one searches for a *“Coriolis boson”*.
 
 The Coriolis force exists because we choose to describe motion in a **rotating reference frame**.
 Change the frame, and the force disappears — while the underlying physics remains unchanged.
@@ -78,4 +78,5 @@ This is precisely how effective forces announce themselves.
 
 ---
 
+**Previous:** [Conceptual and Interpretational Notes](/notes/)  
 **Next:** [When effective forces emerge from geometry](/notes/02_geometry_and_momentum)
