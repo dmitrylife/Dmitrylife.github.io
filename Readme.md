@@ -31,6 +31,7 @@ The website provides:
 - 🧪 **Companion diagnostic tools** and reproducible pipelines
 - 🔭 **Experimental and observational demonstrations**
 - 📦 Versioned documentation (`v2`, `v5`, …)
+- Conceptual Notes (Note in progress)
 
 Main entry points:
 
