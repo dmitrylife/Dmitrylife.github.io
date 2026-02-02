@@ -6,9 +6,7 @@ permalink: /docs/experiments/quick_start.en.html
 
 # 🚀 Quick start for amateur astronomers
 
-### This page is a practical companion to the *Experimental observations* section.
-
-[https://psi-continuum.org/docs/experiments/](https://psi-continuum.org/docs/experiments/index_en)
+### This page is a practical companion to the «[Experimental observations](https://psi-continuum.org/docs/experiments/index_en)» section.
 
 Minimal theory — maximum practice.  
 If you have a telescope and a camera, you can already participate.
