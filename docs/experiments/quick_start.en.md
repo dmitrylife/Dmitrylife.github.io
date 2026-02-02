@@ -6,8 +6,6 @@ permalink: /docs/experiments/quick_start.en.html
 
 # 🚀 Quick start for amateur astronomers
 
-> 🇷🇺 Full practical guide (Russian): [available here](quick_start)
-
 ### This page is a practical companion to the *Experimental observations* section.
 
 [https://psi-continuum.org/docs/experiments/](https://psi-continuum.org/docs/experiments/index_en)
