@@ -17,6 +17,7 @@ plugins:
 
 # Чтобы Jekyll НЕ выкидывал нужные файлы
 include:
+  - notes
   - docs
   - favicon.ico
   - logo.svg
