@@ -138,6 +138,6 @@ Sometimes, the system is simply telling us **where equilibrium lies**.
 
 ---
 
-**Next:** [Attractors, entropy, and the arrow of time in data space](04_entropy_and_arrow_of_time.html)  
-**Previous:** [When effective forces emerge from geometry](02_geometry_and_momentum.html)  
+**Next:** [Attractors, entropy, and the arrow of time in data space](04_entropy_and_arrow_of_time)  
+**Previous:** [When effective forces emerge from geometry](02_geometry_and_momentum)  
 
