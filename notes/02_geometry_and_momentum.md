@@ -31,7 +31,7 @@ No new interaction is postulated.
 
 Yet the equation of motion becomes
 
-$$ \mathbf{F} = \frac{d}{dt}(\gamma m \mathbf{v}) $$,
+$$ \mathbf{F} = \frac{d}{dt}(\gamma m \mathbf{v}) $$
 
 which now includes velocity-dependent contributions that have no Newtonian analogue.
 
@@ -47,10 +47,12 @@ What changed is the **geometry of the state space**:
 * time and space are no longer independent,
 * kinematical constraints reshape the relation between force and acceleration.
 
-The additional terms in `d(γ m 𝐯) / dt` are not new physics —  
-they are **geometric consequences of the relativistic description**.  
+The additional terms in
 
-Nevertheless, they produce real, measurable effects.
+$$ \frac{d}{dt} (\gamma m \mathbf{v}) $$
+
+are not new physics —  
+they are **geometric consequences of the relativistic description**.
 
 ---
 
@@ -96,7 +98,8 @@ These terms behave like forces, even though no new interaction has been introduc
 
 # 5. The arrow of time as geometric bias
 
-In non-equilibrium descriptions, the arrow of time can be represented as a preferred direction in state space.
+In non-equilibrium descriptions, the arrow of time can be represented as a 
+preferred direction in state space.
 
 If a system evolves along a trajectory
 
@@ -108,7 +111,8 @@ $$ \mathbf{V}(\mathbf{X}) \neq -\mathbf{V}(\mathbf{X}). $$
 
 This asymmetry introduces a **geometric bias** in the flow of states.
 
-When projected onto reduced observables, such bias manifests as an effective force-like contribution — without implying a microscopic violation of time-reversal symmetry.
+When projected onto reduced observables, such bias manifests as an effective 
+force-like contribution — without implying a microscopic violation of time-reversal symmetry.
 
 ---
 
@@ -143,5 +147,6 @@ Relativistic momentum teaches us that such shifts in language can be both conser
 
 ---
 
-**Next:** [When data prefers a direction in state space (In progress)]()  
+**Next:** [When data prefers a direction in state space](03_attractors_in_data_space.html)  
 **Previous:** [Why effective forces are not new forces](/notes/01_effective_forces)  
+

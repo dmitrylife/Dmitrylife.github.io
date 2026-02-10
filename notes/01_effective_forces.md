@@ -78,5 +78,6 @@ This is precisely how effective forces announce themselves.
 
 ---
 
+**Next:** [When effective forces emerge from geometry](/notes/02_geometry_and_momentum)  
 **Previous:** [Conceptual and Interpretational Notes](/notes/)  
-**Next:** [When effective forces emerge from geometry](/notes/02_geometry_and_momentum)
+

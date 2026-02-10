@@ -42,6 +42,12 @@ You can install Psi–Continuum State-Space Diagnostics directly from PyPI:
 pip install psi-continuum-statespace
 ```
 
+Example usage (interactive shell):
+
+```bash
+psi-statespace interactive
+```
+
 The software is designed to:
 
 - construct the macroscopic state–space coordinate **Ψ(z)**,
