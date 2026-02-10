@@ -1,4 +1,4 @@
-# Conceptual Notes — Scope and Intent
+# Conceptual and Interpretational Notes
 
 These notes provide interpretational and conceptual context for the Psi-Continuum framework.
 
