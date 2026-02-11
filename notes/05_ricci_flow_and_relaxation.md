@@ -131,6 +131,7 @@ it may be geometry — not force — that is speaking.
 
 ---
 
-**Next:** [From Ψ(z) to geometric relaxation](06_psi_and_ricci_flow)  
+**Next:** [From Ψ(z) to geometric relaxation](/notes/06_psi_and_ricci_flow)  
 **Previous:** [Attractors, entropy, and the arrow of time in data space](/notes/04_entropy_and_arrow_of_time)  
+**All Notes :** [Conceptual and Interpretational Notes](/notes/)  
 

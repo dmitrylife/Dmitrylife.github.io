@@ -149,4 +149,5 @@ Relativistic momentum teaches us that such shifts in language can be both conser
 
 **Next:** [When data prefers a direction in state space](/notes/03_attractors_in_data_space)  
 **Previous:** [Why effective forces are not new forces](/notes/01_effective_forces)  
+**All Notes :** [Conceptual and Interpretational Notes](/notes/)  
 

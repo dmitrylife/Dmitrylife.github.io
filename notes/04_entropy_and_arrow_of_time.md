@@ -156,4 +156,5 @@ but in **state space**.
 
 **Next:** [Ricci flows, entropic relaxation, and topology in state space](/notes/05_ricci_flow_and_relaxation)  
 **Previous:** [When data prefers a direction in state space](/notes/03_attractors_in_data_space)  
+**All Notes :** [Conceptual and Interpretational Notes](/notes/)  
 
