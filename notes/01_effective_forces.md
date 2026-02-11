@@ -9,7 +9,7 @@ Understanding this distinction is essential when interpreting small, coherent de
 
 ---
 
-# 1. Familiar examples: forces that are not fundamental
+## 1. Familiar examples: forces that are not fundamental
 
 Consider the **Coriolis force**.
 
@@ -33,7 +33,7 @@ They are not fictitious in practice — airplanes must account for them — but 
 
 ---
 
-# 2. Forces as projections of dynamics
+## 2. Forces as projections of dynamics
 
 An effective force is often a **projection** of a higher-dimensional or constrained dynamics onto a reduced description.
 
@@ -54,7 +54,7 @@ In non-equilibrium systems, it is the rule rather than the exception.
 
 ---
 
-# 3. When data sees a “force”
+## 3. When data sees a “force”
 
 From the point of view of observations, the distinction between fundamental and effective is subtle.
 

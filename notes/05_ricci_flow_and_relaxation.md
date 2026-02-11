@@ -8,7 +8,7 @@ In mathematics and physics, a well-known mechanism for such behavior is **Ricci 
 
 ---
 
-# Geometry as a dynamical object
+## Geometry as a dynamical object
 
 Ricci flow describes the evolution of a metric according to:
 
@@ -28,7 +28,7 @@ The flow acts like a **diffusion process for geometry itself**.
 
 ---
 
-# Entropy and monotonicity
+## Entropy and monotonicity
 
 A crucial insight, due to Perelman, is that Ricci flow admits entropy-like functionals that evolve **monotonically**.
 
@@ -44,7 +44,7 @@ The arrow of time appears as a property of the **flow**, not of the microscopic 
 
 ---
 
-# From manifolds to abstract state spaces
+## From manifolds to abstract state spaces
 
 Nothing in the Ricci-flow logic requires the manifold to be physical spacetime.
 
@@ -64,7 +64,7 @@ In this context:
 
 ---
 
-# Topology before dynamics
+## Topology before dynamics
 
 Ricci flow famously underlies the resolution of the Poincaré conjecture.
 
@@ -80,7 +80,7 @@ Unstable ones are washed out.
 
 ---
 
-# Entropic relaxation as a universal mechanism
+## Entropic relaxation as a universal mechanism
 
 Across disciplines, similar patterns appear:
 
@@ -95,7 +95,7 @@ They do not drive systems forward; they **erase structure** until only stable co
 
 ---
 
-# Implications for late-time cosmology
+## Implications for late-time cosmology
 
 If late-time cosmological data define a smooth trajectory bundle in a macroscopic state space, then:
 
@@ -109,7 +109,7 @@ Instead, the observed behavior may reflect **geometric relaxation** toward a sta
 
 ---
 
-# What follows logically
+## What follows logically
 
 If this perspective is taken seriously, several consequences follow:
 
@@ -122,7 +122,7 @@ The role of theory becomes classificatory before explanatory.
 
 ---
 
-# Final remark
+## Final remark
 
 Ricci flow teaches us that geometry can evolve, smooth itself, and forget its past.
 

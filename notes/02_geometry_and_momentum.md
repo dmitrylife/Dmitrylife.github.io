@@ -8,7 +8,7 @@ A simple and familiar example is relativistic momentum.
 
 ---
 
-# 1. Classical vs relativistic momentum
+## 1. Classical vs relativistic momentum
 
 In classical mechanics, momentum is defined as
 
@@ -37,7 +37,7 @@ which now includes velocity-dependent contributions that have no Newtonian analo
 
 ---
 
-# 2. What changed?
+## 2. What changed?
 
 Nothing changed at the level of fundamental dynamics.  
 
@@ -56,7 +56,7 @@ they are **geometric consequences of the relativistic description**.
 
 ---
 
-# 3. Effective force-like behavior without new interactions
+## 3. Effective force-like behavior without new interactions
 
 From an operational point of view, relativistic motion can appear as if:
 
@@ -74,7 +74,7 @@ This is a general lesson:
 
 ---
 
-# 4. Analogy with macroscopic and non-equilibrium systems
+## 4. Analogy with macroscopic and non-equilibrium systems
 
 In macroscopic or coarse-grained systems, the same mechanism appears in a different guise.
 
@@ -96,7 +96,7 @@ These terms behave like forces, even though no new interaction has been introduc
 
 ---
 
-# 5. The arrow of time as geometric bias
+## 5. The arrow of time as geometric bias
 
 In non-equilibrium descriptions, the arrow of time can be represented as a 
 preferred direction in state space.
@@ -116,7 +116,7 @@ force-like contribution — without implying a microscopic violation of time-rev
 
 ---
 
-# 6. Why the analogy is appropriate — and where it stops
+## 6. Why the analogy is appropriate — and where it stops
 
 The comparison with relativistic momentum is not an identification.
 
@@ -130,7 +130,7 @@ It highlights how **effective forces can arise purely from how motion is embedde
 
 ---
 
-# 7. Diagnostic perspective
+## 7. Diagnostic perspective
 
 This perspective suggests a shift in interpretation.
 
