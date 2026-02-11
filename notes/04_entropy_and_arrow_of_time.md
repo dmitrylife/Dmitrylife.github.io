@@ -131,6 +131,6 @@ it may be geometry — not force — that is speaking.
 
 ---
 
-**Next:** [Ricci flows, entropic relaxation, and topology in state space](05_ricci_flow_and_relaxation)  
-**Previous:** [When data prefers a direction in state space](03_attractors_in_data_space)  
+**Next:** [Ricci flows, entropic relaxation, and topology in state space](/notes/05_ricci_flow_and_relaxation)  
+**Previous:** [When data prefers a direction in state space](/notes/03_attractors_in_data_space)  
 
