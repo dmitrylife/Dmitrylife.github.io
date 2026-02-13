@@ -5,38 +5,37 @@ title: Psi–Continuum State-Space Diagnostics (v5)
 
 # Psi–Continuum State-Space Diagnostics (v5)
 
-A lightweight, reproducible diagnostic package for macroscopic
-state–space analysis of late–time cosmic expansion.
+A lightweight, reproducible diagnostic package for macroscopic state–space analysis of late–time cosmic expansion.
 
-**PyPI package:** `psi-continuum-statespace`  
-https://pypi.org/project/psi-continuum-statespace/
+**PyPI package:**  
+[psi-continuum-statespace](https://pypi.org/project/psi-continuum-statespace/)
 
-This page documents the **diagnostic software companion** to the article:
+This page documents the diagnostic software companion to the article:
 
-> **Psi–Continuum Cosmology v5**  
-> *A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion*
+**Psi–Continuum Cosmology v5**  
+*A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion*
 
 ---
 
-### 📦 Software package
+## 📦 Software package
 
-- **PyPI:** `psi-continuum-statespace`
-- **Source code:** https://github.com/dmitrylife/psi-continuum-statespace
+- **PyPI:** [psi-continuum-statespace](https://pypi.org/project/psi-continuum-statespace/)
+- **Source code:** [github.com/dmitrylife/psi-continuum-statespace](https://github.com/dmitrylife/psi-continuum-statespace)
 
-### 📄 Scientific reference
+---
+
+## 📄 Scientific reference
 
 - **Preprint (Zenodo DOI):**  
-  https://doi.org/10.5281/zenodo.18088720
+  [https://doi.org/10.5281/zenodo.18088720](https://doi.org/10.5281/zenodo.18088720)
 
 ---
 
 ## Purpose
 
-The `psi–continuum–statespace` package provides a **purely diagnostic,
-background–level implementation** of the macroscopic state–space framework
-introduced in *Psi–Continuum Cosmology v5*.
+The `psi-continuum-statespace` package provides a purely diagnostic, background–level implementation of the macroscopic state–space framework introduced in *Psi–Continuum Cosmology v5*.
 
-You can install Psi–Continuum State-Space Diagnostics directly from PyPI:
+Install directly from PyPI:
 
 ```bash
 pip install psi-continuum-statespace
@@ -73,6 +72,15 @@ Within this formulation:
 - ΛCDM appears as the **instantaneous–response limit** in state space,
 - late–time acceleration corresponds to **small, smooth deformations**
   organized as trajectories in Ψ(z).
+
+---
+
+### Clarifications
+
+> **Technical clarifications:**  
+> Additional explanations regarding reference background,
+> parameter fixing, and normalization conventions are available  
+> [here](/clarifications/).
 
 ---
 
@@ -121,3 +129,4 @@ please cite:
 > *Psi–Continuum Cosmology v5:  
 > A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion*.  
 > Zenodo. https://doi.org/10.5281/zenodo.18088720
+
