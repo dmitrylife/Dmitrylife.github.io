@@ -83,6 +83,12 @@ this chosen reference.
 Changing the baseline shifts the normalization but does not alter
 the diagnostic logic of the framework.
 
+It is important to emphasize that changing the reference values
+(H0, Ω_m0, r_d) modifies the normalization of the baseline
+background but does not alter the structural definition of the
+diagnostic coordinate or the internal comparison logic.
+All deformations are evaluated relative to the same chosen reference.
+
 ---
 
 ## 4. Scope of the Framework
