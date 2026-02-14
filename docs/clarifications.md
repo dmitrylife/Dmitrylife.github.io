@@ -114,3 +114,7 @@ If further clarification is required, readers are encouraged to consult:
 - Psi–Continuum Cosmology v5 (state–space formulation)
 - The associated open-source software repositories
 
+---
+
+> Inference-grade extension (v6): nuisance parameters, profiling, AIC/BIC — planned / in progress
+

@@ -3,6 +3,22 @@ layout: default
 title: Psi–Continuum State-Space Diagnostics (v5)
 ---
 
+> ⚠️ **Status Notice**
+
+> Psi–Continuum Cosmology v5 represents the archived background-level
+> formulation of the macroscopic state–space framework.
+
+> The results and diagnostics presented in v5 remain fully reproducible
+> and internally consistent within the adopted fixed reference background.
+
+> Version v5 does not perform nuisance-parameter marginalization
+> or extended statistical inference. Its purpose is strictly diagnostic:
+> to organize late-time expansion data within a macroscopic state–space
+> description relative to a chosen ΛCDM baseline.
+
+> Subsequent developments will address extended statistical treatments
+> and broader parameter handling as standalone methodological studies.
+
 # Psi–Continuum State-Space Diagnostics (v5)
 
 A lightweight, reproducible diagnostic package for macroscopic state–space analysis of late–time cosmic expansion.
