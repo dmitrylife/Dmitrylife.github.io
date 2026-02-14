@@ -11,8 +11,8 @@ title: Psi–Continuum State-Space Diagnostics (v5)
 > The results and diagnostics presented in v5 remain fully reproducible
 > and internally consistent within the adopted fixed reference background.
 
-> Version v5 does not perform nuisance-parameter marginalization
-> or extended statistical inference. Its purpose is strictly diagnostic:
+> Version v5 does not include nuisance-parameter marginalization
+> or extended statistical inference procedures. Its purpose is strictly diagnostic:
 > to organize late-time expansion data within a macroscopic state–space
 > description relative to a chosen ΛCDM baseline.
 
