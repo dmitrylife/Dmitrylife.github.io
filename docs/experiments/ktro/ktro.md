@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: KTRO — Klimov Tarpen Robotic Observatory
@@ -6,121 +7,147 @@ permalink: /docs/experiments/ktro/
 
 # KTRO — Klimov Tarpen Robotic Observatory
 
-KTRO (Klimov Tarpen Robotic Observatory) is a small-scale semi-automated
-observational facility developed as part of the Psi–Continuum
-Experimental Program.
+KTRO (Klimov Tarpen Robotic Observatory) is a small-scale,
+semi-automated observational facility developed within the
+Psi–Continuum Experimental Program.
 
-The purpose of KTRO is not survey-scale astronomy, but reproducible,
-long-term differential photometry focused on stability testing,
-instrument consistency, and cross-epoch robustness.
-
----
-
-## Scientific Role within the Psi–Continuum Program
-
-Within the broader framework, KTRO serves as a controlled
-macroscopic testbed.
-
-While the cosmological part of the Psi–Continuum project analyzes
-large public datasets (SN Ia, BAO, H(z)), KTRO operates at a vastly
-smaller physical scale but under the same guiding principle:
-
-> Stability, response, and long-term consistency of observational data.
-
-The observatory allows systematic testing of:
-
-- Differential photometric stability
-- Cross-instrument reproducibility
-- Long-term drift control
-- Noise behavior under repeated measurements
-- Pipeline-level robustness
-
-Small systems provide insight into measurement structure.
+Its purpose is not survey-scale astronomy or object discovery.
+KTRO is designed as a controlled photometric stability platform,
+focused on long-term reproducibility, instrumental consistency,
+and methodological robustness.
 
 ---
 
-## Observational Focus
+## Scientific Function within the Psi–Continuum Program
 
-The primary targets are:
+The Psi–Continuum framework operates at two scales:
+
+- Large-scale cosmological background diagnostics  
+- Small-scale controlled observational stability tests  
+
+KTRO serves as a macroscopic experimental testbed for
+measurement-system behavior.
+
+While cosmological analyses rely on public datasets
+(SN Ia, BAO, H(z)), KTRO allows controlled repetition
+of measurements under known instrumental conditions.
+
+The objective is methodological:
+
+- Evaluate differential photometric stability  
+- Quantify long-term instrumental drift  
+- Test cross-epoch reproducibility  
+- Characterize noise structure under repeated measurements  
+- Validate pipeline-level robustness  
+
+The guiding principle is consistent across scales:
+
+> Measurement systems must demonstrate stability, response coherence,
+> and controlled deviations.
+
+---
+
+## Observational Scope
+
+Primary targets:
 
 - RR Lyrae stars  
-- Cepheid variables  
-- Stable reference stars for baseline monitoring  
+- Classical Cepheids  
+- Stable reference stars for baseline control  
 
-The observational protocol emphasizes:
+Observational protocol emphasizes:
 
-- Differential photometry
-- Standard calibration frames (bias, dark, flat)
-- Fixed reduction pipeline
-- Version-controlled data processing
-- Archivable output formats
+- Differential photometry  
+- Standard calibration frames (bias, dark, flat)  
+- Fixed and version-controlled reduction pipeline  
+- Archivable and reproducible output formats  
+- Cross-night consistency monitoring  
 
-The objective is not discovery, but reproducibility.
+The objective is reproducibility rather than discovery.
 
 ---
 
-## Instrumental Baseline
+## Instrumentation
 
-KTRO is based on a mechanically stable equatorial platform
-(MaxVision EXOS-2 class mount) prepared for progressive automation.
+### Mount
+- MaxVision EXOS-2 (equatorial mount)  
+- OnStep V4 Pro controller  
 
-The facility is designed to support:
+### Optical System
+- Sky-Watcher BKP 150/750 (Newtonian, f/5)  
+- Baader MPCC Mark III coma corrector  
 
-- Semi-automated tracking
-- Scheduled long-term monitoring
-- Remote-safe operation
-- Standardized data archiving
+### Camera
+- ZWO ASI533MM Pro (monochrome CMOS)  
 
-Automation development proceeds in phases.
+### Filters
+- UBVRI Bessel set (V2)  
+
+### Focusing
+- ZWO EAF (with temperature sensor and hand controller)  
+
+The system is designed for mechanical stability,
+repeatable pointing, and progressive automation.
+
+---
+
+## Calibration Strategy
+
+KTRO employs a standardized calibration procedure:
+
+- Bias and dark frame libraries under temperature control  
+- Nightly flat-field acquisition  
+- Fixed reduction workflow  
+- Version-controlled processing scripts  
+
+All reduction steps are documented and reproducible.
 
 ---
 
 ## Development Phases
 
 **Phase 1 — Mechanical validation (completed)**  
-Mount assembly, alignment testing, tracking validation.
+Mount assembly, polar alignment testing, tracking validation.
 
 **Phase 2 — Semi-automation (ongoing)**  
-Motor control refinement, repeatable pointing routines,
+Repeatable pointing routines, motor control refinement,
 pipeline integration.
 
-**Phase 3 — Full long-term monitoring mode (planned)**  
-Scheduled multi-month observation programs,
-cross-season consistency checks.
+**Phase 3 — Long-term monitoring mode (planned)**  
+Multi-month monitoring programs, cross-season stability checks,
+public data documentation where feasible.
 
 ---
 
-## Reproducibility
+## Reproducibility Policy
 
-All observational data and reduction steps are intended to be:
+All observational procedures are:
 
-- Documented
-- Version-controlled
-- Pipeline-reproducible
-- Open where feasible
+- Documented  
+- Version-controlled  
+- Pipeline-reproducible  
+- Archivable  
 
-The experimental program is methodological in nature.
-It does not aim to compete with professional observatories,
-but to explore response diagnostics under controlled,
-small-scale conditions.
+The program is methodological and complementary to
+professional observatories.
+
+It aims to explore response diagnostics and stability structure
+under controlled small-scale conditions.
 
 ---
 
-## Conceptual Perspective
+## Conceptual Position
 
 The cosmological component of the Psi–Continuum framework
-analyzes large-scale expansion histories.
+analyzes expansion histories of the Universe.
 
-KTRO operates at the opposite scale.
+KTRO operates at the opposite physical scale.
 
-The connection is conceptual:
+The connection is methodological rather than physical:
 
-Measurement systems — whether cosmic or local —
-must exhibit stability, response structure, and
-controlled deviations.
-
-Understanding small systems informs interpretation
-of large datasets.
+Controlled small systems provide insight into
+measurement stability, response structure,
+and interpretation discipline.
 
 ---
 
@@ -128,6 +155,6 @@ of large datasets.
 
 KTRO is currently in Phase 2 (semi-automation development).
 
-First structured long-term monitoring campaigns
-are planned for the Nemansky region sky.
+Structured long-term monitoring campaigns are planned
+for the Nemansky region sky.
 
