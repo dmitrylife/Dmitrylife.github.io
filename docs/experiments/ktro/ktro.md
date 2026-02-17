@@ -83,7 +83,7 @@ The objective is reproducibility rather than discovery.
 - UBVRI Bessel set (V2)  
 
 ### Focusing
-- ZWO EAF (with temperature sensor and hand controller)  
+- ZWO EAF (with temperature sensor)  
 
 The system is designed for mechanical stability,
 repeatable pointing, and progressive automation.
