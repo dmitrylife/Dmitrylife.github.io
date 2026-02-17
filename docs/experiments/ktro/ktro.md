@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: KTRO — Klimov Tarpen Robotic Observatory
