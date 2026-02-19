@@ -4,6 +4,20 @@ title: KTRO — Klimov Tarpen Robotic Observatory
 permalink: /docs/experiments/ktro/
 ---
 
+<div style="text-align: center; margin: 2rem 0 3rem;">
+  <img 
+    src="docs/experiments/ktro/pic/ktro-logo.jpg" 
+    alt="KTRO — Klimov Tarpen Robotic Observatory Logo" 
+    style="max-width: 100%; height: auto; width: 320px;"
+  >
+  <h1 style="margin: 1rem 0 0.5rem; font-size: 2.2rem;">
+    KTRO
+  </h1>
+  <p style="margin: 0; color: #ccc; font-size: 1.2rem;">
+    Klimov Tarpen Robotic Observatory
+  </p>
+</div>
+
 # KTRO — Klimov Tarpen Robotic Observatory
 
 KTRO (Klimov Tarpen Robotic Observatory) is a small-scale,
