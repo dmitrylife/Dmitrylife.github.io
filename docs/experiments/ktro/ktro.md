@@ -6,7 +6,7 @@ permalink: /docs/experiments/ktro/
 
 <div style="text-align: center; margin: 2rem 0 3rem;">
   <img 
-    src="docs/experiments/ktro/pic/ktro-logo.jpg" 
+    src="ttps://psi-continuum.org/docs/experiments/ktro/pic/ktro-logo.jpg" 
     alt="KTRO — Klimov Tarpen Robotic Observatory Logo" 
     style="max-width: 100%; height: auto; width: 320px;"
   >
