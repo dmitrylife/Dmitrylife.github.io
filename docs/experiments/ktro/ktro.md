@@ -10,9 +10,6 @@ permalink: /docs/experiments/ktro/
     alt="KTRO — Klimov Tarpen Robotic Observatory Logo" 
     style="max-width: 100%; height: auto; width: 320px;"
   >
-  <h1 style="margin: 1rem 0 0.5rem; font-size: 2.2rem;">
-    KTRO
-  </h1>
   <p style="margin: 0; color: #ccc; font-size: 1.2rem;">
     Klimov Tarpen Robotic Observatory
   </p>
