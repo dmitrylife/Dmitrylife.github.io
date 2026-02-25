@@ -23,28 +23,21 @@ title: Psi–Continuum State-Space Diagnostics (v5)
 
 A lightweight, reproducible diagnostic package for macroscopic state–space analysis of late–time cosmic expansion.
 
-**PyPI package:**  
-[psi-continuum-statespace](https://pypi.org/project/psi-continuum-statespace/)
+### 📦 Software package
+
+- **PyPI:** [psi-continuum-statespace](https://pypi.org/project/psi-continuum-statespace/)
+- **Source code:** [github.com/dmitrylife/psi-continuum-statespace](https://github.com/dmitrylife/psi-continuum-statespace)
 
 This page documents the diagnostic software companion to the article:
 
 **Psi–Continuum Cosmology v5**  
 *A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion*
 
----
-
-## 📦 Software package
-
-- **PyPI:** [psi-continuum-statespace](https://pypi.org/project/psi-continuum-statespace/)
-- **Source code:** [github.com/dmitrylife/psi-continuum-statespace](https://github.com/dmitrylife/psi-continuum-statespace)
-
----
-
-## 📄 Scientific reference
+### 📄 Scientific reference
 
 - **Preprint (Zenodo DOI):**  
   [https://doi.org/10.5281/zenodo.18088720](https://doi.org/10.5281/zenodo.18088720)
-
+  
 ---
 
 ## Purpose
