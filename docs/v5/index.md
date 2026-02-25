@@ -33,8 +33,6 @@ This page documents the diagnostic software companion to the article:
 **Psi–Continuum Cosmology v5**  
 *A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion*
 
-### 📄 Scientific reference
-
 - **Preprint (Zenodo DOI):**  
   [https://doi.org/10.5281/zenodo.18088720](https://doi.org/10.5281/zenodo.18088720)
   
