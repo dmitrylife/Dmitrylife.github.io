@@ -28,6 +28,8 @@ A lightweight, reproducible diagnostic package for macroscopic state–space ana
 - **PyPI:** [psi-continuum-statespace](https://pypi.org/project/psi-continuum-statespace/)
 - **Source code:** [github.com/dmitrylife/psi-continuum-statespace](https://github.com/dmitrylife/psi-continuum-statespace)
 
+### 📄 Scientific reference
+
 This page documents the diagnostic software companion to the article:
 
 **Psi–Continuum Cosmology v5**  
