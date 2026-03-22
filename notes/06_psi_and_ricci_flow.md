@@ -150,6 +150,6 @@ but because the geometry is doing the work.
 
 ---
 
-**Return to Notes:** [Conceptual and Interpretational Notes](/notes/)  
 **Previous:** [Ricci flows, entropic relaxation, and topology in state space](/notes/05_ricci_flow_and_relaxation)  
+**Return to Notes:** [Conceptual and Interpretational Notes](/notes/)
 
