@@ -213,11 +213,11 @@ The objective is reproducibility rather than discovery.
 ## Instrumentation
 
 ### Mount
-- MaxVision EXOS-2 (equatorial mount)  
-- OnStep V4 Pro controller  
+- MaxVision EXOS-2 (equatorial mount) ✔  
+- OnStep V4 Pro controller ✔  
 
 ### Optical System
-- Sky-Watcher BKP 150/750 (Newtonian, f/5)  
+- Sky-Watcher BKP 150/750 (Newtonian, f/5) ✔  
 
 ### Planned Imaging Chain
 - Baader MPCC Mark III coma corrector  
