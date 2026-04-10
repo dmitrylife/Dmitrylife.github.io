@@ -21,7 +21,7 @@ KTRO (Klimov Tarpen Robotic Observatory) is a small-scale,
 semi-automated observational facility developed within the
 Psi–Continuum Experimental Program.
 
-Its purpose is not survey-scale astronomy or object discovery.
+Its purpose is not survey-scale astronomy or object discovery.  
 KTRO is designed as a controlled photometric stability platform,
 focused on long-term reproducibility, instrumental consistency,
 and methodological robustness.
@@ -168,53 +168,152 @@ fully reliable operation.
 
 ---
 
-## Current Needs
+## Hardware Completion — Support This Project
 
-To move KTRO toward full monitoring capability,
-several components are still needed or may require upgrade.
+<style>
+.ktro-support-wrap {
+  margin: 2.5rem 0;
+}
 
-Priority equipment needs include:
+.ktro-support-note {
+  margin: 0 0 1.4rem;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #5aa9ff;
+  background: rgba(90, 169, 255, 0.08);
+  border-radius: 10px;
+}
 
-- dedicated astronomical camera accessories  
-- filter wheel  
-- additional calibrated filters where needed  
-- automation and control accessories  
-- environmental / observatory support components  
-- future enclosure and protection hardware  
+.ktro-support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin: 1.5rem 0 2rem;
+}
 
-These items are not peripheral.
-They directly affect repeatability, automation depth,
-and the scientific usability of the system.
+.ktro-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
 
----
+.ktro-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-size: 1.08rem;
+}
 
-## Support the Project
+.ktro-badge {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  margin-bottom: 0.9rem;
+  background: rgba(90, 169, 255, 0.12);
+  color: #9fd0ff;
+}
 
-KTRO is an independent research infrastructure effort.
+.ktro-card p {
+  margin: 0 0 1rem;
+  color: #d6d6d6;
+  line-height: 1.55;
+  font-size: 0.96rem;
+}
 
-If you would like to support the project in a practical way,
-one of the most useful forms of support is to help with
-the acquisition of missing equipment.
+.ktro-card .ktro-btn {
+  display: inline-block;
+  padding: 0.72rem 1rem;
+  border-radius: 10px;
+  background: #5aa9ff;
+  color: #0e1726;
+  text-decoration: none;
+  font-weight: 700;
+}
 
-Support may take the form of:
+.ktro-card .ktro-btn.secondary {
+  background: rgba(255,255,255,0.08);
+  color: #f2f2f2;
+  border: 1px solid rgba(255,255,255,0.12);
+}
 
-- purchasing required equipment  
-- sending equipment directly to the project  
-- donating compatible instruments or accessories  
-- helping complete the observatory hardware chain  
+.ktro-support-box {
+  margin-top: 2rem;
+  padding: 1.2rem 1.3rem;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.10);
+}
 
-This kind of support contributes directly to:
+.ktro-list {
+  margin: 0.8rem 0 0;
+  padding-left: 1.2rem;
+}
+</style>
 
-- improved observational stability  
-- faster transition to robotic operation  
-- more reliable long-term monitoring  
-- better reproducibility of the resulting data products  
+<div class="ktro-support-wrap">
 
-If you are interested in supporting KTRO with equipment,
-please get in touch before purchase or shipment so that
-compatibility and current priority can be confirmed.
+  <div class="ktro-support-note">
+    KTRO is at a transition point from a semi-manual system
+    to a fully reproducible robotic observatory.
+    Completion of the hardware chain defines this transition.
+  </div>
 
-**Contact:** `d.klimov.psi@gmail.com`
+  <div class="ktro-support-grid">
+
+    <div class="ktro-card">
+      <div class="ktro-badge">Required</div>
+      <h3>ZWO ASI533MM Pro</h3>
+      <p>Primary monochrome camera for scientific photometry.</p>
+      <a class="ktro-btn" href="https://aliexpress.ru/item/1005009843622926.html" target="_blank">Support</a>
+    </div>
+
+    <div class="ktro-card">
+      <div class="ktro-badge">Required</div>
+      <h3>ZWO EFW 2" Filter Wheel</h3>
+      <p>Automated multi-band observation capability.</p>
+      <a class="ktro-btn" href="https://aliexpress.ru/item/1005009186375730.html" target="_blank">Support</a>
+    </div>
+
+    <div class="ktro-card">
+      <div class="ktro-badge">Required</div>
+      <h3>UBVRI Bessel Filters</h3>
+      <p>Standard photometric system.</p>
+      <a class="ktro-btn" href="https://www.optics-pro.com/pass-filters/baader-filters-ubvri-bessel-v-2-/p,73913" target="_blank">Support</a>
+    </div>
+
+    <div class="ktro-card">
+      <div class="ktro-badge">Required</div>
+      <h3>MPCC Mark III</h3>
+      <p>Field correction for photometric consistency.</p>
+      <a class="ktro-btn" href="https://www.optics-pro.com/flatteners-correctors-reducers/baader-mpcc-mark-iii-multi-purpose-newton-coma-correktor/p,33547" target="_blank">Support</a>
+    </div>
+
+    <div class="ktro-card">
+      <div class="ktro-badge">Required</div>
+      <h3>ZWO EAFN</h3>
+      <p>Temperature-compensated autofocus.</p>
+      <a class="ktro-btn" href="https://aliexpress.ru/item/1005006127499191.html" target="_blank">Support</a>
+    </div>
+
+    <div class="ktro-card">
+      <div class="ktro-badge">Required</div>
+      <h3>Mini PC</h3>
+      <p>Control system for automation.</p>
+      <a class="ktro-btn" href="https://aliexpress.ru/item/1005008523207827.html" target="_blank">Support</a>
+    </div>
+
+  </div>
+
+  <div class="ktro-support-box">
+    <strong>Recipient:</strong> Dmitry V. Klimov<br>
+    <strong>Region:</strong> Kaliningrad Region, Russia<br>
+    <strong>Shipping details:</strong> provided upon request<br>
+    <strong>Contact:</strong> d.klimov.psi@gmail.com
+  </div>
+
+</div>
 
 ---
 
@@ -227,35 +326,12 @@ All observational procedures are:
 - pipeline-reproducible  
 - archivable  
 
-The program is methodological and complementary to
-professional observatories.
-
-It aims to explore response diagnostics and stability structure
-under controlled small-scale conditions.
-
----
-
-## Conceptual Position
-
-The cosmological component of the Psi–Continuum framework
-analyzes expansion histories of the Universe.
-
-KTRO operates at the opposite physical scale.
-
-The connection is methodological rather than physical:
-
-Controlled small systems provide insight into
-measurement stability, response structure,
-and interpretation discipline.
-
 ---
 
 ## Status Summary
 
-**Current status:** Phase 2 — semi-automation development  
-**Near-term goal:** transition to repeatable monitoring mode  
-**Scientific priority:** long-term photometric stability and reproducibility  
-**Support priority:** completion of the hardware chain for reliable robotic operation
+**Current status:** Phase 2 — semi-automation  
+**Next step:** full robotic monitoring  
+**Priority:** hardware completion for stability  
 
-Structured long-term monitoring campaigns are planned
-for the Nemansky region sky.
+Structured long-term monitoring campaigns are planned.
