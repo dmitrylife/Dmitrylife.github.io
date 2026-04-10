@@ -10,7 +10,7 @@ permalink: /docs/experiments/ktro/
     alt="KTRO — Klimov Tarpen Robotic Observatory Logo" 
     style="max-width: 100%; height: auto; width: 320px;"
   >
-  <p style="margin: 0; color: #ccc; font-size: 1.2rem;">
+  <p style="margin: 0; color: #666; font-size: 1.1rem;">
     Klimov Tarpen Robotic Observatory
   </p>
 </div>
@@ -103,16 +103,15 @@ The objective is reproducibility rather than discovery.
 
 ### Optical System
 - Sky-Watcher BKP 150/750 (Newtonian, f/5)  
+
+### Planned Imaging Chain
 - Baader MPCC Mark III coma corrector  
-
-### Camera
 - ZWO ASI533MM Pro (monochrome CMOS)  
-
-### Filters
-- UBVRI Bessel set (V2)  
-
-### Focusing
-- ZWO EAF (with temperature sensor)  
+- ZWO EFW 2" filter wheel  
+- UBVRI Bessel filter set (V2)  
+- ZWO EAFN autofocus system  
+- Mini PC for observatory-side control  
+- Lunatico AAG CloudWatcher  
 
 The system is designed for mechanical stability,
 repeatable pointing, and progressive automation.
@@ -168,8 +167,6 @@ fully reliable operation.
 
 ---
 
----
-
 ## KTRO Build Status
 
 <style>
@@ -181,26 +178,27 @@ fully reliable operation.
 .ktro-summary-box,
 .ktro-ship-box {
   margin: 0 0 1.4rem;
-  padding: 1.1rem 1.25rem;
-  border-radius: 14px;
-  background: #f3f6fb;
-  border: 1px solid #d7e2f0;
+  padding: 1.15rem 1.3rem;
+  border-radius: 16px;
+  background: #f8fafc;
+  border: 1px solid #d9e2ec;
   color: #334155;
 }
 
 .ktro-build-note {
-  border-left: 4px solid #3b82f6;
+  border-left: 4px solid #2563eb;
+  background: #f3f7ff;
 }
 
 .ktro-progress-head {
-  margin: 1.5rem 0 1rem;
+  margin: 1.4rem 0 1rem;
 }
 
 .ktro-progress-title {
-  font-size: 1.02rem;
+  font-size: 1.08rem;
   font-weight: 700;
   margin-bottom: 0.45rem;
-  color: #1e293b;
+  color: #0f172a;
 }
 
 .ktro-progress-subtitle {
@@ -276,14 +274,14 @@ fully reliable operation.
   margin: 0 0 1rem;
   line-height: 1.6;
   color: #475569;
-  min-height: 78px;
+  min-height: 84px;
 }
 
 .ktro-card .ktro-btn {
   display: inline-block;
   padding: 0.72rem 1rem;
   border-radius: 11px;
-  background: #3b82f6;
+  background: #2563eb;
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
@@ -291,7 +289,7 @@ fully reliable operation.
 }
 
 .ktro-card .ktro-btn:hover {
-  background: #2563eb;
+  background: #1d4ed8;
   transform: translateY(-1px);
 }
 
@@ -505,12 +503,21 @@ All observational procedures are:
 - pipeline-reproducible  
 - archivable  
 
+The program is methodological and complementary to
+professional observatories.
+
+It aims to explore response diagnostics and stability structure
+under controlled small-scale conditions.
+
 ---
 
 ## Status Summary
 
-**Current status:** Phase 2 — semi-automation  
-**Next step:** full robotic monitoring  
-**Priority:** hardware completion for stability  
+**Current status:** Phase 2 — semi-automation development  
+**Hardware readiness:** 22% complete  
+**Completed modules:** telescope; mount and controller  
+**Priority:** camera, filters, automation, weather monitoring  
 
-Structured long-term monitoring campaigns are planned.
+Structured long-term monitoring campaigns are planned
+for the Nemansky region sky.
+
