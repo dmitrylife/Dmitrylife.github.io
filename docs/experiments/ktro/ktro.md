@@ -28,12 +28,30 @@ and methodological robustness.
 
 ---
 
+## Project Overview
+
+KTRO is being developed as a compact robotic observatory for
+controlled, repeatable astronomical measurements.
+
+The project is oriented toward:
+
+- differential photometry  
+- long-term instrumental stability  
+- reproducible observing routines  
+- cross-night consistency testing  
+- pipeline-level methodological validation  
+
+Rather than maximizing volume, KTRO is built to maximize
+control, traceability, and repeatability.
+
+---
+
 ## Scientific Function within the Psi–Continuum Program
 
 The Psi–Continuum framework operates at two scales:
 
-- Large-scale cosmological background diagnostics  
-- Small-scale controlled observational stability tests  
+- large-scale cosmological background diagnostics  
+- small-scale controlled observational stability tests  
 
 KTRO serves as a macroscopic experimental testbed for
 measurement-system behavior.
@@ -44,11 +62,11 @@ of measurements under known instrumental conditions.
 
 The objective is methodological:
 
-- Evaluate differential photometric stability  
-- Quantify long-term instrumental drift  
-- Test cross-epoch reproducibility  
-- Characterize noise structure under repeated measurements  
-- Validate pipeline-level robustness  
+- evaluate differential photometric stability  
+- quantify long-term instrumental drift  
+- test cross-epoch reproducibility  
+- characterize noise structure under repeated measurements  
+- validate pipeline-level robustness  
 
 The guiding principle is consistent across scales:
 
@@ -63,15 +81,15 @@ Primary targets:
 
 - RR Lyrae stars  
 - Classical Cepheids  
-- Stable reference stars for baseline control  
+- stable reference stars for baseline control  
 
 Observational protocol emphasizes:
 
-- Differential photometry  
-- Standard calibration frames (bias, dark, flat)  
-- Fixed and version-controlled reduction pipeline  
-- Archivable and reproducible output formats  
-- Cross-night consistency monitoring  
+- differential photometry  
+- standard calibration frames (bias, dark, flat)  
+- fixed and version-controlled reduction pipeline  
+- archivable and reproducible output formats  
+- cross-night consistency monitoring  
 
 The objective is reproducibility rather than discovery.
 
@@ -105,10 +123,10 @@ repeatable pointing, and progressive automation.
 
 KTRO employs a standardized calibration procedure:
 
-- Bias and dark frame libraries under temperature control  
-- Nightly flat-field acquisition  
-- Fixed reduction workflow  
-- Version-controlled processing scripts  
+- bias and dark frame libraries under temperature control  
+- nightly flat-field acquisition  
+- fixed reduction workflow  
+- version-controlled processing scripts  
 
 All reduction steps are documented and reproducible.
 
@@ -129,14 +147,85 @@ public data documentation where feasible.
 
 ---
 
+## Current Project Status
+
+KTRO is currently in **Phase 2 (semi-automation development)**.
+
+At this stage, the project has already achieved:
+
+- assembled and operational core mount/optical platform  
+- initial tracking and alignment validation  
+- defined reduction workflow  
+- instrumentation baseline for photometric work  
+
+The next milestone is transition from a semi-manual setup
+to a stable repeatable monitoring system suitable for
+long-term observational campaigns.
+
+This transition depends not only on software and methodology,
+but also on completing the hardware chain required for
+fully reliable operation.
+
+---
+
+## Current Needs
+
+To move KTRO toward full monitoring capability,
+several components are still needed or may require upgrade.
+
+Priority equipment needs include:
+
+- dedicated astronomical camera accessories  
+- filter wheel  
+- additional calibrated filters where needed  
+- automation and control accessories  
+- environmental / observatory support components  
+- future enclosure and protection hardware  
+
+These items are not peripheral.
+They directly affect repeatability, automation depth,
+and the scientific usability of the system.
+
+---
+
+## Support the Project
+
+KTRO is an independent research infrastructure effort.
+
+If you would like to support the project in a practical way,
+one of the most useful forms of support is to help with
+the acquisition of missing equipment.
+
+Support may take the form of:
+
+- purchasing required equipment  
+- sending equipment directly to the project  
+- donating compatible instruments or accessories  
+- helping complete the observatory hardware chain  
+
+This kind of support contributes directly to:
+
+- improved observational stability  
+- faster transition to robotic operation  
+- more reliable long-term monitoring  
+- better reproducibility of the resulting data products  
+
+If you are interested in supporting KTRO with equipment,
+please get in touch before purchase or shipment so that
+compatibility and current priority can be confirmed.
+
+**Contact:** `d.klimov.psi@gmail.com`
+
+---
+
 ## Reproducibility Policy
 
 All observational procedures are:
 
-- Documented  
-- Version-controlled  
-- Pipeline-reproducible  
-- Archivable  
+- documented  
+- version-controlled  
+- pipeline-reproducible  
+- archivable  
 
 The program is methodological and complementary to
 professional observatories.
@@ -161,10 +250,12 @@ and interpretation discipline.
 
 ---
 
-## Status
+## Status Summary
 
-KTRO is currently in Phase 2 (semi-automation development).
+**Current status:** Phase 2 — semi-automation development  
+**Near-term goal:** transition to repeatable monitoring mode  
+**Scientific priority:** long-term photometric stability and reproducibility  
+**Support priority:** completion of the hardware chain for reliable robotic operation
 
 Structured long-term monitoring campaigns are planned
 for the Nemansky region sky.
-
