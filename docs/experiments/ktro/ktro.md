@@ -168,347 +168,328 @@ fully reliable operation.
 
 ---
 
-## Project Progress
+---
+
+## KTRO Build Status
 
 <style>
-.ktro-progress-wrap {
-  margin: 2rem 0 2.2rem;
+.ktro-build-wrap {
+  margin: 2rem 0 2.5rem;
 }
 
-.ktro-progress-card,
-.ktro-funding-card {
-  margin-top: 1.2rem;
-  padding: 1.2rem 1.3rem;
-  border-radius: 16px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.10);
+.ktro-build-note,
+.ktro-summary-box,
+.ktro-ship-box {
+  margin: 0 0 1.4rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: 14px;
+  background: #f3f6fb;
+  border: 1px solid #d7e2f0;
+  color: #334155;
 }
 
-.ktro-progress-title,
-.ktro-funding-title {
-  margin: 0 0 0.6rem;
-  font-size: 1.05rem;
+.ktro-build-note {
+  border-left: 4px solid #3b82f6;
+}
+
+.ktro-progress-head {
+  margin: 1.5rem 0 1rem;
+}
+
+.ktro-progress-title {
+  font-size: 1.02rem;
   font-weight: 700;
+  margin-bottom: 0.45rem;
+  color: #1e293b;
 }
 
-.ktro-progress-text,
-.ktro-funding-text {
-  margin: 0 0 1rem;
+.ktro-progress-subtitle {
+  color: #475569;
   line-height: 1.6;
-  color: #d6d6d6;
 }
 
 .ktro-progress-bar {
   width: 100%;
-  height: 16px;
-  background: rgba(255,255,255,0.08);
+  height: 18px;
+  background: #dbe7f3;
   border-radius: 999px;
   overflow: hidden;
-  margin: 0.7rem 0 0.4rem;
+  margin-top: 0.9rem;
+  border: 1px solid #c8d7e8;
 }
 
 .ktro-progress-fill {
+  width: 22%;
   height: 100%;
-  width: 42%;
-  background: linear-gradient(90deg, #5aa9ff, #8ed0ff);
+  background: linear-gradient(90deg, #16a34a, #22c55e);
   border-radius: 999px;
 }
 
-.ktro-progress-label {
+.ktro-progress-meta {
+  margin-top: 0.5rem;
   font-size: 0.95rem;
+  color: #475569;
   font-weight: 600;
-  color: #9fd0ff;
 }
 
-.ktro-stage-grid,
-.ktro-funding-grid {
+.ktro-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  gap: 18px;
+  margin-top: 1.5rem;
+}
+
+.ktro-card {
+  background: #ffffff;
+  border: 1px solid #dbe4ee;
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.ktro-status {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 0.32rem 0.62rem;
+  border-radius: 999px;
+  margin-bottom: 0.9rem;
+}
+
+.ktro-status.done {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.ktro-status.progress {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.ktro-card h3 {
+  margin: 0 0 0.65rem;
+  font-size: 1.08rem;
+  color: #0f172a;
+}
+
+.ktro-card p {
+  margin: 0 0 1rem;
+  line-height: 1.6;
+  color: #475569;
+  min-height: 78px;
+}
+
+.ktro-card .ktro-btn {
+  display: inline-block;
+  padding: 0.72rem 1rem;
+  border-radius: 11px;
+  background: #3b82f6;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.18s ease;
+}
+
+.ktro-card .ktro-btn:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.ktro-card .ktro-btn.done-btn {
+  background: #16a34a;
+  cursor: default;
+  pointer-events: none;
+}
+
+.ktro-summary-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 14px;
   margin-top: 1rem;
 }
 
-.ktro-stage-item,
-.ktro-funding-item {
-  padding: 0.9rem 1rem;
-  border-radius: 12px;
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
+.ktro-summary-item {
+  padding: 0.95rem 1rem;
+  background: #ffffff;
+  border: 1px solid #dbe4ee;
+  border-radius: 14px;
 }
 
-.ktro-stage-item strong,
-.ktro-funding-item strong {
+.ktro-summary-item strong {
   display: block;
   margin-bottom: 0.35rem;
+  color: #0f172a;
 }
 
-.ktro-stage-item span,
-.ktro-funding-item span {
-  color: #d6d6d6;
-  line-height: 1.5;
+.ktro-summary-item span {
+  color: #475569;
+  line-height: 1.55;
 }
 
-.ktro-funding-meter {
-  display: flex;
-  width: 100%;
-  height: 16px;
-  border-radius: 999px;
-  overflow: hidden;
-  background: rgba(255,255,255,0.08);
-  margin: 0.8rem 0 0.5rem;
+.ktro-ship-box a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.ktro-funded {
-  width: 34%;
-  background: linear-gradient(90deg, #63d08a, #7ee2a1);
-}
-
-.ktro-needed {
-  width: 66%;
-  background: rgba(255,255,255,0.12);
-}
-
-.ktro-funding-legend {
-  display: flex;
-  gap: 18px;
-  flex-wrap: wrap;
-  font-size: 0.94rem;
-  color: #d6d6d6;
-}
-
-.ktro-dot {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 0.45rem;
-}
-
-.ktro-dot-funded {
-  background: #63d08a;
-}
-
-.ktro-dot-needed {
-  background: rgba(255,255,255,0.35);
+.ktro-ship-box a:hover {
+  text-decoration: underline;
 }
 </style>
 
-<div class="ktro-progress-wrap">
+<div class="ktro-build-wrap">
 
-  <div class="ktro-progress-card">
-    <div class="ktro-progress-title">Overall project readiness</div>
-    <p class="ktro-progress-text">
-      KTRO has completed the initial mechanical platform and entered the
-      semi-automation stage. The remaining work is concentrated in the
-      imaging, focusing, filtering, and observatory-side control chain.
-    </p>
+  <div class="ktro-build-note">
+    KTRO is being assembled as a compact robotic observatory for
+    reproducible photometric monitoring. The readiness level below
+    is estimated directly from the number of completed core hardware modules.
+  </div>
 
+  <div class="ktro-progress-head">
+    <div class="ktro-progress-title">Overall hardware readiness</div>
+    <div class="ktro-progress-subtitle">
+      2 of 9 key system modules are already deployed.
+      The remaining modules are currently in progress.
+    </div>
     <div class="ktro-progress-bar">
       <div class="ktro-progress-fill"></div>
     </div>
-    <div class="ktro-progress-label">42% complete</div>
-
-    <div class="ktro-stage-grid">
-      <div class="ktro-stage-item">
-        <strong>Mechanical base</strong>
-        <span>Operational: mount, optical tube, and controller platform are in place.</span>
-      </div>
-      <div class="ktro-stage-item">
-        <strong>Imaging chain</strong>
-        <span>Partially incomplete: camera, filter wheel, and standard photometric filters still required.</span>
-      </div>
-      <div class="ktro-stage-item">
-        <strong>Automation</strong>
-        <span>In progress: repeatable control and observatory-side automation are under development.</span>
-      </div>
-      <div class="ktro-stage-item">
-        <strong>Monitoring mode</strong>
-        <span>Planned: long-term stable observing campaigns begin after hardware chain completion.</span>
-      </div>
-    </div>
+    <div class="ktro-progress-meta">22% complete — based on completed hardware cards</div>
   </div>
 
-  <div class="ktro-funding-card">
-    <div class="ktro-funding-title">Funding status</div>
-    <p class="ktro-funding-text">
-      KTRO is an independently developed research infrastructure project.
-      The observatory base is already established, while the remaining
-      scientific hardware chain is still needed to reach full operational capability.
-    </p>
-
-    <div class="ktro-funding-meter">
-      <div class="ktro-funded"></div>
-      <div class="ktro-needed"></div>
-    </div>
-
-    <div class="ktro-funding-legend">
-      <span><span class="ktro-dot ktro-dot-funded"></span>Funded / already deployed — 34%</span>
-      <span><span class="ktro-dot ktro-dot-needed"></span>Needed for completion — 66%</span>
-    </div>
-
-    <div class="ktro-funding-grid">
-      <div class="ktro-funding-item">
-        <strong>Already deployed</strong>
-        <span>Sky-Watcher Explorer 150P, MaxVision EXOS-2, OnStep V4 Pro.</span>
-      </div>
-      <div class="ktro-funding-item">
-        <strong>Needed next</strong>
-        <span>ASI533MM Pro, EFW 2", UBVRI filters, EAFN, MPCC Mark III, Mini PC.</span>
-      </div>
-      <div class="ktro-funding-item">
-        <strong>Planned later</strong>
-        <span>Environmental monitoring modules and enclosure-related extensions.</span>
-      </div>
-    </div>
-  </div>
-
-</div>
-
----
-
-## Hardware Completion — Support This Project
-
-<style>
-.ktro-support-wrap {
-  margin: 2.5rem 0;
-}
-
-.ktro-support-note {
-  margin: 0 0 1.4rem;
-  padding: 1rem 1.2rem;
-  border-left: 4px solid #5aa9ff;
-  background: rgba(90, 169, 255, 0.08);
-  border-radius: 10px;
-}
-
-.ktro-support-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 18px;
-  margin: 1.5rem 0 2rem;
-}
-
-.ktro-card {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.10);
-  border-radius: 16px;
-  padding: 18px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
-
-.ktro-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.7rem;
-  font-size: 1.08rem;
-}
-
-.ktro-badge {
-  display: inline-block;
-  font-size: 0.76rem;
-  font-weight: 600;
-  padding: 0.28rem 0.55rem;
-  border-radius: 999px;
-  margin-bottom: 0.9rem;
-  background: rgba(90, 169, 255, 0.12);
-  color: #9fd0ff;
-}
-
-.ktro-card p {
-  margin: 0 0 1rem;
-  color: #d6d6d6;
-  line-height: 1.55;
-  font-size: 0.96rem;
-}
-
-.ktro-card .ktro-btn {
-  display: inline-block;
-  padding: 0.72rem 1rem;
-  border-radius: 10px;
-  background: #5aa9ff;
-  color: #0e1726;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.ktro-card .ktro-btn.secondary {
-  background: rgba(255,255,255,0.08);
-  color: #f2f2f2;
-  border: 1px solid rgba(255,255,255,0.12);
-}
-
-.ktro-support-box {
-  margin-top: 2rem;
-  padding: 1.2rem 1.3rem;
-  border-radius: 16px;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.10);
-}
-
-.ktro-list {
-  margin: 0.8rem 0 0;
-  padding-left: 1.2rem;
-}
-</style>
-
-<div class="ktro-support-wrap">
-
-  <div class="ktro-support-note">
-    KTRO is at a transition point from a semi-manual system
-    to a fully reproducible robotic observatory.
-    Completion of the hardware chain defines this transition.
-  </div>
-
-  <div class="ktro-support-grid">
+  <div class="ktro-card-grid">
 
     <div class="ktro-card">
-      <div class="ktro-badge">Required</div>
+      <div class="ktro-status done">Completed</div>
+      <h3>Sky-Watcher Explorer 150P</h3>
+      <p>
+        Primary optical tube already deployed as the telescope base
+        of the KTRO system.
+      </p>
+      <span class="ktro-btn done-btn">Completed</span>
+    </div>
+
+    <div class="ktro-card">
+      <div class="ktro-status done">Completed</div>
+      <h3>MaxVision EXOS-2 + OnStep V4 Pro</h3>
+      <p>
+        Equatorial mount and controller platform already operational
+        as the mechanical base of the observatory.
+      </p>
+      <span class="ktro-btn done-btn">Completed</span>
+    </div>
+
+    <div class="ktro-card">
+      <div class="ktro-status progress">In progress</div>
       <h3>ZWO ASI533MM Pro</h3>
-      <p>Primary monochrome camera for scientific photometry.</p>
-      <a class="ktro-btn" href="https://aliexpress.ru/item/1005009843622926.html" target="_blank">Support</a>
+      <p>
+        Primary monochrome scientific camera for differential photometry,
+        repeatable measurements, and long-term stability analysis.
+      </p>
+      <a class="ktro-btn" href="https://aliexpress.ru/item/1005009843622926.html?shpMethod=CAINIAO_STANDARD&sku_id=12000050338468416&spm=a2g2w.productlist.search_results.0.66832e19IwRkyH" target="_blank" rel="noopener">
+        Support this component
+      </a>
     </div>
 
     <div class="ktro-card">
-      <div class="ktro-badge">Required</div>
-      <h3>ZWO EFW 2" Filter Wheel</h3>
-      <p>Automated multi-band observation capability.</p>
-      <a class="ktro-btn" href="https://aliexpress.ru/item/1005009186375730.html" target="_blank">Support</a>
+      <div class="ktro-status progress">In progress</div>
+      <h3>ZWO EFW 2&quot; Filter Wheel</h3>
+      <p>
+        Automated filter switching for controlled multi-band observations
+        and a reproducible observing workflow.
+      </p>
+      <a class="ktro-btn" href="https://aliexpress.ru/item/1005009186375730.html?sku_id=12000048232579543" target="_blank" rel="noopener">
+        Support this component
+      </a>
     </div>
 
     <div class="ktro-card">
-      <div class="ktro-badge">Required</div>
-      <h3>UBVRI Bessel Filters</h3>
-      <p>Standard photometric system.</p>
-      <a class="ktro-btn" href="https://www.optics-pro.com/pass-filters/baader-filters-ubvri-bessel-v-2-/p,73913" target="_blank">Support</a>
+      <div class="ktro-status progress">In progress</div>
+      <h3>Baader UBVRI Bessel Filter Set (V2)</h3>
+      <p>
+        Standard photometric filter set required for scientifically
+        consistent and comparable measurements.
+      </p>
+      <a class="ktro-btn" href="https://www.optics-pro.com/pass-filters/baader-filters-ubvri-bessel-v-2-/p,73913" target="_blank" rel="noopener">
+        Support this component
+      </a>
     </div>
 
     <div class="ktro-card">
-      <div class="ktro-badge">Required</div>
-      <h3>MPCC Mark III</h3>
-      <p>Field correction for photometric consistency.</p>
-      <a class="ktro-btn" href="https://www.optics-pro.com/flatteners-correctors-reducers/baader-mpcc-mark-iii-multi-purpose-newton-coma-correktor/p,33547" target="_blank">Support</a>
+      <div class="ktro-status progress">In progress</div>
+      <h3>Baader MPCC Mark III</h3>
+      <p>
+        Coma correction module for improved field uniformity and
+        more stable photometric quality across the frame.
+      </p>
+      <a class="ktro-btn" href="https://www.optics-pro.com/flatteners-correctors-reducers/baader-mpcc-mark-iii-multi-purpose-newton-coma-correktor/p,33547" target="_blank" rel="noopener">
+        Support this component
+      </a>
     </div>
 
     <div class="ktro-card">
-      <div class="ktro-badge">Required</div>
-      <h3>ZWO EAFN</h3>
-      <p>Temperature-compensated autofocus.</p>
-      <a class="ktro-btn" href="https://aliexpress.ru/item/1005006127499191.html" target="_blank">Support</a>
+      <div class="ktro-status progress">In progress</div>
+      <h3>ZWO EAFN Auto Focuser</h3>
+      <p>
+        Temperature-aware autofocus module for focus stability
+        during repeatable long-duration observing sessions.
+      </p>
+      <a class="ktro-btn" href="https://aliexpress.ru/item/1005006127499191.html?sku_id=12000035878933081" target="_blank" rel="noopener">
+        Support this component
+      </a>
     </div>
 
     <div class="ktro-card">
-      <div class="ktro-badge">Required</div>
-      <h3>Mini PC</h3>
-      <p>Control system for automation.</p>
-      <a class="ktro-btn" href="https://aliexpress.ru/item/1005008523207827.html" target="_blank">Support</a>
+      <div class="ktro-status progress">In progress</div>
+      <h3>Mini PC SZBOX H9 N100</h3>
+      <p>
+        Dedicated observatory-side computer for INDI, KStars,
+        remote control, and automation pipeline operation.
+      </p>
+      <a class="ktro-btn" href="https://aliexpress.ru/item/1005008523207827.html?spm=a2g2w.favourites.0.0.8cb14aa66AnqpW&sku_id=12000045551014784" target="_blank" rel="noopener">
+        Support this component
+      </a>
+    </div>
+
+    <div class="ktro-card">
+      <div class="ktro-status progress">In progress</div>
+      <h3>Lunatico AAG CloudWatcher</h3>
+      <p>
+        Autonomous cloud and sky condition monitor for safer robotic
+        observing and weather-aware control decisions.
+      </p>
+      <a class="ktro-btn" href="https://shop.lunaticoastro.com/product/aag-cloudwatcher-cloud-detector/" target="_blank" rel="noopener">
+        Support this component
+      </a>
     </div>
 
   </div>
 
-  <div class="ktro-support-box">
+  <div class="ktro-summary-box">
+    <div class="ktro-summary-grid">
+      <div class="ktro-summary-item">
+        <strong>Completed</strong>
+        <span>2 modules: telescope and mount/controller platform.</span>
+      </div>
+      <div class="ktro-summary-item">
+        <strong>In progress</strong>
+        <span>7 modules remain to complete the operational hardware chain.</span>
+      </div>
+      <div class="ktro-summary-item">
+        <strong>Current readiness</strong>
+        <span>22% of key hardware modules completed.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ktro-ship-box">
+    <strong>Equipment support and shipment</strong><br><br>
     <strong>Recipient:</strong> Dmitry V. Klimov<br>
     <strong>Region:</strong> Kaliningrad Region, Russia<br>
     <strong>Shipping details:</strong> provided upon request<br>
-    <strong>Contact:</strong> d.klimov.psi@gmail.com
+    <strong>Contact:</strong> <a href="mailto:d.klimov.psi@gmail.com">d.klimov.psi@gmail.com</a><br><br>
+    Please contact before purchase or shipment to confirm compatibility,
+    current priority, and delivery details.
   </div>
 
 </div>
