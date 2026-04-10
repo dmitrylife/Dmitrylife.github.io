@@ -21,7 +21,8 @@ KTRO (Klimov Tarpen Robotic Observatory) is a small-scale,
 semi-automated observational facility developed within the
 Psi–Continuum Experimental Program.
 
-Its purpose is not survey-scale astronomy or object discovery.  
+Its purpose is not large-scale survey astronomy or object discovery,
+but controlled, repeatable measurements.  
 KTRO is designed as a controlled photometric stability platform,
 focused on long-term reproducibility, instrumental consistency,
 and methodological robustness.
@@ -46,6 +47,120 @@ control, traceability, and repeatability.
 
 ---
 
+## Why this matters
+
+<style>
+.ktro-why-wrap {
+  margin: 2rem 0 2.5rem;
+  padding: 1.4rem 1.5rem;
+  border-radius: 16px;
+  background: #f8fafc;
+  border: 1px solid #d9e2ec;
+}
+
+.ktro-why-lead {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.ktro-why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+.ktro-why-card {
+  background: #ffffff;
+  border: 1px solid #dbe4ee;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.ktro-why-card strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.ktro-why-card span {
+  color: #475569;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.ktro-why-bottom {
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+  color: #475569;
+  line-height: 1.7;
+}
+</style>
+
+<div class="ktro-why-wrap">
+
+  <div class="ktro-why-lead">
+    KTRO is not built to discover new objects — it is built to understand how measurements behave.
+  </div>
+
+  <div class="ktro-why-grid">
+
+    <div class="ktro-why-card">
+      <strong>Measurement stability</strong>
+      <span>
+        Modern astrophysics relies on high-precision datasets, yet
+        the stability of measurement systems themselves is rarely
+        tested under controlled, repeatable conditions.
+      </span>
+    </div>
+
+    <div class="ktro-why-card">
+      <strong>Reproducibility</strong>
+      <span>
+        KTRO provides a platform where the same observations can be
+        repeated over months and seasons, allowing direct evaluation
+        of reproducibility and systematic drift.
+      </span>
+    </div>
+
+    <div class="ktro-why-card">
+      <strong>Instrument response</strong>
+      <span>
+        By operating a fixed, version-controlled pipeline, KTRO
+        isolates how instruments and processing chains respond
+        over time under identical conditions.
+      </span>
+    </div>
+
+    <div class="ktro-why-card">
+      <strong>Methodological discipline</strong>
+      <span>
+        The project emphasizes controlled procedures over data volume,
+        focusing on how reliable conclusions emerge from stable
+        measurement systems.
+      </span>
+    </div>
+
+  </div>
+
+  <div class="ktro-why-bottom">
+    KTRO complements large-scale cosmological datasets by providing
+    a small-scale, controlled environment where measurement behavior
+    can be directly examined.
+    <br><br>
+    The goal is not more data — but better-understood data.
+  </div>
+
+</div>
+
+> KTRO is not about equipment.  
+> It is about creating a stable observational reference system.
+
+---
+
 ## Scientific Function within the Psi–Continuum Program
 
 The Psi–Continuum framework operates at two scales:
@@ -53,7 +168,7 @@ The Psi–Continuum framework operates at two scales:
 - large-scale cosmological background diagnostics  
 - small-scale controlled observational stability tests  
 
-KTRO serves as a macroscopic experimental testbed for
+KTRO serves as a controlled experimental testbed for
 measurement-system behavior.
 
 While cosmological analyses rely on public datasets
@@ -155,7 +270,7 @@ At this stage, the project has already achieved:
 - assembled and operational core mount/optical platform  
 - initial tracking and alignment validation  
 - defined reduction workflow  
-- instrumentation baseline for photometric work  
+- baseline observatory platform established for photometric work  
 
 The next milestone is transition from a semi-manual setup
 to a stable repeatable monitoring system suitable for
@@ -354,6 +469,9 @@ fully reliable operation.
     </div>
     <div class="ktro-progress-meta">22% complete — based on completed hardware cards</div>
   </div>
+  <div style="margin-top:6px; font-size:0.9rem; color:#64748b;">
+    Estimated full operational readiness after hardware completion: ~85–90%
+  </div>  
 
   <div class="ktro-card-grid">
 
@@ -439,7 +557,7 @@ fully reliable operation.
 
     <div class="ktro-card">
       <div class="ktro-status progress">In progress</div>
-      <h3>Mini PC SZBOX H9 N100</h3>
+      <h3>Mini PC (Intel N100 class)</h3>
       <p>
         Dedicated observatory-side computer for INDI, KStars,
         remote control, and automation pipeline operation.
@@ -453,8 +571,8 @@ fully reliable operation.
       <div class="ktro-status progress">In progress</div>
       <h3>Lunatico AAG CloudWatcher</h3>
       <p>
-        Autonomous cloud and sky condition monitor for safer robotic
-        observing and weather-aware control decisions.
+        Autonomous cloud and sky condition monitoring system 
+        required for safe unattended robotic operation.
       </p>
       <a class="ktro-btn" href="https://shop.lunaticoastro.com/product/aag-cloudwatcher-cloud-detector/" target="_blank" rel="noopener">
         Support this component
@@ -496,6 +614,8 @@ fully reliable operation.
 
 ## Reproducibility Policy
 
+All data products will be made publicly available where possible.
+
 All observational procedures are:
 
 - documented  
@@ -519,5 +639,5 @@ under controlled small-scale conditions.
 **Priority:** camera, filters, automation, weather monitoring  
 
 Structured long-term monitoring campaigns are planned
-for the Nemansky region sky.
+for the sky conditions of the Nemansky region.
 
