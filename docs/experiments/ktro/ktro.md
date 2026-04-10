@@ -168,6 +168,204 @@ fully reliable operation.
 
 ---
 
+## Project Progress
+
+<style>
+.ktro-progress-wrap {
+  margin: 2rem 0 2.2rem;
+}
+
+.ktro-progress-card,
+.ktro-funding-card {
+  margin-top: 1.2rem;
+  padding: 1.2rem 1.3rem;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.10);
+}
+
+.ktro-progress-title,
+.ktro-funding-title {
+  margin: 0 0 0.6rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.ktro-progress-text,
+.ktro-funding-text {
+  margin: 0 0 1rem;
+  line-height: 1.6;
+  color: #d6d6d6;
+}
+
+.ktro-progress-bar {
+  width: 100%;
+  height: 16px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 0.7rem 0 0.4rem;
+}
+
+.ktro-progress-fill {
+  height: 100%;
+  width: 42%;
+  background: linear-gradient(90deg, #5aa9ff, #8ed0ff);
+  border-radius: 999px;
+}
+
+.ktro-progress-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #9fd0ff;
+}
+
+.ktro-stage-grid,
+.ktro-funding-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 1rem;
+}
+
+.ktro-stage-item,
+.ktro-funding-item {
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.ktro-stage-item strong,
+.ktro-funding-item strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.ktro-stage-item span,
+.ktro-funding-item span {
+  color: #d6d6d6;
+  line-height: 1.5;
+}
+
+.ktro-funding-meter {
+  display: flex;
+  width: 100%;
+  height: 16px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.08);
+  margin: 0.8rem 0 0.5rem;
+}
+
+.ktro-funded {
+  width: 34%;
+  background: linear-gradient(90deg, #63d08a, #7ee2a1);
+}
+
+.ktro-needed {
+  width: 66%;
+  background: rgba(255,255,255,0.12);
+}
+
+.ktro-funding-legend {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-size: 0.94rem;
+  color: #d6d6d6;
+}
+
+.ktro-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.45rem;
+}
+
+.ktro-dot-funded {
+  background: #63d08a;
+}
+
+.ktro-dot-needed {
+  background: rgba(255,255,255,0.35);
+}
+</style>
+
+<div class="ktro-progress-wrap">
+
+  <div class="ktro-progress-card">
+    <div class="ktro-progress-title">Overall project readiness</div>
+    <p class="ktro-progress-text">
+      KTRO has completed the initial mechanical platform and entered the
+      semi-automation stage. The remaining work is concentrated in the
+      imaging, focusing, filtering, and observatory-side control chain.
+    </p>
+
+    <div class="ktro-progress-bar">
+      <div class="ktro-progress-fill"></div>
+    </div>
+    <div class="ktro-progress-label">42% complete</div>
+
+    <div class="ktro-stage-grid">
+      <div class="ktro-stage-item">
+        <strong>Mechanical base</strong>
+        <span>Operational: mount, optical tube, and controller platform are in place.</span>
+      </div>
+      <div class="ktro-stage-item">
+        <strong>Imaging chain</strong>
+        <span>Partially incomplete: camera, filter wheel, and standard photometric filters still required.</span>
+      </div>
+      <div class="ktro-stage-item">
+        <strong>Automation</strong>
+        <span>In progress: repeatable control and observatory-side automation are under development.</span>
+      </div>
+      <div class="ktro-stage-item">
+        <strong>Monitoring mode</strong>
+        <span>Planned: long-term stable observing campaigns begin after hardware chain completion.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ktro-funding-card">
+    <div class="ktro-funding-title">Funding status</div>
+    <p class="ktro-funding-text">
+      KTRO is an independently developed research infrastructure project.
+      The observatory base is already established, while the remaining
+      scientific hardware chain is still needed to reach full operational capability.
+    </p>
+
+    <div class="ktro-funding-meter">
+      <div class="ktro-funded"></div>
+      <div class="ktro-needed"></div>
+    </div>
+
+    <div class="ktro-funding-legend">
+      <span><span class="ktro-dot ktro-dot-funded"></span>Funded / already deployed — 34%</span>
+      <span><span class="ktro-dot ktro-dot-needed"></span>Needed for completion — 66%</span>
+    </div>
+
+    <div class="ktro-funding-grid">
+      <div class="ktro-funding-item">
+        <strong>Already deployed</strong>
+        <span>Sky-Watcher Explorer 150P, MaxVision EXOS-2, OnStep V4 Pro.</span>
+      </div>
+      <div class="ktro-funding-item">
+        <strong>Needed next</strong>
+        <span>ASI533MM Pro, EFW 2", UBVRI filters, EAFN, MPCC Mark III, Mini PC.</span>
+      </div>
+      <div class="ktro-funding-item">
+        <strong>Planned later</strong>
+        <span>Environmental monitoring modules and enclosure-related extensions.</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+---
+
 ## Hardware Completion — Support This Project
 
 <style>
