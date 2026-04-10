@@ -1,4 +1,4 @@
-## A simpler way to think about cosmic acceleration
+# A simpler way to think about cosmic acceleration
 
 We search for dark energy.
 
@@ -26,7 +26,7 @@ This is the starting point of the Psi-Continuum framework.
 
 ---
 
-# Conceptual Notes: A State-Space View of Cosmology
+## Conceptual Notes: A State-Space View of Cosmology
 
 These notes provide interpretational and conceptual context for the Psi-Continuum framework.
 
