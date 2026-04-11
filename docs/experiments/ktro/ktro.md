@@ -17,35 +17,40 @@ permalink: /docs/experiments/ktro/
 
 # KTRO — Klimov Tarpen Robotic Observatory
 
-<p class="project-muted">
-  "Tarpen" refers to the historical name associated with the Tushino area.
+<p class="project-muted u-mb-2">
+  “Tarpen” refers to the historical name associated with the Tushino area.
 </p>
 
 <div class="project-hero project-hero--split">
 
   <div class="project-hero__text">
-    <h1>KTRO — Klimov Tarpen Robotic Observatory</h1>
-    <p>
+    <div class="project-lead">
       A small-scale robotic observatory designed to study measurement stability,
       reproducibility, and instrument response in real observational conditions.
+    </div>
+
+    <p class="project-muted">
+      KTRO (Klimov Tarpen Robotic Observatory) is a semi-automated observational
+      facility developed within the Psi–Continuum Experimental Program.
+    </p>
+
+    <p class="project-muted">
+      Its purpose is not large-scale survey astronomy or object discovery,
+      but controlled, repeatable measurements.
     </p>
   </div>
 
   <div class="project-hero__image">
-    <img src="/docs/experiments/ktro/pic/ktro_setup.png" alt="KTRO setup">
+    <img src="/docs/experiments/ktro/pic/ktro_setup.png" alt="KTRO system configuration">
   </div>
 
 </div>
 
-KTRO (Klimov Tarpen Robotic Observatory) is a small-scale,
-semi-automated observational facility developed within the
-Psi–Continuum Experimental Program.
-
-Its purpose is not large-scale survey astronomy or object discovery,
-but controlled, repeatable measurements.  
-KTRO is designed as a controlled photometric stability platform,
-focused on long-term reproducibility, instrumental consistency,
-and methodological robustness.
+<p>
+  KTRO is designed as a controlled photometric stability platform,
+  focused on long-term reproducibility, instrumental consistency,
+  and methodological robustness.
+</p>
 
 ---
 
