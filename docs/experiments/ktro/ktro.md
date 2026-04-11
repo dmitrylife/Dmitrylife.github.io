@@ -21,6 +21,22 @@ permalink: /docs/experiments/ktro/
   "Tarpen" refers to the historical name associated with the Tushino area.
 </p>
 
+<div class="project-hero project-hero--split">
+
+  <div class="project-hero__text">
+    <h1>KTRO — Klimov Tarpen Robotic Observatory</h1>
+    <p>
+      A small-scale robotic observatory designed to study measurement stability,
+      reproducibility, and instrument response in real observational conditions.
+    </p>
+  </div>
+
+  <div class="project-hero__image">
+    <img src="/docs/experiments/ktro/pic/ktro_setup.png" alt="KTRO setup">
+  </div>
+
+</div>
+
 KTRO (Klimov Tarpen Robotic Observatory) is a small-scale,
 semi-automated observational facility developed within the
 Psi–Continuum Experimental Program.
