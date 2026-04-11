@@ -25,18 +25,18 @@ permalink: /docs/experiments/ktro/
 
   <div class="project-hero__text">
     <div class="project-lead">
-      A small-scale robotic observatory designed to study measurement stability,
-      reproducibility, and instrument response in real observational conditions.
+      A compact robotic observatory designed to study measurement stability,
+      reproducibility, and instrument response under real observational conditions.
     </div>
 
     <p class="project-muted">
-      KTRO (Klimov Tarpen Robotic Observatory) is a semi-automated observational
-      facility developed within the Psi–Continuum Experimental Program.
+      KTRO is a semi-automated observational facility developed within the
+      Psi–Continuum Experimental Program.
     </p>
 
     <p class="project-muted">
       Its purpose is not large-scale survey astronomy or object discovery,
-      but controlled, repeatable measurements.
+      but controlled and repeatable measurements.
     </p>
   </div>
 
@@ -47,10 +47,13 @@ permalink: /docs/experiments/ktro/
 </div>
 
 <p>
-  KTRO is designed as a controlled photometric stability platform,
+  KTRO is conceived as a controlled photometric stability platform,
   focused on long-term reproducibility, instrumental consistency,
   and methodological robustness.
 </p>
+
+> KTRO is not about equipment.  
+> It is about creating a stable observational reference system.
 
 ---
 
