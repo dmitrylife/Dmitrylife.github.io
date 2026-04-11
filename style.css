@@ -1,4 +1,5 @@
 /* Основные настройки */
+/* Основные настройки */
 html, body {
     margin: 0;
     padding: 0;
@@ -189,7 +190,6 @@ nav {
 
     nav a {
         display: block;
-        width: 100%;
         max-width: 260px;
         font-size: 15px;
         line-height: 1.3;
