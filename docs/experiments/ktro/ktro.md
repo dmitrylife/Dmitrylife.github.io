@@ -4,18 +4,22 @@ title: KTRO — Klimov Tarpen Robotic Observatory
 permalink: /docs/experiments/ktro/
 ---
 
-<div style="text-align: center; margin: 2rem 0 3rem;">
+<div class="project-hero project-hero--center">
   <img 
     src="https://psi-continuum.org/docs/experiments/ktro/pic/ktro-logo.jpg" 
     alt="KTRO — Klimov Tarpen Robotic Observatory Logo" 
-    style="max-width: 100%; height: auto; width: 320px;"
+    class="project-hero__logo"
   >
-  <p style="margin: 0; color: #666; font-size: 1.1rem;">
+  <p class="project-caption">
     Klimov Tarpen Robotic Observatory
   </p>
 </div>
 
 # KTRO — Klimov Tarpen Robotic Observatory
+
+<p class="project-muted">
+  “Tarpen” refers to the historical name associated with the Tushino area.
+</p>
 
 KTRO (Klimov Tarpen Robotic Observatory) is a small-scale,
 semi-automated observational facility developed within the
@@ -49,111 +53,58 @@ control, traceability, and repeatability.
 
 ## Why this matters
 
-<style>
-.ktro-why-wrap {
-  margin: 2rem 0 2.5rem;
-  padding: 1.4rem 1.5rem;
-  border-radius: 16px;
-  background: #f8fafc;
-  border: 1px solid #d9e2ec;
-}
-
-.ktro-why-lead {
-  font-size: 1.05rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  color: #0f172a;
-}
-
-.ktro-why-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 16px;
-  margin-top: 1rem;
-}
-
-.ktro-why-card {
-  background: #ffffff;
-  border: 1px solid #dbe4ee;
-  border-radius: 14px;
-  padding: 16px;
-}
-
-.ktro-why-card strong {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #0f172a;
-}
-
-.ktro-why-card span {
-  color: #475569;
-  line-height: 1.6;
-  font-size: 0.95rem;
-}
-
-.ktro-why-bottom {
-  margin-top: 1.2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #e2e8f0;
-  color: #475569;
-  line-height: 1.7;
-}
-</style>
-
-<div class="ktro-why-wrap">
-
-  <div class="ktro-why-lead">
+<div class="project-panel">
+  <div class="project-lead">
     KTRO is not built to discover new objects — it is built to understand how measurements behave.
   </div>
 
-  <div class="ktro-why-grid">
+  <div class="project-grid project-grid--auto">
 
-    <div class="ktro-why-card">
-      <strong>Measurement stability</strong>
-      <span>
+    <div class="project-card">
+      <div class="project-card__title">Measurement stability</div>
+      <div class="project-card__text">
         Modern astrophysics relies on high-precision datasets, yet
         the stability of measurement systems themselves is rarely
         tested under controlled, repeatable conditions.
-      </span>
+      </div>
     </div>
 
-    <div class="ktro-why-card">
-      <strong>Reproducibility</strong>
-      <span>
+    <div class="project-card">
+      <div class="project-card__title">Reproducibility</div>
+      <div class="project-card__text">
         KTRO provides a platform where the same observations can be
         repeated over months and seasons, allowing direct evaluation
         of reproducibility and systematic drift.
-      </span>
+      </div>
     </div>
 
-    <div class="ktro-why-card">
-      <strong>Instrument response</strong>
-      <span>
+    <div class="project-card">
+      <div class="project-card__title">Instrument response</div>
+      <div class="project-card__text">
         By operating a fixed, version-controlled pipeline, KTRO
         isolates how instruments and processing chains respond
         over time under identical conditions.
-      </span>
+      </div>
     </div>
 
-    <div class="ktro-why-card">
-      <strong>Methodological discipline</strong>
-      <span>
+    <div class="project-card">
+      <div class="project-card__title">Methodological discipline</div>
+      <div class="project-card__text">
         The project emphasizes controlled procedures over data volume,
         focusing on how reliable conclusions emerge from stable
         measurement systems.
-      </span>
+      </div>
     </div>
 
   </div>
 
-  <div class="ktro-why-bottom">
+  <div class="project-panel__footer">
     KTRO complements large-scale cosmological datasets by providing
     a small-scale, controlled environment where measurement behavior
     can be directly examined.
     <br><br>
     The goal is not more data — but better-understood data.
   </div>
-
 </div>
 
 > KTRO is not about equipment.  
@@ -213,11 +164,11 @@ The objective is reproducibility rather than discovery.
 ## Instrumentation
 
 ### Mount
-- MaxVision EXOS-2 (equatorial mount) ✔  
-- OnStep V4 Pro controller ✔  
+- MaxVision EXOS-2 (equatorial mount)✔  
+- OnStep V4 Pro controller✔  
 
 ### Optical System
-- Sky-Watcher BKP 150/750 (Newtonian, f/5) ✔  
+- Sky-Watcher BKP 150/750 (Newtonian, f/5)✔  
 
 ### Planned Imaging Chain
 - Baader MPCC Mark III coma corrector  
@@ -230,19 +181,6 @@ The objective is reproducibility rather than discovery.
 
 The system is designed for mechanical stability,
 repeatable pointing, and progressive automation.
-
----
-
-## Calibration Strategy
-
-KTRO employs a standardized calibration procedure:
-
-- bias and dark frame libraries under temperature control  
-- nightly flat-field acquisition  
-- fixed reduction workflow  
-- version-controlled processing scripts  
-
-All reduction steps are documented and reproducible.
 
 ---
 
@@ -284,321 +222,157 @@ fully reliable operation.
 
 ## KTRO Build Status
 
-<style>
-.ktro-build-wrap {
-  margin: 2rem 0 2.5rem;
-}
+<div class="project-panel project-panel--accent">
 
-.ktro-build-note,
-.ktro-summary-box,
-.ktro-ship-box {
-  margin: 0 0 1.4rem;
-  padding: 1.15rem 1.3rem;
-  border-radius: 16px;
-  background: #f8fafc;
-  border: 1px solid #d9e2ec;
-  color: #334155;
-}
-
-.ktro-build-note {
-  border-left: 4px solid #2563eb;
-  background: #f3f7ff;
-}
-
-.ktro-progress-head {
-  margin: 1.4rem 0 1rem;
-}
-
-.ktro-progress-title {
-  font-size: 1.08rem;
-  font-weight: 700;
-  margin-bottom: 0.45rem;
-  color: #0f172a;
-}
-
-.ktro-progress-subtitle {
-  color: #475569;
-  line-height: 1.6;
-}
-
-.ktro-progress-bar {
-  width: 100%;
-  height: 18px;
-  background: #dbe7f3;
-  border-radius: 999px;
-  overflow: hidden;
-  margin-top: 0.9rem;
-  border: 1px solid #c8d7e8;
-}
-
-.ktro-progress-fill {
-  width: 22%;
-  height: 100%;
-  background: linear-gradient(90deg, #16a34a, #22c55e);
-  border-radius: 999px;
-}
-
-.ktro-progress-meta {
-  margin-top: 0.5rem;
-  font-size: 0.95rem;
-  color: #475569;
-  font-weight: 600;
-}
-
-.ktro-card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
-  gap: 18px;
-  margin-top: 1.5rem;
-}
-
-.ktro-card {
-  background: #ffffff;
-  border: 1px solid #dbe4ee;
-  border-radius: 18px;
-  padding: 18px;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
-}
-
-.ktro-status {
-  display: inline-block;
-  font-size: 0.76rem;
-  font-weight: 700;
-  padding: 0.32rem 0.62rem;
-  border-radius: 999px;
-  margin-bottom: 0.9rem;
-}
-
-.ktro-status.done {
-  background: #dcfce7;
-  color: #166534;
-}
-
-.ktro-status.progress {
-  background: #dbeafe;
-  color: #1d4ed8;
-}
-
-.ktro-card h3 {
-  margin: 0 0 0.65rem;
-  font-size: 1.08rem;
-  color: #0f172a;
-}
-
-.ktro-card p {
-  margin: 0 0 1rem;
-  line-height: 1.6;
-  color: #475569;
-  min-height: 84px;
-}
-
-.ktro-card .ktro-btn {
-  display: inline-block;
-  padding: 0.72rem 1rem;
-  border-radius: 11px;
-  background: #2563eb;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 700;
-  transition: 0.18s ease;
-}
-
-.ktro-card .ktro-btn:hover {
-  background: #1d4ed8;
-  transform: translateY(-1px);
-}
-
-.ktro-card .ktro-btn.done-btn {
-  background: #16a34a;
-  cursor: default;
-  pointer-events: none;
-}
-
-.ktro-summary-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 14px;
-  margin-top: 1rem;
-}
-
-.ktro-summary-item {
-  padding: 0.95rem 1rem;
-  background: #ffffff;
-  border: 1px solid #dbe4ee;
-  border-radius: 14px;
-}
-
-.ktro-summary-item strong {
-  display: block;
-  margin-bottom: 0.35rem;
-  color: #0f172a;
-}
-
-.ktro-summary-item span {
-  color: #475569;
-  line-height: 1.55;
-}
-
-.ktro-ship-box a {
-  color: #2563eb;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.ktro-ship-box a:hover {
-  text-decoration: underline;
-}
-</style>
-
-<div class="ktro-build-wrap">
-
-  <div class="ktro-build-note">
+  <div class="project-note project-note--info">
     KTRO is being assembled as a compact robotic observatory for
     reproducible photometric monitoring. The readiness level below
     is estimated directly from the number of completed core hardware modules.
   </div>
 
-  <div class="ktro-progress-head">
-    <div class="ktro-progress-title">Overall hardware readiness</div>
-    <div class="ktro-progress-subtitle">
+  <div class="project-progress">
+    <div class="project-progress__title">Overall hardware readiness</div>
+    <div class="project-progress__subtitle">
       2 of 9 key system modules are already deployed.
       The remaining modules are currently in progress.
     </div>
-    <div class="ktro-progress-bar">
-      <div class="ktro-progress-fill"></div>
+    <div class="project-progress__bar">
+      <div class="project-progress__fill" style="width:22%;"></div>
     </div>
-    <div class="ktro-progress-meta">22% complete — based on completed hardware cards</div>
+    <div class="project-progress__meta">22% complete — based on completed hardware cards</div>
+    <div class="project-muted u-mt-1">
+      Estimated full operational readiness after hardware completion: ~85–90%
+    </div>
   </div>
-  <div style="margin-top:6px; font-size:0.9rem; color:#64748b;">
-    Estimated full operational readiness after hardware completion: ~85–90%
-  </div>  
 
-  <div class="ktro-card-grid">
+  <div class="project-grid project-grid--auto">
 
-    <div class="ktro-card">
-      <div class="ktro-status done">Completed</div>
-      <h3>Sky-Watcher Explorer 150P</h3>
-      <p>
+    <div class="project-card">
+      <div class="project-badge project-badge--done">Completed</div>
+      <div class="project-card__title">Sky-Watcher Explorer 150P</div>
+      <div class="project-card__text">
         Primary optical tube already deployed as the telescope base
         of the KTRO system.
-      </p>
-      <span class="ktro-btn done-btn">Completed</span>
+      </div>
+      <div class="project-card__actions">
+        <span class="project-btn project-btn--done">Completed</span>
+      </div>
     </div>
 
-    <div class="ktro-card">
-      <div class="ktro-status done">Completed</div>
-      <h3>MaxVision EXOS-2 + OnStep V4 Pro</h3>
-      <p>
+    <div class="project-card">
+      <div class="project-badge project-badge--done">Completed</div>
+      <div class="project-card__title">MaxVision EXOS-2 + OnStep V4 Pro</div>
+      <div class="project-card__text">
         Equatorial mount and controller platform already operational
         as the mechanical base of the observatory.
-      </p>
-      <span class="ktro-btn done-btn">Completed</span>
+      </div>
+      <div class="project-card__actions">
+        <span class="project-btn project-btn--done">Completed</span>
+      </div>
     </div>
 
-    <div class="ktro-card">
-      <div class="ktro-status progress">In progress</div>
-      <h3>ZWO ASI533MM Pro</h3>
-      <p>
+    <div class="project-card">
+      <div class="project-badge project-badge--progress">In progress</div>
+      <div class="project-card__title">ZWO ASI533MM Pro</div>
+      <div class="project-card__text">
         Primary monochrome scientific camera for differential photometry,
         repeatable measurements, and long-term stability analysis.
-      </p>
-      <a class="ktro-btn" href="https://aliexpress.ru/item/1005009843622926.html?shpMethod=CAINIAO_STANDARD&sku_id=12000050338468416&spm=a2g2w.productlist.search_results.0.66832e19IwRkyH" target="_blank" rel="noopener">
-        Support this component
-      </a>
+      </div>
+      <div class="project-card__actions">
+        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005009843622926.html?shpMethod=CAINIAO_STANDARD&sku_id=12000050338468416&spm=a2g2w.productlist.search_results.0.66832e19IwRkyH" target="_blank" rel="noopener">Support this component</a>
+      </div>
     </div>
 
-    <div class="ktro-card">
-      <div class="ktro-status progress">In progress</div>
-      <h3>ZWO EFW 2&quot; Filter Wheel</h3>
-      <p>
+    <div class="project-card">
+      <div class="project-badge project-badge--progress">In progress</div>
+      <div class="project-card__title">ZWO EFW 2" Filter Wheel</div>
+      <div class="project-card__text">
         Automated filter switching for controlled multi-band observations
         and a reproducible observing workflow.
-      </p>
-      <a class="ktro-btn" href="https://aliexpress.ru/item/1005009186375730.html?sku_id=12000048232579543" target="_blank" rel="noopener">
-        Support this component
-      </a>
+      </div>
+      <div class="project-card__actions">
+        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005009186375730.html?sku_id=12000048232579543" target="_blank" rel="noopener">Support this component</a>
+      </div>
     </div>
 
-    <div class="ktro-card">
-      <div class="ktro-status progress">In progress</div>
-      <h3>Baader UBVRI Bessel Filter Set (V2)</h3>
-      <p>
+    <div class="project-card">
+      <div class="project-badge project-badge--progress">In progress</div>
+      <div class="project-card__title">Baader UBVRI Bessel Filter Set (V2)</div>
+      <div class="project-card__text">
         Standard photometric filter set required for scientifically
         consistent and comparable measurements.
-      </p>
-      <a class="ktro-btn" href="https://www.optics-pro.com/pass-filters/baader-filters-ubvri-bessel-v-2-/p,73913" target="_blank" rel="noopener">
-        Support this component
-      </a>
+      </div>
+      <div class="project-card__actions">
+        <a class="project-btn project-btn--primary" href="https://www.optics-pro.com/pass-filters/baader-filters-ubvri-bessel-v-2-/p,73913" target="_blank" rel="noopener">Support this component</a>
+      </div>
     </div>
 
-    <div class="ktro-card">
-      <div class="ktro-status progress">In progress</div>
-      <h3>Baader MPCC Mark III</h3>
-      <p>
+    <div class="project-card">
+      <div class="project-badge project-badge--progress">In progress</div>
+      <div class="project-card__title">Baader MPCC Mark III</div>
+      <div class="project-card__text">
         Coma correction module for improved field uniformity and
         more stable photometric quality across the frame.
-      </p>
-      <a class="ktro-btn" href="https://www.optics-pro.com/flatteners-correctors-reducers/baader-mpcc-mark-iii-multi-purpose-newton-coma-correktor/p,33547" target="_blank" rel="noopener">
-        Support this component
-      </a>
+      </div>
+      <div class="project-card__actions">
+        <a class="project-btn project-btn--primary" href="https://www.optics-pro.com/flatteners-correctors-reducers/baader-mpcc-mark-iii-multi-purpose-newton-coma-correktor/p,33547" target="_blank" rel="noopener">Support this component</a>
+      </div>
     </div>
 
-    <div class="ktro-card">
-      <div class="ktro-status progress">In progress</div>
-      <h3>ZWO EAFN Auto Focuser</h3>
-      <p>
+    <div class="project-card">
+      <div class="project-badge project-badge--progress">In progress</div>
+      <div class="project-card__title">ZWO EAFN Auto Focuser</div>
+      <div class="project-card__text">
         Temperature-aware autofocus module for focus stability
         during repeatable long-duration observing sessions.
-      </p>
-      <a class="ktro-btn" href="https://aliexpress.ru/item/1005006127499191.html?sku_id=12000035878933081" target="_blank" rel="noopener">
-        Support this component
-      </a>
+      </div>
+      <div class="project-card__actions">
+        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005006127499191.html?sku_id=12000035878933081" target="_blank" rel="noopener">Support this component</a>
+      </div>
     </div>
 
-    <div class="ktro-card">
-      <div class="ktro-status progress">In progress</div>
-      <h3>Mini PC (Intel N100 class)</h3>
-      <p>
+    <div class="project-card">
+      <div class="project-badge project-badge--progress">In progress</div>
+      <div class="project-card__title">Mini PC (Intel N100 class)</div>
+      <div class="project-card__text">
         Dedicated observatory-side computer for INDI, KStars,
         remote control, and automation pipeline operation.
-      </p>
-      <a class="ktro-btn" href="https://aliexpress.ru/item/1005008523207827.html?spm=a2g2w.favourites.0.0.8cb14aa66AnqpW&sku_id=12000045551014784" target="_blank" rel="noopener">
-        Support this component
-      </a>
+      </div>
+      <div class="project-card__actions">
+        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005008523207827.html?spm=a2g2w.favourites.0.0.8cb14aa66AnqpW&sku_id=12000045551014784" target="_blank" rel="noopener">Support this component</a>
+      </div>
     </div>
 
-    <div class="ktro-card">
-      <div class="ktro-status progress">In progress</div>
-      <h3>Lunatico AAG CloudWatcher</h3>
-      <p>
-        Autonomous cloud and sky condition monitoring system 
+    <div class="project-card">
+      <div class="project-badge project-badge--progress">In progress</div>
+      <div class="project-card__title">Lunatico AAG CloudWatcher</div>
+      <div class="project-card__text">
+        Autonomous cloud and sky condition monitoring system
         required for safe unattended robotic operation.
-      </p>
-      <a class="ktro-btn" href="https://shop.lunaticoastro.com/product/aag-cloudwatcher-cloud-detector/" target="_blank" rel="noopener">
-        Support this component
-      </a>
+      </div>
+      <div class="project-card__actions">
+        <a class="project-btn project-btn--primary" href="https://shop.lunaticoastro.com/product/aag-cloudwatcher-cloud-detector/" target="_blank" rel="noopener">Support this component</a>
+      </div>
     </div>
 
   </div>
 
-  <div class="ktro-summary-box">
-    <div class="ktro-summary-grid">
-      <div class="ktro-summary-item">
-        <strong>Completed</strong>
-        <span>2 modules: telescope and mount/controller platform.</span>
-      </div>
-      <div class="ktro-summary-item">
-        <strong>In progress</strong>
-        <span>7 modules remain to complete the operational hardware chain.</span>
-      </div>
-      <div class="ktro-summary-item">
-        <strong>Current readiness</strong>
-        <span>22% of key hardware modules completed.</span>
-      </div>
+  <div class="project-summary">
+    <div class="project-summary__item">
+      <div class="project-summary__label">Completed</div>
+      <div class="project-summary__text">2 modules: telescope and mount/controller platform.</div>
+    </div>
+    <div class="project-summary__item">
+      <div class="project-summary__label">In progress</div>
+      <div class="project-summary__text">7 modules remain to complete the operational hardware chain.</div>
+    </div>
+    <div class="project-summary__item">
+      <div class="project-summary__label">Current readiness</div>
+      <div class="project-summary__text">22% of key hardware modules completed.</div>
     </div>
   </div>
 
-  <div class="ktro-ship-box">
+  <div class="project-support-box">
     <strong>Equipment support and shipment</strong><br><br>
     <strong>Recipient:</strong> Dmitry V. Klimov<br>
     <strong>Region:</strong> Kaliningrad Region, Russia<br>
@@ -608,6 +382,164 @@ fully reliable operation.
     current priority, and delivery details.
   </div>
 
+</div>
+
+---
+
+## What support enables
+
+<div class="project-panel">
+  <div class="project-lead">
+    Completing the KTRO hardware chain enables a transition
+    from experimental setup to a stable observational system.
+  </div>
+
+  <div class="project-grid project-grid--auto">
+
+    <div class="project-card">
+      <div class="project-card__title">True photometric measurements</div>
+      <div class="project-card__text">
+        A cooled monochrome camera with calibrated filters enables
+        scientifically consistent differential photometry,
+        instead of qualitative observations.
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Reproducible observing sessions</div>
+      <div class="project-card__text">
+        Automated filter switching, autofocus, and stable control
+        allow identical observing conditions to be repeated
+        across nights and seasons.
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Fully automated operation</div>
+      <div class="project-card__text">
+        Integration of Mini PC, OnStep control, and environmental
+        monitoring enables unattended robotic observing cycles
+        with remote supervision.
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Environmental awareness</div>
+      <div class="project-card__text">
+        CloudWatcher provides real-time sky condition assessment,
+        allowing safe operation and consistent data quality control.
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Stable data pipeline</div>
+      <div class="project-card__text">
+        A complete acquisition → calibration → reduction chain
+        ensures traceable and reproducible data products.
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Public observational dataset</div>
+      <div class="project-card__text">
+        The completed system enables structured long-term datasets
+        that can be published and used for independent analysis.
+      </div>
+    </div>
+
+  </div>
+
+  <div class="project-panel__footer">
+    Support does not only add hardware — it transforms KTRO into
+    a controlled observational system capable of producing
+    scientifically meaningful and reproducible data.
+  </div>
+</div>
+
+---
+
+## System Architecture
+
+<div class="project-panel">
+  <div class="project-lead">
+    KTRO is designed as a complete observational chain:
+    from optical acquisition and instrument control
+    to calibrated data reduction and public publication.
+  </div>
+
+  <div class="project-grid project-grid--auto">
+
+    <div class="project-card">
+      <div class="project-card__title">Optical system</div>
+      <div class="project-card__text">
+        Sky-Watcher 150/750 telescope → Baader MPCC Mark III →
+        ASI533MM Pro camera → 2" filter wheel → autofocus module
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Mount and control</div>
+      <div class="project-card__text">
+        MaxVision EXOS-2 mount → OnStep V4 Pro controller →
+        pointing, tracking, and repeatable motion control
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Observatory-side computing</div>
+      <div class="project-card__text">
+        Mini PC → INDI / KStars / automation scripts →
+        session control, device coordination, and monitoring
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Environment and connectivity</div>
+      <div class="project-card__text">
+        Lunatico AAG CloudWatcher → sky-state monitoring →
+        4G communication link for remote supervision and control
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Pipeline</div>
+      <div class="project-card__text">
+        Acquisition → calibration frames → reduction pipeline →
+        quality checks → reproducible processed outputs
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card__title">Data publication</div>
+      <div class="project-card__text">
+        Final data products → documentation → GitHub repository →
+        public archival availability where feasible
+      </div>
+    </div>
+
+  </div>
+
+  <div class="project-flow">
+    <div class="project-flow__title">System flow</div>
+    <div class="project-flow__line">
+      <span class="project-node project-node--hardware">Telescope + Camera Chain</span>
+      <span class="project-arrow">→</span>
+      <span class="project-node project-node--hardware">Mount + OnStep</span>
+      <span class="project-arrow">→</span>
+      <span class="project-node project-node--software">Mini PC</span>
+      <span class="project-arrow">→</span>
+      <span class="project-node project-node--software">CloudWatcher + 4G Link</span>
+      <span class="project-arrow">→</span>
+      <span class="project-node project-node--software">Reduction Pipeline</span>
+      <span class="project-arrow">→</span>
+      <span class="project-node project-node--data">GitHub / Public Data</span>
+    </div>
+
+    <div class="project-arch-note">
+      The architecture is intentionally compact: each subsystem serves
+      reproducibility, remote operability, and traceable data flow.
+    </div>
+  </div>
 </div>
 
 ---
