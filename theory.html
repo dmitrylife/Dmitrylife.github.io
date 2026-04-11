@@ -41,6 +41,16 @@
         }
 
     </style>
+    
+    <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>    
 </head>
 
 <body>
@@ -71,9 +81,9 @@
     deformation function defined as:
 </p>
 
-<p style="text-align:center; font-weight:600;">
-    Ψ(z) ≡ H(z) / H<sub>ΛCDM</sub>(z) − 1
-</p>
+<div class="formula-box">
+    $$\Psi(z) \equiv \frac{H(z)}{H_{\Lambda \mathrm{CDM}}(z)} - 1$$
+</div>
 
 <p>
     where H(z) is the observationally inferred expansion rate and
@@ -84,9 +94,9 @@
     In this representation, ΛCDM corresponds to the limiting case:
 </p>
 
-<p style="text-align:center; font-weight:600;">
-    Ψ(z) = 0
-</p>
+<div class="formula-box">
+    $$\Psi(z) = 0$$
+</div>
 
 <p>
     Any deviation Ψ(z) ≠ 0 directly quantifies relative background deformation

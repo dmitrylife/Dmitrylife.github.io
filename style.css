@@ -195,3 +195,14 @@ nav {
         padding: 6px 0;
     }
 }
+
+/* ===== THEORY ===== */
+.formula-box {
+    text-align: center;
+    background: #f8fbff;
+    border: 1px solid #d8e1ff;
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 18px 0;
+    overflow-x: auto;
+}
