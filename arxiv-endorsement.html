@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>arXiv Endorsement — Psi-Continuum</title>
+    <meta name="theme-color" content="#ffffff">
+
+    <title>arXiv Submission — Psi-Continuum</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -12,16 +21,15 @@
 <div class="container">
 
 <header>
-    <h1>arXiv Endorsement</h1>
-    <p class="titlesmall">
-        Psi-Continuum Framework · Dmitry V. Klimov
-    </p>
+    <img src="logo.svg" class="logo" alt="Psi logo">
+    <h1>arXiv Submission</h1>
+    <p>Psi-Continuum Framework · Publication process</p>
 </header>
 
 <nav>
-    <a href="index.html" class="active">About</a>
+    <a href="index.html">About</a>
     <a href="theory.html">Ψ-Continuum Preprints</a>
-    <a href="arxiv-endorsement.html">arXiv</a>    
+    <a href="arxiv-endorsement.html" class="active">arXiv</a>
 </nav>
 
 <section class="lang-section active">
@@ -33,8 +41,15 @@
         focused on late-time cosmology and non-equilibrium macroscopic response.
     </p>
 
+    <div class="package-info">
+        <p>
+            This page is part of the Psi-Continuum research framework and reflects
+            the current stage of formal publication preparation.
+        </p>
+    </div>
+
     <p>
-        The work is prepared for submission to arXiv in the category:
+        The current submission is prepared for arXiv in the category
         <strong>hep-ph</strong> (phenomenology of high-energy physics).
     </p>
 
@@ -43,40 +58,50 @@
     </p>
 
     <ul>
-        <li>peer-style structured preprints (v2, v5)</li>
+        <li>peer-style structured preprints</li>
         <li>fully reproducible computational pipelines</li>
-        <li>open datasets and likelihood implementations (SN, H(z), BAO, DESI)</li>
+        <li>open datasets and likelihood implementations</li>
         <li>public documentation and versioned releases</li>
     </ul>
 
-    <h2>Request</h2>
+    <h2>Endorsement Context</h2>
 
     <p>
-        arXiv requires endorsement for submissions in certain categories.
+        arXiv requires endorsement for submissions in certain subject categories.
     </p>
 
     <p>
-        If you are an arXiv-endorsed researcher in a relevant field and
-        are willing to briefly review the project materials,
-        I would be grateful for consideration of an endorsement request.
+        The Psi-Continuum framework is presented as a documented and reproducible
+        research program with publicly available materials, including preprints,
+        computational pipelines, and data resources.
+    </p>
+
+    <p>
+        If you are an arXiv-endorsed researcher in a relevant category and
+        consider the scope of this work appropriate after reviewing the materials,
+        endorsement guidance or consideration would be sincerely appreciated.
     </p>
 
     <h2>Materials for Review</h2>
 
+    <p>
+        The project is publicly documented and open for independent review:
+    </p>
+
     <ul>
         <li>
-            Conceptual overview:
+            Conceptual overview and theoretical positioning:
             <a href="/theory.html">Psi-Continuum overview</a>
         </li>
 
         <li>
-            Documentation and computational framework:
+            Reproducible computational framework:
             <a href="/docs/v2">Psi-Continuum v2 package</a>
         </li>
 
         <li>
-            Public repositories:
-            <a href="https://github.com/Dmitrylife" target="_blank">
+            Open-source repositories and implementation:
+            <a href="https://github.com/Dmitrylife" target="_blank" rel="noopener noreferrer">
                 github.com/Dmitrylife
             </a>
         </li>
@@ -85,7 +110,7 @@
     <h2>Contact</h2>
 
     <p>
-        Please feel free to reach out by email:
+        For communication regarding submission and endorsement context:
     </p>
 
     <p>
@@ -93,6 +118,14 @@
             d.klimov.psi@gmail.com
         </a>
     </p>
+
+    <div class="package-info">
+        <p>
+            The Psi-Continuum framework is developed as an open, reproducible
+            research program. All public materials are provided to support
+            transparency, review, and independent verification.
+        </p>
+    </div>
 
     <p class="titlesmall">
         Independent Research · Reproducible Methods · Open Data
@@ -111,6 +144,11 @@
 </footer>
 
 </div>
+
+<button id="backToTop" title="Go to top">↑</button>
+<script src="script.js"></script>
+<script data-goatcounter="https://psi-continuum.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 </body>
 </html>
