@@ -279,7 +279,7 @@ fully reliable operation.
         repeatable measurements, and long-term stability analysis.
       </div>
       <div class="project-card__actions">
-        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005009843622926.html?shpMethod=CAINIAO_STANDARD&sku_id=12000050338468416&spm=a2g2w.productlist.search_results.0.66832e19IwRkyH" target="_blank" rel="noopener">Support this component</a>
+        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005009843622926.html?shpMethod=CAINIAO_STANDARD&sku_id=12000050338468416&spm=a2g2w.productlist.search_results.0.66832e19IwRkyH" target="_blank" rel="noopener">Support component</a>
       </div>
     </div>
 
@@ -291,7 +291,7 @@ fully reliable operation.
         and a reproducible observing workflow.
       </div>
       <div class="project-card__actions">
-        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005009186375730.html?sku_id=12000048232579543" target="_blank" rel="noopener">Support this component</a>
+        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005009186375730.html?sku_id=12000048232579543" target="_blank" rel="noopener">Support component</a>
       </div>
     </div>
 
@@ -303,7 +303,7 @@ fully reliable operation.
         consistent and comparable measurements.
       </div>
       <div class="project-card__actions">
-        <a class="project-btn project-btn--primary" href="https://www.optics-pro.com/pass-filters/baader-filters-ubvri-bessel-v-2-/p,73913" target="_blank" rel="noopener">Support this component</a>
+        <a class="project-btn project-btn--primary" href="https://www.optics-pro.com/pass-filters/baader-filters-ubvri-bessel-v-2-/p,73913" target="_blank" rel="noopener">Support component</a>
       </div>
     </div>
 
@@ -315,7 +315,7 @@ fully reliable operation.
         more stable photometric quality across the frame.
       </div>
       <div class="project-card__actions">
-        <a class="project-btn project-btn--primary" href="https://www.optics-pro.com/flatteners-correctors-reducers/baader-mpcc-mark-iii-multi-purpose-newton-coma-correktor/p,33547" target="_blank" rel="noopener">Support this component</a>
+        <a class="project-btn project-btn--primary" href="https://www.optics-pro.com/flatteners-correctors-reducers/baader-mpcc-mark-iii-multi-purpose-newton-coma-correktor/p,33547" target="_blank" rel="noopener">Support component</a>
       </div>
     </div>
 
@@ -327,7 +327,7 @@ fully reliable operation.
         during repeatable long-duration observing sessions.
       </div>
       <div class="project-card__actions">
-        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005006127499191.html?sku_id=12000035878933081" target="_blank" rel="noopener">Support this component</a>
+        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005006127499191.html?sku_id=12000035878933081" target="_blank" rel="noopener">Support component</a>
       </div>
     </div>
 
@@ -339,7 +339,7 @@ fully reliable operation.
         remote control, and automation pipeline operation.
       </div>
       <div class="project-card__actions">
-        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005008523207827.html?spm=a2g2w.favourites.0.0.8cb14aa66AnqpW&sku_id=12000045551014784" target="_blank" rel="noopener">Support this component</a>
+        <a class="project-btn project-btn--primary" href="https://aliexpress.ru/item/1005008523207827.html?spm=a2g2w.favourites.0.0.8cb14aa66AnqpW&sku_id=12000045551014784" target="_blank" rel="noopener">Support component</a>
       </div>
     </div>
 
@@ -351,7 +351,7 @@ fully reliable operation.
         required for safe unattended robotic operation.
       </div>
       <div class="project-card__actions">
-        <a class="project-btn project-btn--primary" href="https://shop.lunaticoastro.com/product/aag-cloudwatcher-cloud-detector/" target="_blank" rel="noopener">Support this component</a>
+        <a class="project-btn project-btn--primary" href="https://shop.lunaticoastro.com/product/aag-cloudwatcher-cloud-detector/" target="_blank" rel="noopener">Support component</a>
       </div>
     </div>
 
