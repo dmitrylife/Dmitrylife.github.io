@@ -450,3 +450,11 @@
   }
 }
 
+
+/* ---------- Map ---------- */
+.project-map {
+  margin-top: 1rem;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+}

@@ -544,6 +544,46 @@ fully reliable operation.
 
 ---
 
+<h2>Observational site</h2>
+
+<div class="project-panel">
+
+  <div class="project-lead">
+    Rural site selected for controlled, repeatable observational conditions.
+  </div>
+
+  <div class="project-map">
+    <iframe
+      src="https://maps.google.com/maps?q=54.9955,22.1865&z=11&output=embed"
+      width="100%"
+      height="360"
+      style="border:0;"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <div class="project-grid project-grid--2" style="margin-top: 16px;">
+    
+    <div class="project-card">
+      <strong>Sky quality</strong>
+      <p>Bortle class 4–5 (estimated)</p>
+    </div>
+
+    <div class="project-card">
+      <strong>Conditions</strong>
+      <p>Low light pollution, stable horizon, suitable for long-term monitoring.</p>
+    </div>
+
+  </div>
+
+  <p class="project-note">
+    Approximate location shown.
+  </p>
+
+</div>
+
+---
+
 ## Reproducibility Policy
 
 All data products will be made publicly available where possible.
