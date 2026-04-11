@@ -18,7 +18,7 @@ permalink: /docs/experiments/ktro/
 # KTRO — Klimov Tarpen Robotic Observatory
 
 <p class="project-muted">
-  “Tarpen” refers to the historical name associated with the Tushino area.
+  "Tarpen" refers to the historical name associated with the Tushino area.
 </p>
 
 KTRO (Klimov Tarpen Robotic Observatory) is a small-scale,
@@ -58,7 +58,7 @@ control, traceability, and repeatability.
     KTRO is not built to discover new objects — it is built to understand how measurements behave.
   </div>
 
-  <div class="project-grid project-grid--auto">
+  <div class="project-grid project-grid--2">
 
     <div class="project-card">
       <div class="project-card__title">Measurement stability</div>
