@@ -74,8 +74,7 @@ as trajectories in a state space.
 
 The key idea:
 
-we do not introduce new forces —  
-we reinterpret the data.
+we do not introduce new forces — we reinterpret the data.
 
 ---
 
