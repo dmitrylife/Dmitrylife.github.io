@@ -62,41 +62,77 @@
 <h2>Overview</h2>
 
 <p>
-    This is an open research project. Results are presented as preprints and reproducible diagnostic studies.
+    This project presents a reproducible, background-level diagnostic framework
+    for late-time cosmic expansion based directly on observational data.
 </p>
 
 <p>
-    The <strong>Psi-Continuum</strong> is a developing theoretical framework exploring the idea that
-    certain features of space-time structure, gravitational behavior, and late-time
-    cosmic expansion may be understood as macroscopic, system-level responses,
-    rather than as fundamental source terms.
+    The central quantity of the Psi-Continuum formulation is a dimensionless
+    deformation function defined as:
+</p>
+
+<p style="text-align:center; font-weight:600;">
+    Ψ(z) ≡ H(z) / H<sub>ΛCDM</sub>(z) − 1
 </p>
 
 <p>
-    This page provides a general conceptual overview.
-    The technical development, numerical analysis, and detailed formulation
-    are presented in the corresponding preprints listed below.
+    where H(z) is the observationally inferred expansion rate and
+    H<sub>ΛCDM</sub>(z) is the reference ΛCDM prediction.
 </p>
+
+<p>
+    In this representation, ΛCDM corresponds to the limiting case:
+</p>
+
+<p style="text-align:center; font-weight:600;">
+    Ψ(z) = 0
+</p>
+
+<p>
+    Any deviation Ψ(z) ≠ 0 directly quantifies relative background deformation
+    with respect to ΛCDM across redshift.
+</p>
+
+<p>
+    The Psi-Continuum framework does not introduce new fields or modify
+    gravitational dynamics. Instead, it provides a compact state-space
+    description of expansion history reconstructed from data
+    (SN Ia, H(z), BAO).
+</p>
+
+<p>
+    This page presents the conceptual structure of the framework.
+    Full numerical implementation, likelihood construction, and data analysis
+    are provided in the associated reproducible releases.
+</p>
+
 
 <h2>Conceptual Clarification</h2>
 
 <p>
-  The Ψ-Continuum framework is a background-level phenomenological construction.
-  It does not introduce new fundamental fields, modify General Relativity, 
-  or propose a microscopic model of space-time structure.
+  The Ψ(z) function is a derived, data-driven quantity defined at the level of
+  background expansion. It should be interpreted as an effective diagnostic
+  coordinate rather than a new dynamical field.
 </p>
 
 <p>
-  All references to “response,” “state-space,” or “relaxation” are effective 
-  macroscopic descriptions of background expansion dynamics inferred from 
-  observational data. These terms should not be interpreted as implying additional
-  propagating degrees of freedom, modified gravitational equations,
-  or new physical source terms.
+  All terminology such as “response”, “state-space”, or “relaxation”
+  refers to an interpretation of the reconstructed expansion history,
+  not to additional degrees of freedom or modified gravitational equations.
 </p>
 
 <p>
-  ΛCDM remains the reference dynamical theory; the Ψ formulation operates as a diagnostic
-  and interpretational extension at the level of late-time expansion.
+  ΛCDM remains the reference dynamical model. The Ψ formulation operates
+  as a diagnostic extension that makes relative deviations and consistency
+  between datasets explicitly measurable.
+</p>
+
+<h2>Practical Interpretation</h2>
+
+<p>
+    In practice, Ψ(z) provides a unified coordinate system in which different
+    cosmological models and datasets can be directly compared without
+    introducing model-specific assumptions.
 </p>
 
 <h2>Publication Status</h2>
