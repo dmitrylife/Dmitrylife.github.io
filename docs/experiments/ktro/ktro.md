@@ -47,7 +47,7 @@ permalink: /docs/experiments/ktro/
 </div>
 
 <p>
-  KTRO is conceived as a controlled photometric stability platform,
+  KTRO is conceived as a controlled platform for photometric stability studies,
   focused on long-term reproducibility, instrumental consistency,
   and methodological robustness.
 </p>
@@ -130,9 +130,6 @@ control, traceability, and repeatability.
     The goal is not more data — but better-understood data.
   </div>
 </div>
-
-> KTRO is not about equipment.  
-> It is about creating a stable observational reference system.
 
 ---
 
