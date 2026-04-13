@@ -73,8 +73,8 @@ The expansion rate is described by the Hubble function:
 
 H(z)
 
-This is not a theoretical construct.  
-It is reconstructed from observational data:
+This is not a purely theoretical construct.  
+It is reconstructed from multiple observational probes:
 
 - supernovae (SN Ia)  
 - H(z) measurements  
@@ -83,7 +83,7 @@ It is reconstructed from observational data:
 ---
 
 In the standard ΛCDM model,  
-the system responds instantly:
+the system responds instantaneously:
 
 changes in density → immediate change in expansion rate.
 
@@ -112,7 +112,8 @@ $$
 \Psi(z) = \frac{H(z)}{H_{\Lambda\mathrm{CDM}}(z)} - 1
 $$
 
-Ψ(z) is constructed directly from observational expansion data.
+Ψ(z) is constructed directly from observational expansion data.  
+It provides a model-independent measure of deviation from ΛCDM.
 
 ---
 
@@ -126,8 +127,9 @@ It is a coordinate.
 
 ## Interpretation
 
-What we call dark energy may instead be interpreted as  
-a delayed response of the cosmic system.
+What is commonly interpreted as dark energy  
+may instead reflect a delayed response  
+of the cosmic expansion dynamics.
 
 Not a new force,  
 but a different description of the same data.
@@ -157,7 +159,7 @@ different moments in cosmic history.
 
 To describe this, cosmology uses redshift *z*.
 
-z is simply a time label.
+z serves as a time-like label.
 
 The larger z —  
 the further away the object  
@@ -231,3 +233,4 @@ The key idea:
 4. [Attractors, entropy, and the arrow of time in data space](04_entropy_and_arrow_of_time)  
 5. [Ricci flows, entropic relaxation, and topology in state space](05_ricci_flow_and_relaxation)  
 6. [From Ψ(z) to geometric relaxation](06_psi_and_ricci_flow)  
+
