@@ -4,20 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#ffffff">    
-    
+    <meta name="theme-color" content="#ffffff">
+
     <title>Dmitry Vasilevich Klimov — Psi-Continuum Framework</title>
-    
+
     <link rel="stylesheet" href="style.css">
-    
+
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
     <link rel="manifest" href="/site.webmanifest">
-    
+
+    <style>
+      .framework-divider {
+          border: 0;
+          border-top: 1px solid #d8e1ff;
+          margin: 24px 0;
+      }
+
+      .hero-note {
+          font-size: 1.05rem;
+          color: #444;
+      }
+    </style>
+
     <script>
     window.MathJax = {
       tex: {
@@ -26,7 +37,7 @@
       }
     };
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>    
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </head>
 
 <body>
@@ -43,44 +54,56 @@
 <nav>
     <a href="index.html" class="active">About</a>
     <a href="theory.html">Ψ-Continuum Preprints</a>
-    <a href="arxiv-endorsement.html">arXiv</a>    
+    <a href="arxiv-endorsement.html">arXiv</a>
 </nav>
 
 <section class="lang-section active">
-  <h2>About Me</h2>
-  <p>
-      I am an independent researcher from Kaliningrad working on late–time cosmology and the physics of non-equilibrium systems.
-      My main focus is the development of the Psi-Continuum framework — a macroscopic response-based approach defined 
-      directly from observational expansion history H(z) measurements, 
-      providing a compact diagnostic representation of late-time expansion.
-      It explores whether certain gravitational and cosmological phenomena may
-      admit an effective macroscopic reinterpretation within a non-equilibrium framework.
+    <h2>About Me</h2>
 
-      My work follows strict standards of reproducible scientific methodology,
-      and all numerical tests, cosmological likelihoods, and datasets associated with
-      the computational releases are fully open-source.
-  </p>
+    <p class="hero-note">
+        I am an independent researcher from Kaliningrad working on late-time cosmology
+        and the physics of non-equilibrium systems.
+    </p>
+
+    <p>
+        My main focus is the development of the <strong>Psi-Continuum framework</strong> —
+        a macroscopic response-based approach defined directly from observational expansion
+        history $H(z)$ measurements, providing a compact diagnostic representation of
+        late-time expansion.
+    </p>
+
+    <p>
+        Rather than introducing new fields or modifying gravity,
+        the framework asks whether certain features of cosmic expansion
+        may admit an effective macroscopic reinterpretation in terms of
+        geometry, stability, and relaxation.
+    </p>
+
+    <p>
+        My work follows strict standards of reproducible scientific methodology,
+        and all numerical tests, cosmological likelihoods, and datasets associated
+        with the computational releases are fully open-source.
+    </p>
 
     <p>
         A conceptual overview of the Psi-Continuum framework is available on the
         <a href="/theory.html">preprints and conceptual overview page</a>.
     </p>
 
-    <h2>Conceptual Notes</h2>
+    <h2>Research Framework</h2>
     <p class="titlesmall">
-        A data-driven interpretational layer · no new models · no modified gravity
+        Data-driven interpretation · state-space diagnostics · reproducible computation
     </p>
 
     <div class="package-info">
         <p>
-            A structured way to interpret late-time cosmological data
-            as trajectories in a macroscopic state space.
+            The Psi-Continuum framework combines a conceptual state-space interpretation
+            of late-time cosmological data with a reproducible computational pipeline
+            for testing deviations from the $\Lambda$CDM baseline.
         </p>
 
         <p>
-            The framework introduces a minimal diagnostic coordinate
-            that measures deviations from the ΛCDM baseline
-            without introducing new physics:
+            At the interpretational level, the framework introduces a minimal diagnostic coordinate:
         </p>
 
         <div class="formula-box">
@@ -88,88 +111,79 @@
         </div>
 
         <p>
-            The goal is not to propose a new model,
-            but to understand what the data already imply —
+            This coordinate does not introduce new physics.
+            It provides a compact way to interpret observational expansion data
             in terms of geometry, stability, and relaxation.
         </p>
 
+        <div class="link-block">
+            <div>
+                <span class="link-label">Conceptual notes:</span>
+                <a href="/notes/">State-space interpretation and conceptual notes</a>
+            </div>
+
+            <div>
+                <span class="link-label">Preprints and overview:</span>
+                <a href="/theory.html">Psi-Continuum preprints</a>
+            </div>
+        </div>
+
+        <hr class="framework-divider">
+
         <p>
-            <a href="/notes/">Read the notes →</a>
-        </p>
-    </div>
-
-    <h2>Research Topics</h2>
-    <ul>
-        <li>Phenomenology of late-time cosmology</li>
-        <li>Background expansion tests and model comparison</li>
-        <li>Non-equilibrium response frameworks</li>
-        <li>Conceptual exploration of gradient-driven structure and transport mechanisms</li>
-        <li>Future extensions toward perturbations and mesoscopic dynamics</li>
-    </ul>
-
-    <h2>Psi-Continuum Cosmology v5</h2>
-    <p class="titlesmall">
-        Macroscopic state-space diagnostics · interpretational framework
-    </p>
-
-    <div class="package-info">
-        <p>
-            <strong>Psi-Continuum v5</strong> introduces a state-space formulation
-            of cosmic expansion, where observational data are interpreted
-            as trajectories in a macroscopic response space Ψ(z).
+            At the formal level, <strong>Psi-Continuum Cosmology v5</strong> develops
+            a macroscopic state-space formulation in which cosmological data
+            are interpreted as trajectories in a response space $\Psi(z)$.
         </p>
 
         <ul>
-            <li>state-space diagnostic variable Ψ(z)</li>
+            <li>state-space diagnostic variable $\Psi(z)$</li>
             <li>interpretation of expansion as geometric relaxation</li>
-            <li>no modification of gravity or new fields</li>
-            <li>ΛCDM recovered as Ψ = 0 limit</li>
-            <li>consistent description across SN, H(z), BAO</li>
+            <li>no new fields and no modified gravity</li>
+            <li>$\Lambda$CDM recovered as the $\Psi = 0$ limit</li>
+            <li>consistent description across SN, H(z), and BAO datasets</li>
         </ul>
 
         <div class="link-block">
             <div>
                 <span class="link-label">Preprint (Zenodo):</span>
-                <a href="https://doi.org/10.5281/zenodo.18088720" target="_blank">
+                <a href="https://doi.org/10.5281/zenodo.18088720" target="_blank" rel="noopener noreferrer">
                     Psi–Continuum Cosmology v5
                 </a>
             </div>
 
             <div>
                 <span class="link-label">Documentation:</span>
-                <a href="https://psi-continuum.org/docs/v5/" target="_blank">
+                <a href="https://psi-continuum.org/docs/v5/" target="_blank" rel="noopener noreferrer">
                     psi-continuum-statespace
                 </a>
             </div>
 
             <div>
                 <span class="link-label">Source code:</span>
-                <a href="https://github.com/dmitrylife/psi-continuum-statespace" target="_blank">
+                <a href="https://github.com/dmitrylife/psi-continuum-statespace" target="_blank" rel="noopener noreferrer">
                     github.com/dmitrylife/psi-continuum-statespace
                 </a>
             </div>
         </div>
-    </div>
 
-    <h2>Psi-Continuum v2 Package</h2>
-    <p class="titlesmall">
-        Final archived research release · reproducible computational framework
-    </p>
-    <div class="package-info">
+        <hr class="framework-divider">
+
         <p>
-            The <strong>Psi-Continuum v2</strong> package is an open-source computational
-            framework for testing the Ψ-CDM model against modern cosmological datasets.
-            It includes:
+            At the computational level, <strong>Psi-Continuum v2</strong> provides
+            an open-source package for testing the $\Psi$CDM framework against
+            modern cosmological datasets.
         </p>
 
         <ul>
-            <li>ΛCDM and ΨCDM background solvers</li>
+            <li>$\Lambda$CDM and $\Psi$CDM background solvers</li>
             <li>full likelihood pipeline: SN Ia, H(z), BAO (SDSS + DESI)</li>
-            <li>joint χ² comparison tools</li>
-            <li>ε₀ parameter scanning</li>
+            <li>joint $\chi^2$ comparison tools</li>
+            <li>$\varepsilon_0$ parameter scanning</li>
             <li>publication-ready figure generator</li>
             <li>interactive CLI for new users</li>
         </ul>
+
         <div class="link-block">
             <div>
                 <span class="link-label">Documentation (PyPI Package):</span>
@@ -185,76 +199,90 @@
                 </a>
             </div>
         </div>
+
+        <p class="titlesmall">
+            Together, these layers define the conceptual, diagnostic,
+            and computational core of the Psi-Continuum research program.
+        </p>
     </div>
 
-  <h2>Experimental Program</h2>
+    <h2>Research Topics</h2>
+    <ul>
+        <li>Phenomenology of late-time cosmology</li>
+        <li>Background expansion tests and model comparison</li>
+        <li>Macroscopic response and state-space diagnostics</li>
+        <li>Non-equilibrium interpretations of large-scale dynamics</li>
+        <li>Future extensions toward perturbations and mesoscopic structure</li>
+    </ul>
 
-  <p>
-      Alongside theoretical and computational work, the Psi-Continuum framework
-      includes a small-scale observational pilot program focused on
-      measurement consistency and long-term reproducibility.
-  </p>
+    <h2>Experimental Program</h2>
 
-  <p>
-      The program is based on differential photometry of variable stars and is
-      designed to examine instrumental stability, cross-epoch consistency,
-      and reduction-pipeline robustness.
-  </p>
+    <p>
+        Alongside theoretical and computational work, the Psi-Continuum framework
+        includes a small-scale observational pilot program focused on
+        measurement consistency and long-term reproducibility.
+    </p>
 
-  <p class="titlesmall">
-      The program is currently being extended toward semi-automated
-      long-term monitoring through <strong>KTRO</strong>
-      (Klimov Tarpen Robotic Observatory) — a developing compact
-      observational setup focused on reproducible differential photometry
-      and long-term instrumental stability diagnostics.
-  </p>
+    <p>
+        The program is based on differential photometry of variable stars
+        and is designed to examine instrumental stability, cross-epoch consistency,
+        and reduction-pipeline robustness.
+    </p>
 
-  <p>
-      Documentation:
-      <a href="/docs/experiments/index_en" target="_blank" rel="noopener noreferrer">overview</a> ·
-      <a href="/docs/experiments/quick_start.en" target="_blank" rel="noopener noreferrer">quick start</a> ·
-      <a href="/docs/experiments/ktro/" target="_blank" rel="noopener noreferrer">KTRO</a>
-  </p>
+    <p class="titlesmall">
+        The program is currently being extended toward semi-automated
+        long-term monitoring through <strong>KTRO</strong>
+        (Klimov Tarpen Robotic Observatory) — a developing compact
+        observational setup focused on reproducible differential photometry
+        and long-term instrumental stability diagnostics.
+    </p>
 
-  <h2>Companion demonstrations (ongoing)</h2>
+    <p>
+        Documentation:
+        <a href="/docs/experiments/index_en" target="_blank" rel="noopener noreferrer">overview</a> ·
+        <a href="/docs/experiments/quick_start.en" target="_blank" rel="noopener noreferrer">quick start</a> ·
+        <a href="/docs/experiments/ktro/" target="_blank" rel="noopener noreferrer">KTRO</a>
+    </p>
 
-  <p>
-  In addition to cosmological analyses, the Psi-Continuum framework
-  includes small-scale computational and observational demonstrations
-  designed to evaluate response-based diagnostic methods on
-  well-understood macroscopic systems.
-  </p>
+    <h2>Companion Demonstrations</h2>
 
-  <p>
-  The first example is a tidal response experiment based on
-  tide-gauge sea-level data.  
-  It illustrates how phase shifts, dissipation, and residual dynamics
-  can be isolated using the same diagnostic principles employed in the
-  cosmological state-space formulation.
-  </p>
+    <p>
+        In addition to cosmological analyses, the Psi-Continuum framework
+        includes small-scale computational and observational demonstrations
+        designed to evaluate response-based diagnostic methods on
+        well-understood macroscopic systems.
+    </p>
 
-  <p>
-  Source code and reproducible pipeline:
-  <a href="https://github.com/dmitrylife/psi-continuum-experiments" target="_blank" rel="noopener noreferrer">
-  psi-continuum-experiments (GitHub)
-  </a>
-  </p>
+    <p>
+        The first example is a tidal response experiment based on
+        tide-gauge sea-level data.
+        It illustrates how phase shifts, dissipation, and residual dynamics
+        can be isolated using the same diagnostic principles employed in the
+        cosmological state-space formulation.
+    </p>
 
-  <p class="titlesmall">
-  Reproducible: clone → run → diagnostic figures and metrics.
-  </p>
+    <p>
+        Source code and reproducible pipeline:
+        <a href="https://github.com/dmitrylife/psi-continuum-experiments" target="_blank" rel="noopener noreferrer">
+            psi-continuum-experiments (GitHub)
+        </a>
+    </p>
 
-  <p class="titlesmall">
-  This tidal experiment serves as the first demonstrator in a broader
-  response-diagnostics program for macroscopic physical systems.
-  </p>
+    <p class="titlesmall">
+        Reproducible: clone → run → diagnostic figures and metrics.
+    </p>
 
-  <h2>Links</h2>
-  <ul>
-      <li>GitHub: <a href="https://github.com/Dmitrylife">github.com/Dmitrylife</a></li>
-      <li>Email: <a href="mailto:d.klimov.psi@gmail.com">d.klimov.psi@gmail.com</a></li>
-      <li>ORCID: <a href="https://orcid.org/0009-0009-3305-7592">0009-0009-3305-7592</a></li>
-  </ul>
+    <p class="titlesmall">
+        This tidal experiment serves as the first demonstrator in a broader
+        response-diagnostics program for macroscopic physical systems.
+    </p>
+
+    <h2>Links</h2>
+    <ul>
+        <li>GitHub: <a href="https://github.com/Dmitrylife">github.com/Dmitrylife</a></li>
+        <li>Email: <a href="mailto:d.klimov.psi@gmail.com">d.klimov.psi@gmail.com</a></li>
+        <li>ORCID: <a href="https://orcid.org/0009-0009-3305-7592">0009-0009-3305-7592</a></li>
+    </ul>
 </section>
 
 <footer>
@@ -270,9 +298,9 @@
 </div>
 
 <button id="backToTop" title="Go to top">↑</button>
-</body>
 <script src="script.js"></script>
 <script data-goatcounter="https://psi-continuum.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+</body>
 </html>
 
