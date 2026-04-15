@@ -1,3 +1,10 @@
+---
+layout: note
+title: From Ψ(z) to geometric relaxation
+order: 6
+permalink: /notes/06_psi_and_ricci_flow/
+---
+
 # From Ψ(z) to geometric relaxation:
 
 ## Ricci flow as an organizing principle
@@ -80,7 +87,9 @@ The observed behavior — convergence, smoothness, bounded deviations — is exa
 
 This interpretation does not assert that spacetime itself undergoes Ricci flow.
 
-It asserts that **the space of admissible expansion histories does**.
+It suggests that **the space of admissible expansion histories can be described as if it undergoes such relaxation**.
+
+This comparison is structural: it highlights how such behavior can arise from geometry, without implying that the same equation governs cosmological evolution.
 
 ---
 
@@ -110,7 +119,7 @@ It emerges as a **geometrically stable configuration**:
 - independent probes align near it,
 - no fine-tuning is required.
 
-This is exactly the behavior of a fixed point under geometric relaxation.
+This is consistent with the behavior of a fixed point under geometric relaxation.
 
 ---
 
@@ -147,9 +156,4 @@ their behavior becomes simple.
 
 Not because the Universe is simple —
 but because the geometry is doing the work.
-
----
-
-**Previous:** [Ricci flows, entropic relaxation, and topology in state space](/notes/05_ricci_flow_and_relaxation)  
-**Return to Notes:** [Conceptual and Interpretational Notes](/notes/)
 

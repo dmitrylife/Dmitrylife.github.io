@@ -29,3 +29,10 @@ include:
 exclude:
   - README.md
   - .gitignore
+
+# Включаем коллекции
+collections:
+  notes:
+    output: true
+    sort_by: order
+

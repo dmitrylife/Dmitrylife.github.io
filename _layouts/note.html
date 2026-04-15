@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — Psi-Continuum</title>
+
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- MathJax (если используешь формулы) -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Заголовок -->
+    <header class="note-header">
+      <h1>{{ page.title }}</h1>
+    </header>
+
+    <!-- Контент -->
+    <article class="note-content">
+      {{ content }}
+    </article>
+
+    <!-- Навигация -->
+    {% assign notes = site.notes | sort: "order" %}
+
+    {% for n in notes %}
+      {% if n.url == page.url %}
+        {% assign prev_index = forloop.index0 | minus: 1 %}
+        {% assign next_index = forloop.index0 | plus: 1 %}
+
+        {% if prev_index >= 0 %}
+          {% assign prev = notes[prev_index] %}
+        {% endif %}
+
+        {% if next_index < notes.size %}
+          {% assign next = notes[next_index] %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <nav class="notes-nav">
+      {% if prev %}
+        <a href="{{ prev.url }}" class="nav-prev">← {{ prev.title }}</a>
+      {% endif %}
+
+      <a href="/notes/" class="nav-all">All Notes</a>
+
+      {% if next %}
+        <a href="{{ next.url }}" class="nav-next">{{ next.title }} →</a>
+      {% endif %}
+    </nav>
+
+  </div>
+
+</body>
+</html>
+

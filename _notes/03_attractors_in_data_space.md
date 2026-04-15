@@ -1,13 +1,20 @@
+---
+layout: note
+title: When data prefers a direction in state space
+order: 3
+permalink: /notes/03_attractors_in_data_space/
+---
+
 # When data prefers a direction in state space
 
 In many physical problems, directionality is introduced by hand:
 a force term, a potential, or an explicit equation of motion.
 
-But sometimes **direction emerges directly from the data**.
+But sometimes direction can be inferred directly from the data.
 
 When independent observations populate a narrow family of trajectories in an abstract
 state space, and these trajectories consistently point toward a specific region,
-the system exhibits a preferred direction — even without specifying underlying dynamics.
+the data indicate a preferred direction — even without specifying underlying dynamics.
 
 This is the language of **attractors**.
 
@@ -79,7 +86,7 @@ but rather:
 > *What structure in state space are the data revealing?*
 
 In this view, acceleration is not necessarily a source term —
-it may be the **macroscopic signature of relaxation toward a stable state**.
+it may admit an interpretation as a macroscopic relaxation toward a stable state.
 
 ---
 
@@ -127,6 +134,10 @@ plt.tight_layout()
 plt.show()
 ```
 
+Importantly, this statement is purely diagnostic:
+it does not assume that the system is governed by an underlying attractor dynamics,
+only that the observed trajectories are consistent with such a description.
+
 ---
 
 ## Closing thought
@@ -135,10 +146,4 @@ When data consistently choose a direction,
 the most economical explanation is not always a new force.
 
 Sometimes, the system is simply telling us **where equilibrium lies**.
-
----
-
-**Next:** [Attractors, entropy, and the arrow of time in data space](/notes/04_entropy_and_arrow_of_time)  
-**Previous:** [When effective forces emerge from geometry](/notes/02_geometry_and_momentum)  
-**All Notes :** [Conceptual and Interpretational Notes](/notes/)  
 

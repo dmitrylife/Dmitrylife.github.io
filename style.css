@@ -225,3 +225,45 @@ nav {
         transform: translateY(0);
     }
 }
+
+/* ===== Conceptual notes ===== */
+.note-header h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.note-content {
+    line-height: 1.7;
+    font-size: 17px;
+    color: #222;
+}
+
+.note-content h2 {
+    margin-top: 32px;
+}
+
+.notes-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    flex-wrap: wrap;
+}
+
+.notes-nav a {
+    color: #2c7be5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.notes-nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-all {
+    margin: 0 auto;
+    font-weight: 600;
+}

@@ -1,4 +1,15 @@
+---
+layout: note
+title: Attractors, entropy, and the arrow of time in data space
+order: 4
+permalink: /notes/04_entropy_and_arrow_of_time/
+---
+
 # Attractors, entropy, and the arrow of time in data space
+
+This note uses entropy as an effective, macroscopic descriptor.
+
+No claim is made that thermodynamic entropy directly governs cosmological expansion at the fundamental level.
 
 When data exhibit a preferred direction in state space, the question naturally arises:
 
@@ -124,9 +135,9 @@ If these trajectories:
 - display coherent relaxation,
 - converge toward a stationary configuration,
 
-then cosmic acceleration can be described as **entropic relaxation**, not as a fundamental interaction.
+then cosmic acceleration may admit an interpretation as **entropic relaxation**, not as a fundamental interaction.
 
-ΛCDM appears naturally as a **stationary state**, not necessarily as a source-driven solution.
+ΛCDM may be viewed as a stationary state in this description, not necessarily as a source-driven solution.
 
 ---
 
@@ -152,9 +163,5 @@ even if the underlying equations remain time-symmetric.
 That arrow lives not in spacetime,
 but in **state space**.
 
----
-
-**Next:** [Ricci flows, entropic relaxation, and topology in state space](/notes/05_ricci_flow_and_relaxation)  
-**Previous:** [When data prefers a direction in state space](/notes/03_attractors_in_data_space)  
-**All Notes :** [Conceptual and Interpretational Notes](/notes/)  
+The entropy language should be understood as a way to organize macroscopic behavior, not as a statement about underlying microscopic degrees of freedom.
 

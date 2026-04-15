@@ -1,4 +1,15 @@
+---
+layout: note
+title: Ricci flows, entropic relaxation, and topology in state space
+order: 5
+permalink: /notes/05_ricci_flow_and_relaxation/
+---
+
 # Ricci flows, entropic relaxation, and topology in state space
+
+This note uses Ricci flow as an analogy.
+
+No claim is made that cosmological evolution is governed by the Ricci flow equation.
 
 When directionality and attractors appear in data-defined state space, one natural question follows:
 
@@ -62,6 +73,9 @@ In this context:
 - smoothing corresponds to convergence of independent datasets,
 - fixed points correspond to stable macroscopic descriptions.
 
+This does not imply that such a flow is realized physically,
+only that the data can be organized in a way that is consistent with this geometric picture.
+
 ---
 
 ## Topology before dynamics
@@ -103,9 +117,9 @@ If late-time cosmological data define a smooth trajectory bundle in a macroscopi
 - deviations need not imply new fields,
 - stability need not require new dynamics.
 
-Instead, the observed behavior may reflect **geometric relaxation** toward a stationary state.
+In that case, the observed behavior may admit an interpretation as geometric relaxation toward a stationary state.
 
-ΛCDM emerges as a **fixed point** of this flow — not necessarily as a fundamental attractor, but as a geometrically stable configuration.
+ΛCDM may be viewed as a fixed point in this description — not necessarily as a fundamental attractor, but as a geometrically stable configuration.
 
 ---
 
@@ -129,9 +143,7 @@ Ricci flow teaches us that geometry can evolve, smooth itself, and forget its pa
 When data appear to do the same,
 it may be geometry — not force — that is speaking.
 
----
+The role of Ricci flow here is illustrative.
 
-**Next:** [From Ψ(z) to geometric relaxation](/notes/06_psi_and_ricci_flow)  
-**Previous:** [Attractors, entropy, and the arrow of time in data space](/notes/04_entropy_and_arrow_of_time)  
-**All Notes :** [Conceptual and Interpretational Notes](/notes/)  
+It highlights how geometric evolution can produce systematic behavior without invoking new forces or fields.
 

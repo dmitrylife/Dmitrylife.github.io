@@ -1,3 +1,10 @@
+---
+layout: note
+title: When effective forces emerge from geometry
+order: 2
+permalink: /notes/02_geometry_and_momentum/
+---
+
 # When effective forces emerge from geometry:  
 ## a comparison with relativistic momentum
 
@@ -70,6 +77,9 @@ They arise because trajectories are embedded in a **curved kinematical structure
 
 This is a general lesson:
 
+The same logic applies whenever a system is described in a nontrivial coordinate space,
+including spaces constructed from observational data.
+
 > geometric structure in state space can generate force-like terms in the equations of motion.
 
 ---
@@ -141,13 +151,11 @@ When small, coherent deviations are observed:
 
 Relativistic momentum teaches us that such shifts in language can be both conservative and profoundly explanatory.
 
+In this sense, introducing a diagnostic coordinate such as Ψ(z)
+does not assume new dynamics,
+but provides a representation in which such geometric effects can be made explicit.
+
 ---
 
 *These notes provide interpretational context and do not introduce new models, parameters, or predictions.*
-
----
-
-**Next:** [When data prefers a direction in state space](/notes/03_attractors_in_data_space)  
-**Previous:** [Why effective forces are not new forces](/notes/01_effective_forces)  
-**All Notes :** [Conceptual and Interpretational Notes](/notes/)  
 

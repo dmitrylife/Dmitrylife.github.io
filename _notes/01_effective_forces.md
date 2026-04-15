@@ -1,4 +1,15 @@
+---
+layout: note
+title: Why effective forces are not new forces
+order: 1
+permalink: /notes/01_effective_forces/
+---
+
 # Why effective forces are not new forces
+
+This note discusses effective, not fundamental, forces.
+
+No new interactions are introduced. The term “force” is used as a descriptive shorthand for systematic behavior that emerges when dynamics is expressed in a reduced or transformed state space.
 
 In physics, not every force-like effect corresponds to a fundamental interaction.
 
@@ -36,6 +47,9 @@ They are not fictitious in practice — airplanes must account for them — but 
 ## 2. Forces as projections of dynamics
 
 An effective force is often a **projection** of a higher-dimensional or constrained dynamics onto a reduced description.
+
+Equivalently, such terms can arise from the geometry of the space in which trajectories are represented,
+rather than from additional interactions.
 
 When degrees of freedom are:
 
@@ -76,8 +90,10 @@ It is:
 
 This is precisely how effective forces announce themselves.
 
----
+Such effective forces do not imply the existence of new physical interactions.
+They reflect how trajectories appear when described in a particular set of variables.
 
-**Next:** [When effective forces emerge from geometry](/notes/02_geometry_and_momentum)  
-**Previous:** [Conceptual and Interpretational Notes](/notes/)  
+In this sense, introducing a diagnostic variable such as Ψ(z)
+does not postulate a new force,
+but provides a coordinate in which such effective contributions can become visible.
 
