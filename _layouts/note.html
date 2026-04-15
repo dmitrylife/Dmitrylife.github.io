@@ -2,44 +2,36 @@
 layout: default
 ---
 
-<div class="container">
+<article class="note-content">
+  {{ content }}
+</article>
 
-  <header class="note-header">
-    <h1>{{ page.title }}</h1>
-  </header>
+{% assign notes = site.notes | sort: "order" %}
 
-  <article class="note-content">
-    {{ content }}
-  </article>
+{% for n in notes %}
+  {% if n.url == page.url %}
+    {% assign prev_index = forloop.index0 | minus: 1 %}
+    {% assign next_index = forloop.index0 | plus: 1 %}
 
-  {% assign notes = site.notes | sort: "order" %}
-
-  {% for n in notes %}
-    {% if n.url == page.url %}
-      {% assign prev_index = forloop.index0 | minus: 1 %}
-      {% assign next_index = forloop.index0 | plus: 1 %}
-
-      {% if prev_index >= 0 %}
-        {% assign prev = notes[prev_index] %}
-      {% endif %}
-
-      {% if next_index < notes.size %}
-        {% assign next = notes[next_index] %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-
-  <nav class="notes-nav">
-    {% if prev %}
-      <a href="{{ prev.url }}">← {{ prev.title }}</a>
+    {% if prev_index >= 0 %}
+      {% assign prev = notes[prev_index] %}
     {% endif %}
 
-    <a href="/notes/">All Notes</a>
-
-    {% if next %}
-      <a href="{{ next.url }}">{{ next.title }} →</a>
+    {% if next_index < notes.size %}
+      {% assign next = notes[next_index] %}
     {% endif %}
-  </nav>
+  {% endif %}
+{% endfor %}
 
-</div>
+<nav class="notes-nav">
+  {% if prev %}
+    <a href="{{ prev.url }}" class="nav-prev">← {{ prev.title }}</a>
+  {% endif %}
+
+  <a href="/notes/" class="nav-all">All Notes</a>
+
+  {% if next %}
+    <a href="{{ next.url }}" class="nav-next">{{ next.title }} →</a>
+  {% endif %}
+</nav>
 
