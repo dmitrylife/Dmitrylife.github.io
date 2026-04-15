@@ -17,6 +17,27 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
     <link rel="manifest" href="/site.webmanifest">
+    
+    <style>
+      .formula-box {
+          text-align: center;
+          font-size: 20px;
+          margin: 24px 0;
+          padding: 12px 0;
+          background: rgba(0,0,0,0.02);
+          border-radius: 8px;
+      }    
+    </style>
+    
+    <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>    
 </head>
 
 <body>
@@ -68,11 +89,14 @@
         </p>
 
         <p>
-            The notes introduce a minimal coordinate,
-            <strong>Ψ(z) = H(z)/H<sub>Λ</sub>(z) − 1</strong>,
-            which measures deviations from the ΛCDM baseline
-            without introducing new physics.
+            The framework introduces a minimal diagnostic coordinate
+            that measures deviations from the ΛCDM baseline
+            without introducing new physics:
         </p>
+
+        <div class="formula-box">
+            $$\Psi(z) \equiv \frac{H(z)}{H_{\Lambda \mathrm{CDM}}(z)} - 1$$
+        </div>
 
         <p>
             The goal is not to propose a new model,
@@ -93,6 +117,50 @@
         <li>Conceptual exploration of gradient-driven structure and transport mechanisms</li>
         <li>Future extensions toward perturbations and mesoscopic dynamics</li>
     </ul>
+
+    <h2>Psi-Continuum Cosmology v5</h2>
+    <p class="titlesmall">
+        Macroscopic state-space diagnostics · interpretational framework
+    </p>
+
+    <div class="package-info">
+        <p>
+            <strong>Psi-Continuum v5</strong> introduces a state-space formulation
+            of cosmic expansion, where observational data are interpreted
+            as trajectories in a macroscopic response space Ψ(z).
+        </p>
+
+        <ul>
+            <li>state-space diagnostic variable Ψ(z)</li>
+            <li>interpretation of expansion as geometric relaxation</li>
+            <li>no modification of gravity or new fields</li>
+            <li>ΛCDM recovered as Ψ = 0 limit</li>
+            <li>consistent description across SN, H(z), BAO</li>
+        </ul>
+
+        <div class="link-block">
+            <div>
+                <span class="link-label">Preprint (Zenodo):</span>
+                <a href="https://doi.org/10.5281/zenodo.18088720" target="_blank">
+                    Psi–Continuum Cosmology v5
+                </a>
+            </div>
+
+            <div>
+                <span class="link-label">Documentation:</span>
+                <a href="https://psi-continuum.org/docs/v5/" target="_blank">
+                    psi-continuum-statespace
+                </a>
+            </div>
+
+            <div>
+                <span class="link-label">Source code:</span>
+                <a href="https://github.com/dmitrylife/psi-continuum-statespace" target="_blank">
+                    github.com/dmitrylife/psi-continuum-statespace
+                </a>
+            </div>
+        </div>
+    </div>
 
     <h2>Psi-Continuum v2 Package</h2>
     <p class="titlesmall">
