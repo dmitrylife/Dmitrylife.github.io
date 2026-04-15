@@ -1,70 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} — Psi-Continuum</title>
+---
+layout: default
+---
 
-  <link rel="stylesheet" href="/style.css">
+<div class="container">
 
-  <!-- MathJax (если используешь формулы) -->
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
-      }
-    };
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-</head>
+  <header class="note-header">
+    <h1>{{ page.title }}</h1>
+  </header>
 
-<body>
+  <article class="note-content">
+    {{ content }}
+  </article>
 
-  <div class="container">
+  {% assign notes = site.notes | sort: "order" %}
 
-    <!-- Заголовок -->
-    <header class="note-header">
-      <h1>{{ page.title }}</h1>
-    </header>
+  {% for n in notes %}
+    {% if n.url == page.url %}
+      {% assign prev_index = forloop.index0 | minus: 1 %}
+      {% assign next_index = forloop.index0 | plus: 1 %}
 
-    <!-- Контент -->
-    <article class="note-content">
-      {{ content }}
-    </article>
-
-    <!-- Навигация -->
-    {% assign notes = site.notes | sort: "order" %}
-
-    {% for n in notes %}
-      {% if n.url == page.url %}
-        {% assign prev_index = forloop.index0 | minus: 1 %}
-        {% assign next_index = forloop.index0 | plus: 1 %}
-
-        {% if prev_index >= 0 %}
-          {% assign prev = notes[prev_index] %}
-        {% endif %}
-
-        {% if next_index < notes.size %}
-          {% assign next = notes[next_index] %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    <nav class="notes-nav">
-      {% if prev %}
-        <a href="{{ prev.url }}" class="nav-prev">← {{ prev.title }}</a>
+      {% if prev_index >= 0 %}
+        {% assign prev = notes[prev_index] %}
       {% endif %}
 
-      <a href="/notes/" class="nav-all">All Notes</a>
-
-      {% if next %}
-        <a href="{{ next.url }}" class="nav-next">{{ next.title }} →</a>
+      {% if next_index < notes.size %}
+        {% assign next = notes[next_index] %}
       {% endif %}
-    </nav>
+    {% endif %}
+  {% endfor %}
 
-  </div>
+  <nav class="notes-nav">
+    {% if prev %}
+      <a href="{{ prev.url }}">← {{ prev.title }}</a>
+    {% endif %}
 
-</body>
-</html>
+    <a href="/notes/">All Notes</a>
+
+    {% if next %}
+      <a href="{{ next.url }}">{{ next.title }} →</a>
+    {% endif %}
+  </nav>
+
+</div>
 
