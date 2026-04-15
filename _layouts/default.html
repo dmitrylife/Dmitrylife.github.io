@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}">
 
+  {% if page.extra_css %}
+  <link rel="stylesheet" href="{{ page.extra_css }}">
+  {% endif %}
+
   <!-- GoatCounter -->
   <script
     data-goatcounter="https://psi-continuum.goatcounter.com/count"
@@ -41,3 +45,4 @@
 
 </body>
 </html>
+
