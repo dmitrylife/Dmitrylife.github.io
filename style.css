@@ -622,3 +622,29 @@ main section + section {
     margin-top: 0;
 }
 
+.project-figure {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+/* Responsive figure */
+.responsive-figure {
+    display: block;
+    width: 100%;
+    max-width: 900px;   /* или 100%, если не хочешь ограничение */
+    height: auto;
+    margin: 0 auto;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 640px) {
+    .project-figure {
+        margin: 1.5rem 0;
+    }
+
+    .project-figure img {
+        border-radius: 10px;
+    }
+}
+
