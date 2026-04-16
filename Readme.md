@@ -1,9 +1,14 @@
 # Psi–Continuum
 
-**Psi–Continuum** is an open research framework exploring late–time cosmic expansion
-using macroscopic, diagnostic state–space methods.
+**Psi–Continuum** is an open research framework for late–time cosmic expansion,
+based on macroscopic state–space diagnostics and reproducible data analysis.
 
-This repository hosts the **official project website**:
+At its core, the framework introduces a diagnostic coordinate:
+
+Ψ(z) ≡ H(z) / H_ΛCDM(z) − 1
+
+which provides a compact state–space representation of expansion history.
+
 👉 https://psi-continuum.org/
 
 ---
@@ -24,25 +29,25 @@ The project focuses on:
 
 ## Website contents
 
-The website provides:
+The website includes:
 
-- 📘 **Documentation** for Psi–Continuum software packages  
-- 📄 **Scientific articles and preprints** (Zenodo DOIs)
-- 🧪 **Companion diagnostic tools** and reproducible pipelines
-- 🔭 **Experimental and observational demonstrations**
-- 📦 Versioned documentation (`v2`, `v5`, …)
-- Conceptual Notes (Note in progress)
+- 📘 Documentation for Psi–Continuum software  
+- 📄 Scientific preprints and Zenodo releases
+- 🧪 Reproducible diagnostic tools and pipelines
+- 🔭 Experimental and observational work (KTRO)
+- 📦 Versioned releases (v2, v5, …)
+- 🧠 Conceptual Notes (in progress)
 
 Main entry points:
 
-- Documentation index: https://psi-continuum.org/docs/
-- Latest state–space diagnostics (v5): https://psi-continuum.org/docs/v5/
+- https://psi-continuum.org/docs/
+- https://psi-continuum.org/docs/v5/
 
 ---
 
 ## Repository role
 
-This repository is used exclusively to host the **static website**
+This repository hosts the official Psi–Continuum website,
 served via GitHub Pages.
 
 It contains:
@@ -50,7 +55,7 @@ It contains:
 - Markdown documentation rendered by Jekyll,
 - versioned documentation directories.
 
-Source code for scientific software is maintained in **separate repositories**.
+Scientific software is maintained in separate repositories.
 
 ---
 

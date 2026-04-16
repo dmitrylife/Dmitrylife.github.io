@@ -3,13 +3,13 @@
   "versions": [
     {
       "id": "v5",
-      "label": "v5 (state-space diagnostics)",
+      "label": "v5 — state-space diagnostic framework",
       "url": "/docs/v5/",
       "status": "active"
     },
     {
       "id": "v2",
-      "label": "v2 (archived)",
+      "label": "v2 — minimal ΛCDM extension (archived)",
       "url": "/docs/v2/",
       "status": "archived"
     }

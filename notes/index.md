@@ -4,7 +4,7 @@ title: Conceptual and Interpretational Notes
 permalink: /notes/
 ---
 
-# A simpler way to think about cosmic acceleration
+# A simpler, data-consistent way to think about cosmic acceleration
 
 We usually explain cosmic acceleration by invoking dark energy.
 
