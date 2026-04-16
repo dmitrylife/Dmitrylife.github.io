@@ -1,12 +1,13 @@
 /* =========================================================
    Projects / Docs UI
-   Reusable styles for project pages
+   Local components for project-style pages
+   Keeps compatibility with main site style.css
    ========================================================= */
 
 /* ---------- Base wrappers ---------- */
 
 .project-hero {
-  margin: 2rem 0 3rem;
+  margin: 2rem 0 2.5rem;
 }
 
 .project-hero--center {
@@ -27,13 +28,14 @@
   margin: 2rem 0 2.5rem;
   padding: 1.3rem 1.4rem;
   border-radius: 16px;
-  background: #f8fafc;
-  border: 1px solid #d9e2ec;
+  background: #ffffff;
+  border: 1px solid #e1e7f0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.04);
 }
 
 .project-panel--accent {
-  background: #f8fafc;
-  border: 1px solid #d9e2ec;
+  background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+  border: 1px solid #dce6fb;
 }
 
 .project-panel__footer {
@@ -50,18 +52,18 @@
   font-size: 1.05rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #0f172a;
+  color: #1f2a37;
 }
 
 .project-muted {
-  color: #64748b;
+  color: #5d6775;
   line-height: 1.65;
 }
 
 .project-caption {
   margin: 0;
   color: #666;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
 .project-quote {
@@ -92,24 +94,30 @@
 
 .project-card {
   background: #ffffff;
-  border: 1px solid #dbe4ee;
-  border-radius: 16px;
-  padding: 16px;
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+  border: 1px solid #e1e7f0;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.035);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.07);
 }
 
 .project-card__title {
   margin: 0 0 0.65rem;
   font-size: 1.02rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1f2a37;
 }
 
 .project-card__text {
   margin: 0;
   color: #475569;
   line-height: 1.6;
-  font-size: 0.95rem;
+  font-size: 0.96rem;
 }
 
 .project-card__actions {
@@ -169,20 +177,19 @@
 }
 
 .project-btn--primary {
-  background: #e8f0fe;
-  color: #1d4ed8;
-  border: 1px solid #c7d7fe;
+  background: #f3f8ff;
+  color: #2c7be5;
+  border: 1px solid #d6e3fb;
 }
 
 .project-btn--primary:hover {
-  background: #dbeafe;
-  color: #1d4ed8;
-  transform: translateY(-1px);
+  background: #eaf3ff;
+  color: #1d5fb8;
 }
 
 .project-btn--secondary {
   background: #ffffff;
-  color: #0f172a;
+  color: #1f2a37;
   border: 1px solid #dbe4ee;
 }
 
@@ -209,7 +216,7 @@
 }
 
 .project-note--info {
-  border-left: 4px solid #2563eb;
+  border-left: 4px solid #2c7be5;
   background: #f3f7ff;
 }
 
@@ -233,7 +240,7 @@
   font-size: 1.08rem;
   font-weight: 700;
   margin-bottom: 0.45rem;
-  color: #0f172a;
+  color: #1f2a37;
 }
 
 .project-progress__subtitle {
@@ -276,20 +283,8 @@
 .project-summary__item {
   padding: 0.95rem 1rem;
   background: #ffffff;
-  border: 1px solid #dbe4ee;
+  border: 1px solid #e1e7f0;
   border-radius: 14px;
-}
-
-.project-summary__label {
-  display: block;
-  margin-bottom: 0.35rem;
-  font-weight: 700;
-  color: #0f172a;
-}
-
-.project-summary__text {
-  color: #475569;
-  line-height: 1.55;
 }
 
 /* ---------- Support / contact ---------- */
@@ -298,41 +293,19 @@
   margin: 1.4rem 0 0;
   padding: 1.15rem 1.3rem;
   border-radius: 16px;
-  background: #f8fafc;
-  border: 1px solid #d9e2ec;
+  background: #f8fbff;
+  border: 1px solid #dce7fb;
   color: #334155;
 }
 
 .project-support-box a {
-  color: #2563eb;
+  color: #2c7be5;
   text-decoration: none;
   font-weight: 600;
 }
 
 .project-support-box a:hover {
   text-decoration: underline;
-}
-
-/* ---------- Figures ---------- */
-
-.project-figure {
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.project-figure img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: 14px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-  margin: 0 auto;
-}
-
-.project-figure__caption {
-  margin-top: 0.6rem;
-  color: #64748b;
-  font-size: 0.9rem;
 }
 
 /* ---------- Architecture ---------- */
@@ -342,12 +315,12 @@
   padding: 1rem 1.1rem;
   border-radius: 14px;
   background: #ffffff;
-  border: 1px solid #dbe4ee;
+  border: 1px solid #e1e7f0;
 }
 
 .project-flow__title {
   font-weight: 700;
-  color: #0f172a;
+  color: #1f2a37;
   margin-bottom: 0.8rem;
 }
 
@@ -397,6 +370,40 @@
   line-height: 1.65;
 }
 
+/* ---------- Map KTRO ---------- */
+
+.project-map {
+  margin-top: 1rem;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+}
+
+/* ---------- Hero KTRO ---------- */
+
+.project-hero--split {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 28px;
+  align-items: center;
+  margin: 1.5rem 0 2rem;
+}
+
+.project-hero__text {
+  min-width: 0;
+}
+
+.project-hero__image {
+  text-align: center;
+}
+
+.project-hero__image img {
+  width: 100%;
+  max-width: 360px;
+  max-height: 520px;
+  object-fit: contain;
+}
+
 /* ---------- Utilities ---------- */
 
 .u-center {
@@ -431,7 +438,8 @@
 
 @media (max-width: 768px) {
   .project-grid--2,
-  .project-grid--3 {
+  .project-grid--3,
+  .project-hero--split {
     grid-template-columns: 1fr;
   }
 
@@ -448,43 +456,8 @@
   .project-card {
     padding: 14px;
   }
-}
 
-/* ---------- Map KTRO ---------- */
-.project-map {
-  margin-top: 1rem;
-  overflow: hidden;
-  border-radius: 14px;
-  border: 1px solid #e2e8f0;
-}
-
-/* ---------- Hero KTRO ---------- */
-.project-hero--split {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 28px;
-  align-items: center;
-  margin: 1.5rem 0 2rem;
-}
-
-.project-hero__text {
-  min-width: 0;
-}
-
-.project-hero__image {
-  text-align: center;
-}
-
-.project-hero__image img {
-  width: 100%;
-  max-width: 360px;
-  max-height: 520px;
-  object-fit: contain;
-}
-
-@media (max-width: 768px) {
   .project-hero--split {
-    grid-template-columns: 1fr;
     gap: 18px;
   }
 
@@ -492,5 +465,3 @@
     max-width: 300px;
   }
 }
-
-
