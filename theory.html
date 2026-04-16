@@ -2,47 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ffffff">
 
     <title>Psi-Continuum — Preprints and Conceptual Overview</title>
-    
+    <meta name="description" content="Conceptual overview, preprints, and reproducible research releases for the Psi-Continuum framework: a state-space and diagnostic approach to late-time cosmic expansion.">
+
     <link rel="stylesheet" href="style.css">
-    
+
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
     <link rel="manifest" href="/site.webmanifest">
-    
-    <style>
-        .placeholder-box {
-            background: #d4edda;
-            border: 1px solid #ddd;
-            padding: 18px;
-            border-radius: 8px;
-            margin: 25px 0;
-        }
-        .soon {
-            font-style: italic;
-            color: #777;
-        }
-        .titlesmall {
-            margin-top: -8px;
-            color: #555;
-        }
 
-        nav a.active {
-            font-weight: 600;
-            border-bottom: 2px solid #2c7be5;
-            padding-bottom: 2px;
-        }
-
-    </style>
-    
-    <!-- MathJax configuration -->
     <script>
     window.MathJax = {
       tex: {
@@ -54,376 +27,460 @@
       }
     };
     </script>
-
-    <!-- MathJax loader -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-      async>
-    </script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </head>
 
 <body>
 
 <div class="container">
 
-<header>
-    <img src="logo.svg" class="logo" alt="Psi logo">
-    <h1 class="site-title">Psi-Continuum</h1>
-    <p class="section-title">Preprints · Conceptual Overview</p>
-</header>
+    <header class="site-header">
+        <img src="logo.svg" class="logo" alt="Psi logo">
+        <p class="eyebrow">Psi-Continuum Framework</p>
+        <h1>Psi-Continuum</h1>
+        <p class="hero-subtitle">
+            Preprints, conceptual structure, and reproducible releases
+            for a state-space perspective on late-time cosmic expansion.
+        </p>
+        <p class="header-meta">
+            A research program by
+            <a href="/index.html">Dmitry Vasilevich Klimov</a>
+        </p>
+    </header>
 
-<nav>
-    <a href="index.html">About</a>
-    <a href="theory.html" class="active">Ψ-Continuum Preprints</a>
-    <a href="arxiv-endorsement.html">arXiv</a>    
-</nav>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="theory.html" class="active">Ψ-Continuum</a>
+        <a href="/notes/">Notes</a>
+        <a href="/docs/">Docs</a>
+        <a href="arxiv-endorsement.html">arXiv</a>
+    </nav>
 
-<h2>Overview</h2>
+    <main>
 
-<p>
-    This project presents a reproducible, background-level diagnostic framework
-    for late-time cosmic expansion based directly on observational data.
-</p>
+        <section class="content hero-panel">
+            <h2>Conceptual Overview</h2>
+            <p class="hero-note">
+                Psi-Continuum is a <strong>diagnostic and state-space framework</strong>
+                for organizing late-time expansion data relative to a reference
+                $\Lambda$CDM history.
+            </p>
 
-<p>
-    The central quantity of the Psi-Continuum formulation is a dimensionless
-    deformation function constructed directly from observational expansion data:
-</p>
+            <p>
+                Its role is not to replace cosmological dynamics with a new fundamental field,
+                but to provide a compact macroscopic language in which observational expansion
+                histories can be compared, interpreted, and tested for internal consistency.
+            </p>
 
-<div class="formula-box">
-    $$\Psi(z) \equiv \frac{H(z)}{H_{\Lambda\mathrm{CDM}}(z)} - 1$$
-    <div class="formula-caption">
-        Dimensionless deformation of expansion relative to $\Lambda$CDM
-    </div>
-</div>
+            <div class="hero-actions">
+                <a class="button-primary" href="#current-framework">Current framework</a>
+                <a class="button-secondary" href="#preprint-series">Preprint series</a>
+                <a class="button-secondary" href="/notes/">Conceptual notes</a>
+            </div>
+        </section>
 
-<p>
-    where $H(z)$ is the reconstructed expansion rate inferred from observational data and 
-    $H_{\Lambda\mathrm{CDM}}(z)$ is the corresponding reference prediction in $\Lambda$CDM.
-</p>
+        <section class="quick-start-grid">
+            <article class="quick-card">
+                <h3>New visitors</h3>
+                <p>
+                    Start with the overview below, then read the current consolidated formulation.
+                </p>
+                <a href="#current-framework">Start here →</a>
+            </article>
 
-<p>
-    In this representation, $\Lambda$CDM corresponds to the limiting case:
-</p>
+            <article class="quick-card">
+                <h3>Students</h3>
+                <p>
+                    Use this page as a map of the framework, then move to the conceptual notes.
+                </p>
+                <a href="/notes/">Read notes →</a>
+            </article>
 
-<div class="formula-box">
-    $$\Psi(z) = 0$$
-    <div class="formula-caption">
-        $\Lambda$CDM corresponds to the zero-deformation limit
-    </div>
-</div>
+            <article class="quick-card">
+                <h3>Researchers</h3>
+                <p>
+                    Jump to the reproducible releases, documentation, and versioned development path.
+                </p>
+                <a href="#preprint-series">View releases →</a>
+            </article>
+        </section>
 
-<p>
-    Any deviation <strong>$\Psi(z) \neq 0$</strong> directly quantifies relative background deformation
-    with respect to $\Lambda$CDM across redshift.
-</p>
+        <section class="content">
+            <h2>Core Diagnostic Idea</h2>
 
-<p>
-    The Psi-Continuum framework does not introduce new fields or modify
-    gravitational dynamics. Instead, it provides a compact state-space
-    description of expansion history reconstructed from data
-    (SN Ia, H(z), BAO).
-</p>
+            <p>
+                The central quantity of the Psi-Continuum formulation is a dimensionless
+                deformation coordinate constructed relative to a reference $\Lambda$CDM expansion history:
+            </p>
 
-<p>
-    This page presents the conceptual structure of the framework.
-    Full numerical implementation, likelihood construction, and data analysis
-    are provided in the associated reproducible releases.
-</p>
+            <div class="formula-box">
+                $$\Psi(z) \equiv \frac{H(z)}{H_{\Lambda\mathrm{CDM}}(z)} - 1$$
+                <div class="formula-caption">
+                    Dimensionless deformation of expansion relative to $\Lambda$CDM
+                </div>
+            </div>
 
+            <p>
+                Here, $H(z)$ denotes the observationally inferred or reconstructed expansion rate,
+                while $H_{\Lambda\mathrm{CDM}}(z)$ is the corresponding reference background prediction.
+            </p>
 
-<h2>Conceptual Clarification</h2>
+            <p>
+                In this language, the reference limit is simply:
+            </p>
 
-<p>
-  The Ψ(z) function is a derived, data-driven quantity defined at the level of
-  background expansion. It should be interpreted as an effective diagnostic
-  coordinate rather than a new dynamical field.
-</p>
+            <div class="formula-box">
+                $$\Psi(z)=0$$
+                <div class="formula-caption">
+                    $\Lambda$CDM as the zero-deformation reference limit
+                </div>
+            </div>
 
-<p>
-  All terminology such as “response”, “state-space”, or “relaxation”
-  refers to an interpretation of the reconstructed expansion history,
-  not to additional degrees of freedom or modified gravitational equations.
-</p>
+            <p>
+                Any nonzero value, $\Psi(z)\neq 0$, quantifies a relative background deformation
+                with respect to the reference model across redshift.
+            </p>
 
-<p>
-  ΛCDM remains the reference dynamical model. The Ψ formulation operates
-  as a diagnostic extension that makes relative deviations and consistency
-  between datasets explicitly measurable.
-</p>
+            <p>
+                This representation is intended as a <strong>diagnostic coordinate</strong>:
+                a compact way to organize background expansion data in a state-space language.
+                Terms such as <em>response</em>, <em>relaxation</em>, and <em>state-space</em>
+                refer to interpretation at the effective macroscopic level rather than to
+                additional microscopic degrees of freedom.
+            </p>
+        </section>
 
-<h2>Practical Interpretation</h2>
+        <section class="content">
+            <h2>How to Read This Framework</h2>
+            <p class="titlesmall">
+                Conceptual layer · Diagnostic layer · Reproducible computational layer
+            </p>
 
-<p>
-    In practice, Ψ(z) provides a unified, model-independent coordinate system in which different
-    cosmological models and datasets can be directly compared without
-    introducing model-specific assumptions.
-</p>
+            <div class="research-pillars">
+                <div class="pillar-card">
+                    <h3>Conceptual layer</h3>
+                    <p>
+                        A structured interpretational language for late-time expansion:
+                        geometry, stability, effective response, and relaxation.
+                    </p>
+                </div>
 
-<h2>Publication Status</h2>
+                <div class="pillar-card">
+                    <h3>Diagnostic layer</h3>
+                    <p>
+                        A compact background-level coordinate, $\Psi(z)$, for comparing
+                        reconstructed expansion histories against the $\Lambda$CDM baseline.
+                    </p>
+                </div>
 
-<p>
-    The Psi-Continuum framework is currently presented as a series of interrelated preprints,
-    reflecting the sequential development of the phenomenological, interpretational,
-    and macroscopic state-space levels of the theory.
-</p>
+                <div class="pillar-card">
+                    <h3>Computational layer</h3>
+                    <p>
+                        Open-source, dataset-facing implementations for testing the framework
+                        against SN Ia, H(z), and BAO observations.
+                    </p>
+                </div>
+            </div>
 
+            <p>
+                The framework should therefore be read not as a single isolated paper,
+                but as a sequence of connected releases moving from phenomenology,
+                to interpretation, to a more explicit state-space formulation.
+            </p>
+        </section>
 
-<!-- Preprint v1 -->
-<div class="placeholder-box">
-    <strong>Preprint v1</strong>
-    <br />
-    <br />
-    <strong>Zenodo:</strong>
-    <a href="https://zenodo.org/records/17666099" target="_blank" rel="noopener noreferrer">
-        Psi-Continuum Cosmology: A Phenomenological Extension of ΛCDM
-    </a>
-    <br />
-    <br />
-    <span class="soon">Published: 2025-11-21</span>
-    <br />
-    <br />
-    <a href="https://github.com/dmitrylife/psi-continuum" target="_blank" rel="noopener noreferrer">
-        Archival source materials (GitHub)
-    </a>
-</div>
+        <section class="content" id="current-framework">
+            <h2>Current Consolidated Formulation</h2>
 
+            <p>
+                The most mature presentation of the framework at present is
+                <strong>Psi–Continuum Cosmology v5</strong>, which consolidates the
+                state-space perspective into a strictly diagnostic formulation of
+                late-time expansion.
+            </p>
 
-<!-- Preprint v2 -->
-<p>
-    Version 2 represents a major technical revision of the Psi–Continuum cosmology pipeline.
-    It introduces a minimal one-parameter late-time deformation of ΛCDM, provides
-    full background-expansion tests using SN Ia, H(z), SDSS and DESI DR2 BAO,
-    and includes a complete reproducible pipeline.
-</p>
+            <p>
+                In v5, observational information is organized as smooth trajectories
+                in a macroscopic state space defined relative to a reference $\Lambda$CDM limit.
+                The construction is intentionally phenomenological and does not rely on
+                introducing new dynamical fields or modifying the gravitational sector.
+            </p>
 
-<div class="placeholder-box">
-    <strong>Preprint v2</strong>
-    <br />
-    <br />
-    <strong>Zenodo:</strong>
-    <a href="https://doi.org/10.5281/zenodo.17879744" target="_blank" rel="noopener noreferrer">
-        Psi-Continuum Cosmology v2: A Minimal One–Parameter Extension of ΛCDM
-    </a>
-    <br />
-    <br />
-    <span class="soon">Published: 2025-12-10</span>
-    <br />
-    <br />
-    <a href="https://psi-continuum.org/docs/v2/" target="_blank" rel="noopener noreferrer">
-        Documentation (PyPI Package): psi-continuum-v2
-    </a>
-    <br />
-    <br />
-    <a href="https://github.com/dmitrylife/psi-continuum-v2" target="_blank" rel="noopener noreferrer">
-        Archival source materials (GitHub)
-    </a>
-</div>
+            <div class="feature-highlight">
+                <h3>Why v5 matters</h3>
+                <ul class="clean-list">
+                    <li>It gives the clearest state-space formulation of the framework</li>
+                    <li>It organizes late-time datasets in a unified diagnostic language</li>
+                    <li>It makes small coherent deviations directly interpretable</li>
+                    <li>It keeps the framework anchored to reproducible background-level analysis</li>
+                </ul>
+            </div>
 
+            <div class="release-card release-card-featured">
+                <div class="release-topline">Current flagship preprint</div>
+                <h3>Preprint v5</h3>
+                <p class="release-subtitle">
+                    Psi–Continuum Cosmology v5: A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion
+                </p>
 
-<!-- Preprint v3 -->
-<p>
-    While <strong>Psi–Continuum v2</strong> focused on a strictly reproducible,
-    background-level comparison with ΛCDM using modern observational datasets,
-    the third release shifts emphasis toward physical interpretation.
-</p>
+                <p>
+                    A consolidated and formally clarified presentation of the state-space viewpoint,
+                    centered on macroscopic diagnostics and observational consistency.
+                </p>
 
-<p>
-    <strong>Version 3</strong> does not introduce new data or parameter fitting.
-    Instead, it provides a conceptual reinterpretation of the Ψ-deformation
-    as an effective macroscopic response field governing late-time cosmic expansion.
-    The paper is intentionally interpretational and complementary to v2.
-</p>
+                <p class="titlesmall">
+                    Published: 2025-12-29 · Macroscopic diagnostics · State-space formulation · Observational consistency
+                </p>
 
-<div class="placeholder-box">
-    <strong>Preprint v3</strong>
-    <br />
-    <br />
-    <strong>Zenodo:</strong>
-    <a href="https://doi.org/10.5281/zenodo.17945168" target="_blank" rel="noopener noreferrer">
-        Psi–Continuum Cosmology v3: Response–Field Interpretation of Late–Time Cosmic Expansion
-    </a>
-    <br />
-    <br />
-    <span class="soon">Published: 2025-12-16</span>
-    <br />
-    <br />
-    <a href="https://github.com/dmitrylife/psi-continuum-v3" target="_blank" rel="noopener noreferrer">
-        Archival source materials (GitHub)
-    </a>
-</div>
+                <div class="link-block">
+                    <div>
+                        <span class="link-label">Zenodo:</span>
+                        <a href="https://doi.org/10.5281/zenodo.18088720" target="_blank" rel="noopener noreferrer">
+                            Read the v5 preprint
+                        </a>
+                    </div>
+                    <div>
+                        <span class="link-label">Documentation:</span>
+                        <a href="https://psi-continuum.org/docs/v5/" target="_blank" rel="noopener noreferrer">
+                            psi-continuum-statespace
+                        </a>
+                    </div>
+                    <div>
+                        <span class="link-label">GitHub:</span>
+                        <a href="https://github.com/dmitrylife/psi-continuum-statespace" target="_blank" rel="noopener noreferrer">
+                            Companion diagnostic software
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- Preprint v4 -->
-<p>
-    <strong>Psi–Continuum Cosmology v4</strong> represents the conceptual culmination
-    of the response-based approach developed in previous releases.
-    It reformulates late-time cosmic acceleration in terms of a macroscopic
-    state–space response framework, introducing a geometric and thermodynamic
-    interpretation of background expansion.
-</p>
+        <section class="content" id="preprint-series">
+            <h2>Preprint Series</h2>
+            <p>
+                The Psi-Continuum framework has developed through a sequence of releases,
+                each advancing a different aspect of the program:
+                initial phenomenology, reproducible testing, interpretational clarification,
+                state-space reformulation, and consolidated diagnostics.
+            </p>
 
-<p>
-    Rather than introducing new physical fields or modifying gravity,
-    the expansion history is described as an irreversible relaxation process in 
-    the space of cosmological states, represented within an effective state-space
-    response framework for late-time expansion. Within this effective description, 
-    ΛCDM corresponds to the stationary limit of the background state-space representation.
-</p>
+            <div class="release-timeline">
 
-<div class="placeholder-box">
-    <strong>Preprint v4</strong>
-    <br />
-    <br />
-    <strong>Zenodo:</strong>
-    <a href="https://doi.org/10.5281/zenodo.17984834" target="_blank" rel="noopener noreferrer">
-        Psi–Continuum Cosmology v4: A State–Space Response Framework for Late–Time Cosmic Expansion
-    </a>
-    <br />
-    <br />
-    <span class="soon">Published: 2025-12-19</span>
-    <br />
-    <br />
-    <span class="titlesmall">
-        Conceptual theory · State-space formulation · Entropy and irreversibility
-    </span>
-</div>
+                <article class="release-card">
+                    <div class="release-topline">Origin</div>
+                    <h3>Preprint v1</h3>
+                    <p class="release-subtitle">
+                        Psi-Continuum Cosmology: A Phenomenological Extension of ΛCDM
+                    </p>
+                    <p>
+                        The starting point of the series: an initial phenomenological proposal
+                        introducing the direction of the framework.
+                    </p>
+                    <p class="titlesmall">Published: 2025-11-21</p>
+                    <div class="link-block">
+                        <div>
+                            <span class="link-label">Zenodo:</span>
+                            <a href="https://zenodo.org/records/17666099" target="_blank" rel="noopener noreferrer">
+                                v1 archival record
+                            </a>
+                        </div>
+                        <div>
+                            <span class="link-label">GitHub:</span>
+                            <a href="https://github.com/dmitrylife/psi-continuum" target="_blank" rel="noopener noreferrer">
+                                Archival source materials
+                            </a>
+                        </div>
+                    </div>
+                </article>
 
+                <article class="release-card">
+                    <div class="release-topline">Reproducible testbed</div>
+                    <h3>Preprint v2</h3>
+                    <p class="release-subtitle">
+                        Psi-Continuum Cosmology v2: A Minimal One–Parameter Extension of ΛCDM
+                    </p>
+                    <p>
+                        A major technical revision introducing a minimal one-parameter late-time deformation,
+                        together with full background-level tests using SN Ia, H(z), SDSS, and DESI DR2 BAO.
+                    </p>
+                    <p class="titlesmall">Published: 2025-12-10</p>
+                    <div class="link-block">
+                        <div>
+                            <span class="link-label">Zenodo:</span>
+                            <a href="https://doi.org/10.5281/zenodo.17879744" target="_blank" rel="noopener noreferrer">
+                                Read the v2 preprint
+                            </a>
+                        </div>
+                        <div>
+                            <span class="link-label">Documentation:</span>
+                            <a href="https://psi-continuum.org/docs/v2/" target="_blank" rel="noopener noreferrer">
+                                psi-continuum-v2
+                            </a>
+                        </div>
+                        <div>
+                            <span class="link-label">GitHub:</span>
+                            <a href="https://github.com/dmitrylife/psi-continuum-v2" target="_blank" rel="noopener noreferrer">
+                                Archival source materials
+                            </a>
+                        </div>
+                    </div>
+                </article>
 
-<p>
-    <strong>Psi–Continuum Cosmology v5</strong> represents a consolidation and
-    formal clarification of the state–space perspective introduced in earlier
-    releases. Rather than extending the conceptual framework further, this work
-    focuses on a strictly diagnostic formulation of late–time cosmic expansion
-    in terms of macroscopic state–space variables.
-</p>
+                <article class="release-card">
+                    <div class="release-topline">Interpretational shift</div>
+                    <h3>Preprint v3</h3>
+                    <p class="release-subtitle">
+                        Psi–Continuum Cosmology v3: Response–Field Interpretation of Late–Time Cosmic Expansion
+                    </p>
+                    <p>
+                        A conceptual reinterpretation of the deformation picture at the effective
+                        macroscopic level, focused on physical language rather than new data fitting.
+                    </p>
+                    <p class="titlesmall">Published: 2025-12-16</p>
+                    <div class="link-block">
+                        <div>
+                            <span class="link-label">Zenodo:</span>
+                            <a href="https://doi.org/10.5281/zenodo.17945168" target="_blank" rel="noopener noreferrer">
+                                Read the v3 preprint
+                            </a>
+                        </div>
+                        <div>
+                            <span class="link-label">GitHub:</span>
+                            <a href="https://github.com/dmitrylife/psi-continuum-v3" target="_blank" rel="noopener noreferrer">
+                                Archival source materials
+                            </a>
+                        </div>
+                    </div>
+                </article>
 
-<p>
-    The v5 framework introduces a single kinematical state–space coordinate,
-    defined directly from ratios of background expansion histories relative to
-    a ΛCDM reference state. This construction is purely phenomenological and
-    deliberately avoids the introduction of new dynamical degrees of freedom,
-    modified gravity, or microscopic model assumptions.
-</p>
+                <article class="release-card">
+                    <div class="release-topline">State-space reformulation</div>
+                    <h3>Preprint v4</h3>
+                    <p class="release-subtitle">
+                        Psi–Continuum Cosmology v4: A State–Space Response Framework for Late–Time Cosmic Expansion
+                    </p>
+                    <p>
+                        A broader conceptual synthesis of the response-based approach,
+                        introducing a geometric and thermodynamic reading of background evolution.
+                    </p>
+                    <p class="titlesmall">
+                        Published: 2025-12-19 · Conceptual theory · State-space formulation · Entropy and irreversibility
+                    </p>
+                    <div class="link-block">
+                        <div>
+                            <span class="link-label">Zenodo:</span>
+                            <a href="https://doi.org/10.5281/zenodo.17984834" target="_blank" rel="noopener noreferrer">
+                                Read the v4 preprint
+                            </a>
+                        </div>
+                    </div>
+                </article>
 
-<p>
-    Within this formulation, observational constraints are organized as smooth
-    trajectories in an abstract state space, allowing direct assessment of
-    internal consistency between independent late–time datasets. The ΛCDM
-    model emerges naturally as the instantaneous–response limit of the
-    macroscopic description, while observed deviations correspond to small,
-    coherent deformations of the background expansion history.
-</p>
+            </div>
+        </section>
 
-<!-- Preprint v5 -->
-<div class="placeholder-box">
-    <strong>Preprint v5</strong>
-    <br />
-    <br />
-    <strong>Zenodo:</strong>
-    <a href="https://doi.org/10.5281/zenodo.18088720" target="_blank" rel="noopener noreferrer">
-        Psi–Continuum Cosmology v5: A Macroscopic State–Space Response Framework for Late–Time Cosmic Expansion
-    </a>
-    <br />
-    <br />
-    <span class="soon">Published: 2025-12-29</span>
-    <br />
-    <br />
-    <span class="titlesmall">
-        Macroscopic diagnostics · State–space formulation · Observational consistency
-    </span>
-    <br />
-    <br />
-    <a href="https://psi-continuum.org/docs/v5/" target="_blank" rel="noopener noreferrer">
-        Documentation (PyPI Package): psi-continuum-statespace
-    </a>
-    <br />
-    <br />
-    <a href="https://github.com/dmitrylife/psi-continuum-statespace" target="_blank" rel="noopener noreferrer">
-        Companion diagnostic software (GitHub)
-    </a>
-</div>
+        <section class="content">
+            <h2>Interpretational Clarification</h2>
 
-<!-- Ongoing and Future Directions -->
-<h2>Ongoing Research Program</h2>
+            <p>
+                The $\Psi(z)$ function is a derived, background-level, data-facing quantity.
+                It is best understood as an effective diagnostic coordinate rather than as
+                a fundamental field of a microscopic theory.
+            </p>
 
-<p>
-The Psi–Continuum framework is evolving toward a more rigorous
-statistical and geometric formulation.
-</p>
+            <p>
+                Accordingly, language such as <em>response</em>, <em>state space</em>,
+                or <em>relaxation</em> should be read as an interpretational framework
+                for organizing the reconstructed expansion history.
+            </p>
 
-<p>
-Current work focuses on strengthening the robustness and theoretical
-clarity of the background-level diagnostics, including:
-</p>
+            <p>
+                $\Lambda$CDM remains the reference dynamical baseline.
+                The Psi-Continuum construction makes relative deviations,
+                coherence between datasets, and the geometry of those deviations
+                more explicit and measurable.
+            </p>
+        </section>
 
-<ul>
-    <li>Profile-likelihood analyses and information-criterion comparisons (AIC/BIC)</li>
-    <li>Systematic treatment of nuisance parameters and robustness checks</li>
-    <li>Conceptual links between macroscopic state–space diagnostics and possible microscopic interpretations</li>
-    <li>Possible links to non-equilibrium physics, coarse-graining, and emergent gravity</li>
-    <li>Extensions of the state–space approach to perturbations and structure formation</li>
-    <li>Comparison with future high-precision late-time datasets</li>
-</ul>
+        <section class="content">
+            <h2>Ongoing Research Program</h2>
 
-<p>
-A forthcoming study currently in preparation,
-<strong>“A Robust Statistical Assessment of a Minimal Late-Time Deformation of ΛCDM”</strong>,
-aims to provide a systematic profile-likelihood analysis of late-time
-background datasets, with explicit treatment of nuisance parameters
-and baseline-dependence effects.
-</p>
+            <p>
+                The framework is now moving toward a more statistically robust,
+                methodologically explicit, and geometrically clarified formulation.
+            </p>
 
-<p class="titlesmall">
-Future developments may appear either as thematic studies or as formally
-structured releases, depending on scope.
-</p>
+            <p>
+                Current directions include:
+            </p>
 
-<p class="titlesmall">
-I am grateful to colleagues and readers who have engaged critically with
-earlier versions of this work. Constructive discussion has helped clarify
-definitions, assumptions, and conventions. Any remaining inaccuracies are,
-of course, my own.
-</p>
+            <ul class="clean-list">
+                <li>Profile-likelihood analyses and information-criterion comparisons</li>
+                <li>Systematic treatment of nuisance parameters and robustness checks</li>
+                <li>More explicit separation between phenomenology and interpretation</li>
+                <li>Links between macroscopic state-space diagnostics and microscopic intuition</li>
+                <li>Extensions toward perturbations, structure formation, and future datasets</li>
+                <li>Further development of reproducible diagnostic software</li>
+            </ul>
 
-<div class="package-info">
-    <p>
-        <strong>arXiv submission note:</strong><br>
-        If you are an arXiv-endorsed researcher in a relevant category and
-        would be willing to consider an endorsement request after reviewing
-        the project materials, more information is available here:
-    </p>
+            <div class="feature-highlight">
+                <h3>In preparation</h3>
+                <p>
+                    A forthcoming study, <strong>“A Robust Statistical Assessment of a Minimal Late-Time Deformation of ΛCDM”</strong>,
+                    is intended to provide a systematic profile-likelihood analysis of late-time background data,
+                    with explicit treatment of nuisance parameters and baseline sensitivity.
+                </p>
+            </div>
 
-    <p>
-        <a href="/arxiv-endorsement.html">
-            arXiv submission note →
-        </a>
-    </p>
-</div>
+            <p class="titlesmall">
+                Future developments may appear either as thematic studies or as formally versioned releases,
+                depending on scope and level of consolidation.
+            </p>
+        </section>
 
-<h2>Links</h2>
-<ul>
-    <li>GitHub: <a href="https://github.com/Dmitrylife">github.com/Dmitrylife</a></li>
-    <li>Email: <a href="mailto:d.klimov.psi@gmail.com">d.klimov.psi@gmail.com</a></li>
-    <li>ORCID: <a href="https://orcid.org/0009-0009-3305-7592">0009-0009-3305-7592</a></li>
-</ul>
+        <section class="content">
+            <h2>arXiv Submission Note</h2>
 
-<footer>
-    © 2025-2026 Psi-Continuum Project
-    <br>
-    Dmitry V. Klimov · Independent Research in Non-Equilibrium Physics
-    <br>
-    <span class="titlesmall">
-        Reproducible research · Open-source software · Archival releases
-    </span>
-</footer>
+            <div class="package-info">
+                <p>
+                    If you are an arXiv-endorsed researcher in a relevant category and would be
+                    willing to consider an endorsement request after reviewing the project materials,
+                    additional information is available here:
+                </p>
+                <p>
+                    <a href="/arxiv-endorsement.html">arXiv submission note →</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="content compact-contact">
+            <h2>Links</h2>
+            <p>
+                <a href="https://github.com/Dmitrylife" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+                <a href="mailto:d.klimov.psi@gmail.com">Email</a> ·
+                <a href="https://orcid.org/0009-0009-3305-7592" target="_blank" rel="noopener noreferrer">ORCID</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2025–2026 Psi-Continuum Project
+        <br>
+        Dmitry V. Klimov · Independent Research in Non-Equilibrium Physics
+        <br>
+        <span class="titlesmall">
+            Reproducible research · Open-source software · Archival releases
+        </span>
+    </footer>
 
 </div>
 
 <button id="backToTop" title="Go to top">↑</button>
-</body>
+
 <script src="script.js"></script>
 <script data-goatcounter="https://psi-continuum.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+</body>
 </html>
 
