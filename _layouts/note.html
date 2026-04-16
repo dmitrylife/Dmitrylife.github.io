@@ -2,75 +2,41 @@
 layout: default
 ---
 
-<style>
-.notes-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #e0e0e0;
-    flex-wrap: wrap;
-}
+<section class="note-shell">
+    <div class="note-mode-banner">
+        Conceptual note · text-focused reading mode
+    </div>
 
-.notes-nav a {
-    color: #2c7be5;
-    text-decoration: none;
-    font-weight: 500;
-}
+    <article class="note-content">
+        {{ content }}
+    </article>
 
-.notes-nav a:hover {
-    text-decoration: underline;
-}
+    {% assign notes = site.notes | sort: "order" %}
 
-.notes-nav .nav-all {
-    margin: 0 auto;
-    font-weight: 600;
-}
+    {% for n in notes %}
+      {% if n.url == page.url %}
+        {% assign prev_index = forloop.index0 | minus: 1 %}
+        {% assign next_index = forloop.index0 | plus: 1 %}
 
-@media (max-width: 640px) {
-    .notes-nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+        {% if prev_index >= 0 %}
+          {% assign prev = notes[prev_index] %}
+        {% endif %}
 
-    .notes-nav .nav-all {
-        margin: 0;
-    }
-}
-</style>
+        {% if next_index < notes.size %}
+          {% assign next = notes[next_index] %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
 
-<article class="note-content">
-  {{ content }}
-</article>
+    <nav class="notes-nav">
+      {% if prev %}
+        <a href="{{ prev.url }}">← {{ prev.title }}</a>
+      {% endif %}
 
-{% assign notes = site.notes | sort: "order" %}
+      <a href="/notes/" class="nav-all">All Notes</a>
 
-{% for n in notes %}
-  {% if n.url == page.url %}
-    {% assign prev_index = forloop.index0 | minus: 1 %}
-    {% assign next_index = forloop.index0 | plus: 1 %}
-
-    {% if prev_index >= 0 %}
-      {% assign prev = notes[prev_index] %}
-    {% endif %}
-
-    {% if next_index < notes.size %}
-      {% assign next = notes[next_index] %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-<nav class="notes-nav">
-  {% if prev %}
-    <a href="{{ prev.url }}">← {{ prev.title }}</a>
-  {% endif %}
-
-  <a href="/notes/" class="nav-all">All Notes</a>
-
-  {% if next %}
-    <a href="{{ next.url }}">{{ next.title }} →</a>
-  {% endif %}
-</nav>
-
+      {% if next %}
+        <a href="{{ next.url }}">{{ next.title }} →</a>
+      {% endif %}
+    </nav>
+</section>
