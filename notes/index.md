@@ -7,7 +7,6 @@ permalink: /notes/
 # A simpler, data-consistent way to think about cosmic acceleration
 
 We usually explain cosmic acceleration by invoking dark energy.
-
 But maybe we are using the wrong language.
 
 ---
@@ -15,17 +14,11 @@ But maybe we are using the wrong language.
 ## A simple intuition
 
 Imagine a long moving surface, with a small object resting on it.
-
 At first, everything moves together. Relative to the surface, the object is at rest.
-
 Now the surface begins to slow down.
-
 The object has inertia — it cannot instantly adjust.
-
 Relative to the surface, it starts to move forward.
-
 From the outside, it looks like acceleration.
-
 But nothing was pushed forward. The system simply did not slow down fast enough.
 
 ---
@@ -39,21 +32,15 @@ This is the key idea:
 ## From intuition to cosmology
 
 In cosmology, space itself expands.
-
 Distances increase not because galaxies move through space, but because the space between them stretches.
-
 The larger the distance, the larger the apparent recession speed.
-
 This is not different forces acting on different objects — it is a geometric effect.
 
 ---
 
 But there is also gravity.
-
 Matter attracts itself and tends to slow down the expansion.
-
 At the same time, as the Universe expands, matter becomes more dilute.
-
 Gravitational slowing weakens over time.
 
 So the system is not static — its conditions continuously change.
@@ -133,17 +120,13 @@ More distant objects correspond to earlier cosmic epochs.
 ---
 
 But what matters is not only *when*, but that the properties of the Universe change over time.
-
 The expansion rate was different in the past and evolves as the Universe evolves.
-
 So we need a way to compare different moments in cosmic history.
 
 ---
 
-To describe this, cosmology uses redshift *z*.
-
+To describe this, cosmology uses redshift *z*.  
 z serves as a time-like label.
-
 The larger z — the further away the object and the earlier the epoch we observe.
 
 ---
