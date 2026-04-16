@@ -263,3 +263,25 @@ nav {
     }
 }
 
+/* =====  ===== */
+.framework-divider {
+    border: 0;
+    border-top: 1px solid #d8e1ff;
+    margin: 24px 0;
+}
+
+.hero-note {
+    font-size: 1.05rem;
+    color: #444;
+}
+
+.package-info p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+    .formula-box {
+        font-size: 17px;
+        padding: 10px 12px;
+    }
+}
