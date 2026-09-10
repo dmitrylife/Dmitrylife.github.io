@@ -5,11 +5,11 @@
       "id": "v5",
       "label": "v5 — state-space diagnostic framework",
       "url": "/docs/v5/",
-      "status": "active"
+      "status": "consolidated"
     },
     {
       "id": "v2",
-      "label": "v2 — minimal ΛCDM extension (archived)",
+      "label": "v2 — minimal ΛCDM extension (frozen · audited)",
       "url": "/docs/v2/",
       "status": "archived"
     }
