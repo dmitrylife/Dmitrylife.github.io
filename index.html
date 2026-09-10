@@ -155,7 +155,7 @@
             <div class="formula-box">
                 $$\Psi(z) \equiv \frac{H(z)}{H_{\Lambda \mathrm{CDM}}(z)} - 1$$
                 <div class="formula-caption">
-                    A model-independent diagnostic coordinate constructed directly from observational data
+                    A reference-model-relative diagnostic coordinate for quantifying deviations in the observed expansion history
                 </div>
             </div>
 
@@ -192,13 +192,13 @@
                 </article>
 
                 <article class="stack-card">
-                    <p class="stack-label">Software</p>
-                    <h3>Reproducible computational tools</h3>
+                    <p class="stack-label">Software & validation</p>
+                    <h3>Reproducible computational research</h3>
                     <p>
-                        Open packages for testing $\Psi$CDM and related state-space diagnostics
-                        against modern observational datasets.
+                        Open numerical packages, frozen research releases, independent audits,
+                        and validation tools for observational cosmology.
                     </p>
-                    <a href="/docs/v2/">Open v2 docs →</a>
+                    <a href="/docs/">Open research software →</a>
                 </article>
 
                 <article class="stack-card">
@@ -254,6 +254,49 @@
         </section>
 
         <section class="content">
+            <h2>Research Update — September 2026</h2>
+
+            <p>
+                A systematic reproducibility and model-consistency audit of the frozen
+                <strong>Psi-Continuum v2</strong> numerical implementation has been completed.
+            </p>
+
+            <p>
+                The audit confirms that the archived numerical pipeline is internally
+                reproducible. At the same time, it identifies a model–implementation mismatch:
+                for non-zero response amplitude, the frozen implementation does not correspond
+                to the defining equation documented for v2.
+            </p>
+
+            <p>
+                The original v2 repository remains frozen and unchanged in order to preserve
+                the scientific record. The audit is published separately with the full
+                numerical trace, validation scripts, and results.
+            </p>
+
+            <p>
+                Future Psi-Continuum studies will be developed as independently specified,
+                data-validated and fully traceable computational investigations.
+            </p>
+
+            <div class="hero-actions">
+                <a class="button-primary"
+                href="https://github.com/dmitrylife/psi-continuum-v2-audit"
+                target="_blank"
+                rel="noopener noreferrer">
+                    Read the v2 audit
+                </a>
+
+                <a class="button-secondary"
+                href="https://github.com/dmitrylife/psi-continuum-v2"
+                target="_blank"
+                rel="noopener noreferrer">
+                    View frozen v2
+                </a>
+            </div>
+        </section>
+
+        <section class="content">
             <h2>Open Research Principle</h2>
             <p>
                 A central part of this work is methodological transparency:
@@ -272,6 +315,14 @@
                     <span class="link-label">Computational package:</span>
                     <a href="https://github.com/dmitrylife/psi-continuum-v2" target="_blank" rel="noopener noreferrer">
                         psi-continuum-v2
+                    </a>
+                </div>
+                <div>
+                    <span class="link-label">Independent v2 audit:</span>
+                    <a href="https://github.com/dmitrylife/psi-continuum-v2-audit"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        psi-continuum-v2-audit
                     </a>
                 </div>
                 <div>
