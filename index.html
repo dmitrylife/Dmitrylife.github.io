@@ -6,11 +6,12 @@
     <meta name="theme-color" content="#ffffff">
 
     <title>Dmitry Vasilevich Klimov — Independent Researcher | Psi-Continuum Framework</title>
-    <meta name="description" content="Independent research in late-time cosmology, non-equilibrium physics, state-space diagnostics, and the Psi-Continuum framework. Open-source, reproducible, and conceptually structured.">
+    <meta name="description" content="Psi-Continuum studies whether observed late-time cosmic expansion differs from ΛCDM and what effective gravitational sources could correspond to those differences under general relativity.">
 
     <link rel="canonical" href="https://psi-continuum.org/">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/home-research.css">
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -37,7 +38,7 @@
         <p class="eyebrow">Independent Researcher · Late-Time Cosmology · Non-Equilibrium Physics</p>
         <h1>Dmitry Vasilevich Klimov</h1>
         <p class="hero-subtitle">
-            Data-driven state-space framework for interpreting late-time cosmic expansion.            
+            From Cosmic Expansion Diagnostics to Effective Gravitational Sources.            
         </p>
         <p>
             Psi-Continuum is an open research framework for investigating whether 
@@ -53,7 +54,7 @@
     </header>
 
     <nav>
-        <a href="index.html" class="active">About</a>
+        <a href="index.html" class="active">Research</a>
         <a href="theory.html">Ψ-Continuum</a>
         <a href="/notes/">Notes</a>
         <a href="/docs/">Docs</a>
@@ -63,33 +64,58 @@
 
     <main>
 
-        <section class="content hero-panel">
-            <h2>Research Overview</h2>
+        <section class="content hero-panel research-landing" aria-labelledby="research-question">
+            <p class="research-kicker">THE RESEARCH QUESTION</p>
+            <h2 id="research-question">What can the expansion of the Universe tell us about gravity?</h2>
+            <p class="research-lead">We investigate whether the observed late-time expansion history differs from the standard ΛCDM model — and, if it does, what effective energy density and pressure would correspond to those differences within general relativity.</p>
+            <p>Our starting point is observation, not a proposed new particle or field. A detected deviation would require careful checks of reference-model assumptions, measurement uncertainties, and systematic effects before any physical interpretation.</p>
+            <div class="hero-actions">
+                <a class="button-primary" href="#method">Understand the method</a>
+                <a class="button-secondary" href="#research-evolution">Explore the research history</a>
+                <a class="button-secondary" href="/theory.html">Read the preprints</a>
+            </div>
             <div class="research-author">
                 <img src="/assets/img/dmitry-klimov.jpg" alt="Portrait of Dmitry V. Klimov" class="research-author-photo" width="112" height="112" decoding="async">
-                <div class="research-author-info">
-                    <strong>Dmitry V. Klimov</strong>
-                    <span>Independent Researcher</span>
-                    <span>Late-Time Cosmology · Non-Equilibrium Physics</span>
-                </div>
+                <div class="research-author-info"><strong>Dmitry V. Klimov</strong><span>Independent Researcher</span><span>Late-Time Cosmology · Reproducible Computational Research</span></div>
             </div>
-            <p class="hero-note">
-                This website presents an independent research program focused on
-                <strong>late-time cosmology</strong>, <strong>macroscopic response</strong>,
-                and <strong>state-space diagnostics</strong>.
-            </p>
+        </section>
 
-            <p>
-                The central idea is simple: some observed features of cosmic expansion may be
-                interpretable not only through new ingredients, but also through a
-                compact macroscopic description of response, stability, and relaxation.
-            </p>
-
-            <div class="hero-actions">
-                <a class="button-primary" href="/theory.html">Explore the framework</a>
-                <a class="button-secondary" href="/notes/">Read conceptual notes</a>
-                <a class="button-secondary" href="/docs/">Open documentation</a>
+        <section class="content research-method" id="method" aria-labelledby="method-title">
+            <p class="research-kicker">FROM OBSERVATION TO INTERPRETATION</p>
+            <h2 id="method-title">Three steps, one testable question</h2>
+            <div class="research-steps">
+                <article><span class="research-step-num">01</span><h3>Measure expansion</h3><p>Use supernovae, BAO and expansion-rate measurements to constrain the history H(z).</p></article>
+                <article><span class="research-step-num">02</span><h3>Diagnose departures</h3><p>Compare H(z) with a specified ΛCDM reference and quantify the relative difference Ψ(z), including uncertainty.</p></article>
+                <article><span class="research-step-num">03</span><h3>Reconstruct an effective source</h3><p>Under stated FLRW and general-relativistic assumptions, infer the effective energy density and pressure compatible with that history.</p></article>
             </div>
+            <div class="research-visual" role="img" aria-label="Illustrative schematic: a reference expansion curve and a nearby alternative curve, with a residual deviation below. Not observational data.">
+                <svg viewBox="0 0 920 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <g fill="none" stroke="#cbd5e1" stroke-width="1.5"><path d="M55 22V205H435"/><path d="M515 22V205H892"/></g>
+                    <g font-size="15" fill="#475569" font-family="system-ui,sans-serif"><text x="60" y="18">Expansion history H(z)</text><text x="520" y="18">Relative deviation Ψ(z)</text><text x="395" y="230">z</text><text x="854" y="230">z</text></g>
+                    <path d="M55 186 C140 169 232 127 313 92 S397 45 430 33" fill="none" stroke="#64748b" stroke-width="4"/>
+                    <path d="M55 186 C140 166 232 117 313 79 S397 49 430 39" fill="none" stroke="#0f766e" stroke-width="4" stroke-dasharray="10 7"/>
+                    <path d="M515 125H892" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 6"/>
+                    <path d="M515 125 C625 121 700 85 763 97 S850 143 892 117" fill="none" stroke="#0f766e" stroke-width="4"/>
+                    <g font-size="13" font-family="system-ui,sans-serif"><text x="100" y="244" fill="#64748b">ΛCDM reference</text><text x="275" y="244" fill="#0f766e">Illustrative alternative</text><text x="525" y="244" fill="#64748b">Zero deviation</text></g>
+                </svg>
+                <p class="formula-caption">Conceptual illustration only — not fitted data, a measured detection, or a validated Ψ-Continuum result.</p>
+            </div>
+            <div class="formula-box">$$\\Psi(z) \\equiv \\frac{H(z)}{H_{\\rm ref}(z)} - 1$$
+                <div class="formula-caption">A reference-relative diagnostic. Its interpretation depends on the chosen reference model and parameters; Ψ is not a new physical field.</div>
+            </div>
+            <p><strong>Scientific boundary:</strong> reconstructing an effective source does not establish its microscopic nature. Background expansion alone cannot uniquely identify the underlying physics.</p>
+        </section>
+
+        <section class="content" id="research-evolution">
+            <p class="research-kicker">RESEARCH EVOLUTION</p>
+            <h2>How the project developed</h2>
+            <div class="research-timeline">
+                <article><strong>v1</strong><span>Initial phenomenology and first comparisons</span></article>
+                <article><strong>v2</strong><span>Main computational implementation and archived tests</span></article>
+                <article><strong>v3–v4</strong><span>Conceptual and interpretational development</span></article>
+                <article><strong>v5</strong><span>Consolidated state-space diagnostic framework</span></article>
+            </div>
+            <p>The historical sequence is not a chain of confirmed physical discoveries. Each version and its numerical dependencies must be assessed on its own terms. <a href="/theory.html">Read the complete preprint history →</a></p>
         </section>
 
         <section class="quick-start-grid">
