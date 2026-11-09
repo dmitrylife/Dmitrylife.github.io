@@ -98,8 +98,11 @@ $$
 \Psi(z) = \frac{H(z)}{H_{\Lambda\mathrm{CDM}}(z)} - 1
 $$
 
-Ψ(z) is constructed directly from observational expansion data.  
-It provides a model-independent measure of deviation from ΛCDM.
+Ψ(z) can be constructed from observational estimates of H(z), or evaluated
+from a specified background model. It measures deviation relative to a chosen
+ΛCDM reference and its parameters; it is not model-independent.
+In the State-Space implementation, `psi_z` uses the frozen v2 background,
+which Audit 01 found inequivalent to the published v2 formula for non-zero ε₀.
 
 ---
 
@@ -182,7 +185,8 @@ Analogies are used only as explanatory tools,
 not as sources of derivation or evidence.
 
 All quantitative results, tests, and claims remain confined  
-to the peer-reviewed and archived technical work.
+to the cited technical publications, archived software, and audit records.
+Archival publication alone does not establish peer review or scientific validation.
 
 These notes are intended for readers interested in how to think about the framework,  
 not in extending or validating it beyond its stated scope.
