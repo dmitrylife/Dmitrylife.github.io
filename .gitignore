@@ -1,2 +1,5 @@
 tree.py
 *~
+
+# Jekyll / Sass build cache
+.sass-cache/
