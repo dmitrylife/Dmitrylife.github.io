@@ -7,8 +7,11 @@ title: Documentation
 
 <p>Select a documentation version:</p>
 
-<div id="versions">
-  Loading versions…
+<div id="versions" aria-live="polite">
+<ul aria-label="Documentation versions">
+  <li><a href="{{ '/docs/v5/' | relative_url }}">v5 — State-Space diagnostics</a></li>
+  <li><a href="{{ '/docs/v2/' | relative_url }}">v2 — archived cosmology documentation</a></li>
+</ul>
 </div>
 
 <script>
@@ -41,7 +44,7 @@ title: Documentation
 
     box.innerHTML = `<ul style="list-style:none; padding-left:0">${list}</ul>`;
   } catch (e) {
-    box.innerHTML = "Failed to load versions.json: " + e;
+    // Keep the static version links if metadata cannot be loaded.
   }
 })();
 </script>
@@ -63,7 +66,8 @@ title: Documentation
 </p>
 
 <p style="margin-bottom:0;">
-  The original v2 software and documentation remain preserved unchanged.
+  The original v2 software and archived scientific results remain preserved;
+  documentation now includes contextual audit notices.
   <a href="https://github.com/dmitrylife/psi-continuum-v2-audit"
      target="_blank"
      rel="noopener noreferrer">

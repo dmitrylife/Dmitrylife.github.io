@@ -34,7 +34,28 @@
     <h2 class="project-tagline">{{ site.description }}</h2>
   </section>
 
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/theory.html' | relative_url }}">Theory</a>
+    <a href="{{ '/docs/' | relative_url }}">Documentation</a>
+    <a href="{{ '/notes/' | relative_url }}">Notes</a>
+  </nav>
+
   <main class="main-content">
+    {% if page.url contains '/docs/' and page.url != '/docs/' %}
+      {% assign parent_url = '/docs/' %}
+      {% assign parent_label = 'Documentation' %}
+      {% if page.url contains '/docs/v2/' and page.url != '/docs/v2/' %}
+        {% assign parent_url = '/docs/v2/' %}
+        {% assign parent_label = 'v2 documentation' %}
+      {% elsif page.url contains '/docs/experiments/' and page.url != '/docs/experiments/' %}
+        {% assign parent_url = '/docs/experiments/' %}
+        {% assign parent_label = 'Experiments' %}
+      {% endif %}
+      <nav class="section-nav" aria-label="Parent section">
+        <a href="{{ parent_url | relative_url }}">← {{ parent_label }}</a>
+      </nav>
+    {% endif %}
     {{ content }}
   </main>
 

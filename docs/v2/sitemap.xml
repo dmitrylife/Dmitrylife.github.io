@@ -6,37 +6,37 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://psi-continuum.org/docs/v2/quickstart.html</loc>
+    <loc>https://psi-continuum.org/docs/v2/quickstart/</loc>
     <lastmod>2025-12-16</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://psi-continuum.org/docs/v2/installation.html</loc>
+    <loc>https://psi-continuum.org/docs/v2/installation/</loc>
     <lastmod>2025-12-16</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://psi-continuum.org/docs/v2/cli.html</loc>
+    <loc>https://psi-continuum.org/docs/v2/cli/</loc>
     <lastmod>2025-12-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psi-continuum.org/docs/v2/api.html</loc>
+    <loc>https://psi-continuum.org/docs/v2/api/</loc>
     <lastmod>2025-12-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psi-continuum.org/docs/v2/data_format.html</loc>
+    <loc>https://psi-continuum.org/docs/v2/data_format/</loc>
     <lastmod>2025-12-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psi-continuum.org/docs/v2/theory.html</loc>
+    <loc>https://psi-continuum.org/docs/v2/theory/</loc>
     <lastmod>2025-12-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://psi-continuum.org/docs/v2/changelog.html</loc>
+    <loc>https://psi-continuum.org/docs/v2/changelog/</loc>
     <lastmod>2025-12-16</lastmod>
     <priority>0.7</priority>
   </url>

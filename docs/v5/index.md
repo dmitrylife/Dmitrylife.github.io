@@ -3,6 +3,9 @@ layout: default
 title: Psi–Continuum State-Space Diagnostics (v5)
 ---
 
+{% include audit-01-notice.html %}
+
+
 > ⚠️ **Status Notice**
 
 > Psi–Continuum Cosmology v5 represents the archived background-level
