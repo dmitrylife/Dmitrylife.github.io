@@ -6,11 +6,12 @@
     <meta name="theme-color" content="#ffffff">
 
     <title>Dmitry Vasilevich Klimov — Independent Researcher | Psi-Continuum Framework</title>
-    <meta name="description" content="Independent research in late-time cosmology, non-equilibrium physics, state-space diagnostics, and the Psi-Continuum framework. Open-source, reproducible, and conceptually structured.">
+    <meta name="description" content="Psi-Continuum studies whether observed late-time cosmic expansion differs from ΛCDM and what effective gravitational sources could correspond to those differences under general relativity.">
 
     <link rel="canonical" href="https://psi-continuum.org/">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/home-research.css">
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -18,275 +19,77 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
-      }
-    };
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
 </head>
-<body>
-
+<body class="home-research">
+<a class="skip-link" href="#main-content">Skip to content</a>
 <div class="container">
-
-    <header class="site-header">
-        <img src="logo.svg" class="logo" alt="Psi logo">
-        <p class="eyebrow">Independent Researcher · Late-Time Cosmology · Non-Equilibrium Physics</p>
-        <h1>Dmitry Vasilevich Klimov</h1>
-        <p class="hero-subtitle">
-            Data-driven state-space framework for interpreting late-time cosmic expansion.            
-        </p>
-        <p>
-            Psi-Continuum is an open research framework for investigating whether 
-            small late-time deviations from the ΛCDM expansion history can be 
-            described by a macroscopic diagnostic coordinate, Ψ(z).
-        </p>
-        <p class="header-meta">
-            Kaliningrad – Königsberg ·
-            <a href="mailto:d.klimov.psi@gmail.com">d.klimov.psi@gmail.com</a> ·
-            <a href="https://orcid.org/0009-0009-3305-7592" target="_blank" rel="noopener noreferrer">ORCID</a> ·
-            <a href="https://github.com/Dmitrylife" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </p>
-    </header>
-
-    <nav>
-        <a href="index.html" class="active">About</a>
-        <a href="theory.html">Ψ-Continuum</a>
-        <a href="/notes/">Notes</a>
-        <a href="/docs/">Docs</a>
-        <a href="arxiv-endorsement.html">arXiv</a>
-        <a href="#academic-activities">Academic Activities</a>
+<header class="site-header">
+    <a class="brand" href="index.html" aria-label="Psi-Continuum home"><img src="logo.svg" class="logo" width="40" height="40" alt="">Ψ-Continuum <span>Research program</span></a>
+    <nav aria-label="Primary navigation">
+        <a href="#research-question">Research</a><a href="theory.html">Theory</a><a href="#results">Results</a><a href="#research-evolution">Publications</a><a href="#explore">Explore</a><a href="#about">About</a>
     </nav>
-
-    <main>
-
-        <section class="content hero-panel">
-            <h2>Research Overview</h2>
-            <div class="research-author">
-                <img src="/assets/img/dmitry-klimov.jpg" alt="Portrait of Dmitry V. Klimov" class="research-author-photo" width="112" height="112" decoding="async">
-                <div class="research-author-info">
-                    <strong>Dmitry V. Klimov</strong>
-                    <span>Independent Researcher</span>
-                    <span>Late-Time Cosmology · Non-Equilibrium Physics</span>
-                </div>
-            </div>
-            <p class="hero-note">
-                This website presents an independent research program focused on
-                <strong>late-time cosmology</strong>, <strong>macroscopic response</strong>,
-                and <strong>state-space diagnostics</strong>.
-            </p>
-
-            <p>
-                The central idea is simple: some observed features of cosmic expansion may be
-                interpretable not only through new ingredients, but also through a
-                compact macroscopic description of response, stability, and relaxation.
-            </p>
-
-            <div class="hero-actions">
-                <a class="button-primary" href="/theory.html">Explore the framework</a>
-                <a class="button-secondary" href="/notes/">Read conceptual notes</a>
-                <a class="button-secondary" href="/docs/">Open documentation</a>
-            </div>
-        </section>
-
-        <section class="quick-start-grid">
-            <article class="quick-card">
-                <h3>New here?</h3>
-                <p>
-                    Start with a concise conceptual overview of the Psi-Continuum idea,
-                    its motivation, and its relation to observational cosmology.
-                </p>
-                <a href="/theory.html">Go to overview →</a>
-            </article>
-
-            <article class="quick-card">
-                <h3>For students</h3>
-                <p>
-                    Begin with the conceptual notes and the intuitive state-space language
-                    before moving to formal papers and numerical packages.
-                </p>
-                <a href="/notes/">Read notes →</a>
-            </article>
-
-            <article class="quick-card">
-                <h3>For researchers</h3>
-                <p>
-                    Access preprints, reproducible software, dataset-facing documentation,
-                    and the computational pipeline used in the published releases.
-                </p>
-                <a href="/docs/">Open docs →</a>
-            </article>
-        </section>
-
-        <section class="content">
-            <h2>What is the Psi-Continuum framework?</h2>
-            <p class="titlesmall">
-                Data-driven interpretation · state-space diagnostics · open computation
-            </p>
-
-            <p>
-                The Psi-Continuum framework is a research program that combines:
-            </p>
-
-            <div class="research-pillars">
-                <div class="pillar-card">
-                    <h3>Conceptual layer</h3>
-                    <p>
-                        A structured language for interpreting late-time expansion data
-                        in terms of geometry, stability, relaxation, and effective response.
-                    </p>
-                </div>
-
-                <div class="pillar-card">
-                    <h3>Diagnostic layer</h3>
-                    <p>
-                        A compact state-space coordinate for representing departures
-                        from a reference expansion history.
-                    </p>
-                </div>
-
-                <div class="pillar-card">
-                    <h3>Computational layer</h3>
-                    <p>
-                        Reproducible open-source tools for testing background cosmology
-                        against SN Ia, H(z), and BAO datasets.
-                    </p>
-                </div>
-            </div>
-
-            <p class="formula-intro">
-                At the interpretational level, the basic diagnostic coordinate is:
-            </p>
-
-            <div class="formula-box">
-                $$\Psi(z) \equiv \frac{H(z)}{H_{\Lambda \mathrm{CDM}}(z)} - 1$$
-                <div class="formula-caption">
-                    A reference-model-relative diagnostic coordinate for quantifying deviations in the observed expansion history
-                </div>
-            </div>
-
-            <p>
-                This does <strong>not</strong> introduce a new field or modified gravity by itself.
-                It is a compact diagnostic representation of how observational expansion history
-                can be organized in a state-space language relative to the $\Lambda$CDM baseline.
-            </p>
-        </section>
-
-        <section class="content">
-            <h2>Research Structure</h2>
-
-            <div class="stack-grid">
-
-                <article class="stack-card">
-                    <p class="stack-label">Conceptual notes</p>
-                    <h3>Interpretational foundation</h3>
-                    <p>
-                        Notes on effective forces, state-space structure, entropy,
-                        geometric relaxation, and falsifiability.
-                    </p>
-                    <a href="/notes/">Open notes →</a>
-                </article>
-
-                <article class="stack-card">
-                    <p class="stack-label">Preprints</p>
-                    <h3>Psi-Continuum Cosmology</h3>
-                    <p>
-                        The main theoretical and phenomenological presentation of the framework,
-                        including the v5 state-space formulation.
-                    </p>
-                    <a href="/theory.html">View preprints →</a>
-                </article>
-
-                <article class="stack-card">
-                    <p class="stack-label">Software & validation</p>
-                    <h3>Reproducible computational research</h3>
-                    <p>
-                        Open numerical packages, frozen research releases, independent audits,
-                        and validation tools for observational cosmology.
-                    </p>
-                    <a href="/docs/">Open research software →</a>
-                </article>
-
-                <article class="stack-card">
-                    <p class="stack-label">Observations</p>
-                    <h3>Experimental and observational program</h3>
-                    <p>
-                        Small-scale observational work on differential photometry,
-                        stability diagnostics, and long-term reproducibility.
-                    </p>
-                    <a href="/docs/experiments/index_en">Open experiments →</a>
-                </article>
-
-            </div>
-        </section>
-
-        <section class="content">
-            <h2>Experimental Program</h2>
-            <p class="titlesmall">
-                Observational layer · measurement stability · reproducible monitoring
-            </p>
-
-            <p>
-                Alongside theoretical and computational work, the Psi-Continuum framework
-                also includes an emerging observational program centered on measurement stability,
-                long-term reproducibility, and response-based diagnostics in real data.
-            </p>
-
-            <p>
-                A central part of this direction is <strong>KTRO — Klimov Tarpen Robotic Observatory</strong>,
-                a compact observational initiative designed to support differential photometry,
-                monitoring consistency, and small-scale experimental validation of response-oriented methods.
-            </p>
-
-            <p>
-                This observational layer connects the conceptual framework to real measurement practice
-                and extends the project beyond theory and computation alone.
-            </p>
-
-            <p>
-                <a href="/docs/experiments/ktro/">Explore KTRO Observatory →</a>
-            </p>
-        </section>
-
-        <section class="content">
-            <h2>Current Research Directions</h2>
-            <ul class="clean-list">
-                <li>Late-time cosmology and background expansion phenomenology</li>
-                <li>State-space diagnostics and macroscopic response variables</li>
-                <li>Reproducible comparison with SN Ia, H(z), and BAO data</li>
-                <li>Geometric relaxation and non-equilibrium interpretation</li>
-                <li>Observational stability tests and pilot photometric programs</li>
-            </ul>
-        </section>
-
-        <section class="content">
-            <h2>Research Update — September 2026</h2>
+</header>
+<main id="main-content">
+<section class="content research-landing" aria-labelledby="program-title">
+    <p class="research-kicker">Late-Time Cosmology · Open Computational Research</p>
+    <h1 id="program-title">Ψ-Continuum</h1>
+    <p class="hero-subtitle">From Cosmic Expansion Diagnostics<br class="desktop-break"> to Effective Gravitational Sources</p>
+    <h2>What can cosmic expansion reveal about gravity?</h2>
+    <p class="research-lead">Ψ-Continuum investigates whether the observed late-time expansion of the Universe differs from the standard ΛCDM model, and what effective gravitational sources could correspond to such differences under explicitly stated assumptions of general relativity.</p>
+    <div class="hero-actions"><a class="button-primary" href="#research-question">Explore the Research</a><a class="button-secondary" href="#research-evolution">View Publications</a><a class="button-secondary" href="#explore">Open Research Explorer</a></div>
+    <p class="hero-footnote">Observation → reference-relative diagnosis → conditional physical interpretation</p>
+</section>
+<section class="content question-section" aria-labelledby="research-question">
+    <div><p class="research-kicker">01 / Research Question</p><h2 id="research-question">A reference model.<br>A question for the data.</h2></div>
+    <div><p>Observations support an accelerated late-time expansion of the Universe. The standard ΛCDM model describes this history using a cosmological constant, cold dark matter and ordinary matter within general relativity.</p><p>Testing possible departures asks how well that description holds across datasets. A deviation alone does not establish new physics: reference parameters, measurement uncertainty and systematic effects must be checked before interpretation. <a href="#method">Follow the method →</a></p></div>
+</section>
+<section class="content research-method" id="method" aria-labelledby="method-title">
+    <p class="research-kicker">02 / Methodology</p><h2 id="method-title">From Data to Physics</h2>
+    <div class="research-steps">
+        <article><span class="research-step-num">Step 1</span><h3>Observe</h3><p>Constrain the expansion history H(z) using Type Ia supernovae (SN Ia), baryon acoustic oscillations (BAO) and expansion-rate measurements, with their uncertainties.</p></article>
+        <article><span class="research-step-num">Step 2</span><h3>Diagnose</h3><p>Represent departures from a specified reference with the macroscopic state-space coordinate Ψ(z). The result depends on the reference model and its parameters.</p></article>
+        <article><span class="research-step-num">Step 3</span><h3>Reconstruct</h3><p>Use Einstein’s equations within an explicitly specified FLRW cosmology to infer compatible effective energy density and pressure. State curvature, matter content and reconstruction assumptions.</p></article>
+    </div>
+    <div class="formula-box">
+        <math display="block" aria-label="Psi of z equals H of z divided by H reference of z minus one"><mrow><mi>Ψ</mi><mo>(</mo><mi>z</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mi>H</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow><mrow><msub><mi>H</mi><mtext>ref</mtext></msub><mo>(</mo><mi>z</mi><mo>)</mo></mrow></mfrac><mo>−</mo><mn>1</mn></mrow></math>
+        <p class="formula-caption">For a ΛCDM baseline, H<sub>ref</sub>(z) = H<sub>ΛCDM</sub>(z): the same reference-relative diagnostic definition used in the framework.</p>
+    </div>
+    <div class="chart-grid"><figure class="research-visual"><h3>Expansion history H(z)</h3><svg viewBox="0 0 480 280" role="img" aria-label="Schematic reference and illustrative expansion histories. Not observational data." xmlns="http://www.w3.org/2000/svg"><path class="axis" d="M48 35V235H448"/><g class="chart-label"><text x="42" y="258">0</text><text x="430" y="258">2</text><text x="235" y="276">Redshift z</text><text x="55" y="25">H(z) / H₀</text></g><polyline class="reference-curve" points="48.00,220.00 51.90,219.45 55.80,218.89 59.70,218.30 63.60,217.71 67.50,217.09 71.40,216.46 75.30,215.81 79.20,215.15 83.10,214.47 87.00,213.77 90.90,213.06 94.80,212.33 98.70,211.59 102.60,210.83 106.50,210.05 110.40,209.26 114.30,208.46 118.20,207.64 122.10,206.80 126.00,205.95 129.90,205.08 133.80,204.21 137.70,203.31 141.60,202.40 145.50,201.48 149.40,200.55 153.30,199.60 157.20,198.64 161.10,197.66 165.00,196.67 168.90,195.67 172.80,194.65 176.70,193.63 180.60,192.59 184.50,191.54 188.40,190.47 192.30,189.39 196.20,188.31 200.10,187.20 204.00,186.09 207.90,184.97 211.80,183.83 215.70,182.69 219.60,181.53 223.50,180.36 227.40,179.18 231.30,177.99 235.20,176.79 239.10,175.58 243.00,174.36 246.90,173.13 250.80,171.89 254.70,170.63 258.60,169.37 262.50,168.10 266.40,166.82 270.30,165.53 274.20,164.22 278.10,162.91 282.00,161.59 285.90,160.27 289.80,158.93 293.70,157.58 297.60,156.22 301.50,154.86 305.40,153.48 309.30,152.10 313.20,150.71 317.10,149.31 321.00,147.90 324.90,146.48 328.80,145.06 332.70,143.63 336.60,142.18 340.50,140.73 344.40,139.28 348.30,137.81 352.20,136.34 356.10,134.85 360.00,133.36 363.90,131.87 367.80,130.36 371.70,128.85 375.60,127.33 379.50,125.80 383.40,124.26 387.30,122.72 391.20,121.17 395.10,119.61 399.00,118.05 402.90,116.48 406.80,114.90 410.70,113.31 414.60,111.72 418.50,110.12 422.40,108.51 426.30,106.90 430.20,105.27 434.10,103.65 438.00,102.01"/><polyline class="alternative-curve" points="48.00,220.00 51.90,219.37 55.80,218.71 59.70,218.04 63.60,217.36 67.50,216.65 71.40,215.92 75.30,215.18 79.20,214.42 83.10,213.65 87.00,212.85 90.90,212.04 94.80,211.21 98.70,210.36 102.60,209.50 106.50,208.62 110.40,207.73 114.30,206.82 118.20,205.89 122.10,204.95 126.00,203.99 129.90,203.02 133.80,202.03 137.70,201.03 141.60,200.01 145.50,198.98 149.40,197.94 153.30,196.88 157.20,195.81 161.10,194.73 165.00,193.64 168.90,192.53 172.80,191.41 176.70,190.28 180.60,189.14 184.50,187.99 188.40,186.83 192.30,185.65 196.20,184.47 200.10,183.28 204.00,182.07 207.90,180.86 211.80,179.64 215.70,178.41 219.60,177.18 223.50,175.93 227.40,174.68 231.30,173.42 235.20,172.16 239.10,170.88 243.00,169.61 246.90,168.32 250.80,167.03 254.70,165.73 258.60,164.43 262.50,163.13 266.40,161.81 270.30,160.50 274.20,159.18 278.10,157.85 282.00,156.53 285.90,155.20 289.80,153.86 293.70,152.52 297.60,151.18 301.50,149.84 305.40,148.50 309.30,147.15 313.20,145.80 317.10,144.45 321.00,143.09 324.90,141.74 328.80,140.38 332.70,139.02 336.60,137.66 340.50,136.30 344.40,134.94 348.30,133.58 352.20,132.21 356.10,130.85 360.00,129.49 363.90,128.12 367.80,126.75 371.70,125.39 375.60,124.02 379.50,122.65 383.40,121.28 387.30,119.91 391.20,118.54 395.10,117.17 399.00,115.80 402.90,114.42 406.80,113.05 410.70,111.67 414.60,110.30 418.50,108.92 422.40,107.54 426.30,106.16 430.20,104.78 434.10,103.40 438.00,102.01"/><text class="chart-disclaimer" x="448" y="25" text-anchor="end">Illustrative only</text></svg></figure><figure class="research-visual"><h3>Relative deviation Ψ(z)</h3><svg viewBox="0 0 480 280" role="img" aria-label="Schematic positive deviation, zero at redshift zero and two. Not a measured detection." xmlns="http://www.w3.org/2000/svg"><path class="axis" d="M48 35V235H448"/><g class="chart-label"><text x="42" y="258">0</text><text x="430" y="258">2</text><text x="235" y="276">Redshift z</text><text x="55" y="25">Ψ(z)</text><text x="26" y="165">0</text></g><path class="zero-line" d="M48 160H448"/><polyline class="diagnostic-curve" points="48.00,160.00 51.90,157.17 55.80,154.35 59.70,151.53 63.60,148.72 67.50,145.92 71.40,143.14 75.30,140.37 79.20,137.62 83.10,134.89 87.00,132.19 90.90,129.51 94.80,126.87 98.70,124.26 102.60,121.68 106.50,119.14 110.40,116.64 114.30,114.19 118.20,111.78 122.10,109.41 126.00,107.10 129.90,104.84 133.80,102.63 137.70,100.48 141.60,98.39 145.50,96.36 149.40,94.39 153.30,92.49 157.20,90.65 161.10,88.89 165.00,87.19 168.90,85.56 172.80,84.01 176.70,82.53 180.60,81.13 184.50,79.81 188.40,78.57 192.30,77.40 196.20,76.32 200.10,75.32 204.00,74.40 207.90,73.57 211.80,72.83 215.70,72.17 219.60,71.59 223.50,71.11 227.40,70.71 231.30,70.40 235.20,70.18 239.10,70.04 243.00,70.00 246.90,70.04 250.80,70.18 254.70,70.40 258.60,70.71 262.50,71.11 266.40,71.59 270.30,72.17 274.20,72.83 278.10,73.57 282.00,74.40 285.90,75.32 289.80,76.32 293.70,77.40 297.60,78.57 301.50,79.81 305.40,81.13 309.30,82.53 313.20,84.01 317.10,85.56 321.00,87.19 324.90,88.89 328.80,90.65 332.70,92.49 336.60,94.39 340.50,96.36 344.40,98.39 348.30,100.48 352.20,102.63 356.10,104.84 360.00,107.10 363.90,109.41 367.80,111.78 371.70,114.19 375.60,116.64 379.50,119.14 383.40,121.68 387.30,124.26 391.20,126.87 395.10,129.51 399.00,132.19 402.90,134.89 406.80,137.62 410.70,140.37 414.60,143.14 418.50,145.92 422.40,148.72 426.30,151.53 430.20,154.35 434.10,157.17 438.00,160.00"/><text class="chart-disclaimer" x="448" y="25" text-anchor="end">Illustrative only</text></svg></figure></div>
+    <div class="chart-legend"><span><i class="legend-reference"></i>ΛCDM reference</span><span><i class="legend-alternative"></i>Illustrative alternative</span><span><i class="legend-zero"></i>Zero deviation</span></div>
+    <p class="formula-caption">Schematic illustrations only — synthetic curves, not observational data, fitted results or a measured detection. Both panels describe the same illustrative departure.</p>
+    <p class="scientific-note"><strong>Interpretation has limits.</strong> Ψ(z) is a diagnostic coordinate, not a new physical field or evidence for modified gravity. An effective source reconstruction does not identify a unique microscopic mechanism.</p>
+</section>
+<section class="content explorer-section" id="explore" aria-labelledby="explore-title">
+    <p class="research-kicker">03 / Ψ-Graph · Interactive Research Explorer <span class="status-badge">In Development</span></p>
+    <h2 id="explore-title">Explore the Structure of the Research</h2>
+    <p class="research-lead">Ψ-Graph is an evolving interactive map connecting the research history, mathematical definitions, computational implementations, tests, and scientific evidence behind Ψ-Continuum.</p>
+    <ul class="explorer-topics" aria-label="Research explorer topics"><li><span>01</span>Research Evolution</li><li><span>02</span>Mathematical Framework</li><li><span>03</span>Computational Audit</li><li><span>04</span>Effective GR Reconstruction</li></ul>
+    <p class="explorer-caption">These are navigation topics, not a sequence of established physical connections.</p>
+    <p>Public interactive access is not yet available. For now, follow the <a href="#research-evolution">publication history</a>, <a href="/theory.html">theoretical framework</a> and <a href="#results">computational audit</a>.</p>
+    <!-- Integration point: replace the availability text with a verified public Pages URL only after the separate psi-graph project is ready. Do not copy its source or private research materials here. -->
+</section>
+<section class="content" id="results" aria-labelledby="results-title">
+            <p class="research-kicker">Reproducibility &amp; model consistency · September 2026</p><h2 id="results-title">Results &amp; Scientific Audit</h2>
 
             <p>
                 A systematic reproducibility and model-consistency audit of the frozen
                 <strong>Psi-Continuum v2</strong> numerical implementation has been completed.
             </p>
 
-            <p>
-                The audit confirms that the archived numerical pipeline is internally
-                reproducible. At the same time, it identifies a model–implementation mismatch:
-                for non-zero response amplitude, the frozen implementation does not correspond
-                to the defining equation documented for v2.
-            </p>
-
-            <p>
-                The original v2 repository remains frozen and unchanged in order to preserve
-                the scientific record. The audit is published separately with the full
-                numerical trace, validation scripts, and results.
-            </p>
-
-            <p>
-                Future Psi-Continuum studies will be developed as independently specified,
-                data-validated and fully traceable computational investigations.
-            </p>
+            <div class="audit-findings">
+                <article aria-labelledby="reproduced-title">
+                    <h3 id="reproduced-title">What was reproduced</h3>
+                    <p>The audit confirms that the archived numerical pipeline is internally reproducible. Non-zero-amplitude preferences belong to the implemented frozen model, not the documented v2 equation.</p>
+                    <p>The original v2 repository remains frozen and unchanged to preserve the scientific record. The separate audit provides the full numerical trace, validation scripts, and results.</p>
+                </article>
+                <article aria-labelledby="unresolved-title">
+                    <h3 id="unresolved-title">What remains unresolved</h3>
+                    <p>The model–implementation mismatch is established: for non-zero response amplitude, the frozen implementation does not correspond to the defining equation documented for v2.</p>
+                    <p>A scientifically interpretable inference for the documented equation requires a separately specified analysis with consistent supernova calibration and BAO conventions. Reproducibility of the frozen pipeline does not resolve this inference.</p>
+                    <p>Future Ψ-Continuum studies require independently specified, data-validated and fully traceable computational investigations.</p>
+                </article>
+            </div>
 
             <div class="hero-actions">
                 <a class="button-primary"
@@ -303,17 +106,9 @@
                     View frozen v2
                 </a>
             </div>
-        </section>
-
-        <section class="content">
-            <h2>Open Research Principle</h2>
-            <p>
-                A central part of this work is methodological transparency:
-                public preprints, public repositories, documented pipelines,
-                and reproducible numerical tests.
-            </p>
-
-            <div class="link-block">
+        <p class="scientific-note">This audit concerns the frozen v2 implementation; it does not validate every stage of the research program or establish new physics.</p>
+<p>Open research means public preprints, repositories, documented pipelines and reproducible tests. Frozen releases preserve the record; new studies require their own specifications and validation.</p>
+<details><summary>Research software &amp; archival releases</summary><div class="link-block">
                 <div>
                     <span class="link-label">Main preprint:</span>
                     <a href="https://doi.org/10.5281/zenodo.18088720" target="_blank" rel="noopener noreferrer">
@@ -346,48 +141,75 @@
                         psi-continuum-experiments
                     </a>
                 </div>
+            </div><p><a href="/docs/">Documentation and computational pipelines →</a></p></details></section><section class="content" id="research-evolution">
+            <p class="research-kicker">RESEARCH EVOLUTION</p>
+            <h2>Research Evolution &amp; Publications</h2>
+            <div class="research-timeline">
+                <article><strong>v1</strong><span>Initial phenomenology and first comparisons</span></article>
+                <article><strong>v2</strong><span>Main computational implementation and archived tests</span></article>
+                <article><strong>v3–v4</strong><span>Conceptual and interpretational development</span></article>
+                <article><strong>v5</strong><span>Consolidated state-space diagnostic framework</span></article>
             </div>
-        </section>
-
-        <section class="content" id="academic-activities">
-            <h2>Academic Activities</h2>
+            <p>The historical sequence is not a chain of confirmed physical discoveries. Each version and its numerical dependencies must be assessed on its own terms. <a href="/theory.html">Read the complete preprint history →</a></p>
+        <p><strong>Published v5 preprint:</strong> <a href="https://doi.org/10.5281/zenodo.18088720" target="_blank" rel="noopener noreferrer">Psi–Continuum Cosmology v5 · DOI: 10.5281/zenodo.18088720</a></p></section>
+<section class="content" id="about" aria-labelledby="about-title">
+    <p class="research-kicker">Researcher &amp; Additional Programs</p><h2 id="about-title">About the Researcher</h2>
+    <div class="research-author"><img src="assets/img/dmitry-klimov.jpg" alt="Portrait of Dmitry V. Klimov" class="research-author-photo" width="112" height="112" loading="lazy" decoding="async"><div class="research-author-info"><strong>Dmitry V. Klimov</strong><span>Dmitry Vasilevich Klimov · Independent Researcher</span><span>Kaliningrad – Königsberg · Late-Time Cosmology · Non-Equilibrium Physics</span><p><a href="https://orcid.org/0009-0009-3305-7592" target="_blank" rel="noopener noreferrer">ORCID 0009-0009-3305-7592</a> · <a href="https://github.com/Dmitrylife" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="#academic-activities">Academic Activities</a></p></div></div>
+    <div class="about-grid"><article id="academic-activities">
+            <h3>Academic Activities</h3>
             <p class="titlesmall">Peer review · Research projects · Publications and preprints</p>
 
-            <h3>Peer Review</h3>
+            <h4>Peer Review</h4>
             <p>
                 <strong>2026</strong> — Reviewer for the
                 <em>European Journal of Computer Sciences and Informatics</em>
                 (one manuscript reviewed, October 2026).
             </p>
 
-            <h3>Research Projects</h3>
+            <h4>Research Projects</h4>
             <p>
                 <strong>Psi-Continuum</strong> — Independent research in late-time cosmology,
                 state-space diagnostics, and reproducible computational analysis.
                 <a href="/theory.html">Research overview →</a>
             </p>
 
-            <h3>Publications and Preprints</h3>
+            <h4>Publications and Preprints</h4>
             <p>
                 <a href="https://doi.org/10.5281/zenodo.18088720"
                    target="_blank" rel="noopener noreferrer">Psi–Continuum Cosmology v5</a>
                 — research preprint (Zenodo).
             </p>
-        </section>
+        </article><article><h3>Conceptual Notes</h3><p>For students and readers approaching the framework: intuitive state-space language and exploratory interpretations of geometry, stability, relaxation and effective response.</p><p>Notes examine effective forces, entropy, geometric relaxation, non-equilibrium interpretation and falsifiability. These conceptual directions are not established physical results.</p><a href="/notes/">Read conceptual notes →</a><h3>arXiv Endorsement</h3><p><a href="arxiv-endorsement.html">Endorsement information and requests →</a></p></article></div>
+<details id="experimental-program"><summary>Experimental Program &amp; KTRO Observatory</summary>
 
-        <section class="content compact-contact">
-            <h2>Contact</h2>
-            <p>
-                For research communication, collaboration, academic discussion,
-                and arXiv endorsement requests:
+            <p class="titlesmall">
+                Observational layer · measurement stability · reproducible monitoring
             </p>
+
             <p>
-                <a href="mailto:d.klimov.psi@gmail.com">d.klimov.psi@gmail.com</a>
+                Alongside theoretical and computational work, the Psi-Continuum framework
+                also includes an emerging observational program centered on measurement stability,
+                long-term reproducibility, and response-based diagnostics in real data.
             </p>
-        </section>
 
-    </main>
+            <p>
+                A central part of this direction is <strong>KTRO — Klimov Tarpen Robotic Observatory</strong>,
+                a compact observational initiative designed to support differential photometry,
+                monitoring consistency, and small-scale experimental validation of response-oriented methods.
+            </p>
 
+            <p>
+                This observational layer connects the conceptual framework to real measurement practice
+                and extends the project beyond theory and computation alone.
+            </p>
+
+            <p>
+                <a href="/docs/experiments/ktro/">Explore KTRO Observatory →</a>
+            </p>
+        <p><a href="/docs/experiments/index_en">Experimental program documentation →</a> · <a href="https://github.com/dmitrylife/psi-continuum-experiments" target="_blank" rel="noopener noreferrer">Demonstration repository</a></p></details>
+    <div id="contact"><h3>Contact</h3><p>For research communication, collaboration, academic discussion, and arXiv endorsement requests: <a href="mailto:d.klimov.psi@gmail.com">d.klimov.psi@gmail.com</a></p></div>
+</section>
+</main>
     <footer>
         © 2025–2026 Psi-Continuum Project
         <br>
@@ -400,7 +222,7 @@
 
 </div>
 
-<button id="backToTop" title="Go to top">↑</button>
+<button id="backToTop" title="Go to top" aria-label="Back to top">↑</button>
 
 <script src="script.js"></script>
 <script data-goatcounter="https://psi-continuum.goatcounter.com/count"
